@@ -6,6 +6,10 @@ once per building. No new training, Stage 1 run, or Stage 2B run is needed.
 
 ## 1. Files and environment
 
+**Distribution status:** inference code and this guide are available in the fork.
+The archives are prepared locally; public Release attachment upload is pending
+the owner's approval. The Release link below will become available after publication.
+
 The code is committed in
 [jz0204/cybertraining-team4](https://github.com/jz0204/cybertraining-team4/tree/main/handoff/stage2a_la).
 Download the two archives and `SHA256SUMS` from the
