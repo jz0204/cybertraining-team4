@@ -1,0 +1,26 @@
+{
+  "source_repository": "Instance-Impact-IGUIDE-SpatialAIChallenge2026",
+  "source_commit": "44e6d8b505b99b17527bcb4088bba3603eec5867",
+  "source_branch": "stage3",
+  "snapshot": "working-tree files, including the existing uncommitted inference changes",
+  "copied_source_files": [
+    {
+      "path": "II_package/scripts/stage2a/common.py",
+      "sha256": "6ff74fcfb9544ec1ae304d4b345ef8a9225b00fe97b1665612d5945b4f2c01f5"
+    },
+    {
+      "path": "II_package/scripts/stage2a/__init__.py",
+      "sha256": "aa0535eb3ae545bb9270e38c9d77c448467637867411971aea49bfb16b520a14"
+    },
+    {
+      "path": "II_package/scripts/stage2a/infer/__init__.py",
+      "sha256": "3c320484d2c34b20c59b8a80d28f77389fb6e85c676f43c99003095e535d4078"
+    },
+    {
+      "path": "II_package/scripts/stage2a/infer/infer_stage2a_native3_ensemble.py",
+      "sha256": "47cd59dc8dadd8f050ccd5fa9a2fc37bac54355fdd0c0dde59175b6a9e40ef31"
+    }
+  ],
+  "LA_repository_commit": "fca4bef62ead159c8fe42ef9806cc40166f37028",
+  "LA_product_sha256": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806"
+}

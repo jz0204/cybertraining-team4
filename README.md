@@ -3,6 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
+> **Updated Stage 2A handoff for the LA v3 run:** start with
+> [handoff/stage2a_la/RUN.md](handoff/stage2a_la/RUN.md). The standalone inference
+> code is in `handoff/stage2a_la/`; the five type checkpoints and population model
+> are attached to the [Stage 2A release](https://github.com/jz0204/cybertraining-team4/releases/tag/stage2a-la-v1).
+
 > **Active again (October 2026): paper in progress, led by Jinyu Zhou.** Start with
 > [COLLABORATION.md](COLLABORATION.md) (what is here, what is on the lab server, how to ask for
 > runs) and [reports/results_summary_2026-10.md](reports/results_summary_2026-10.md) (current

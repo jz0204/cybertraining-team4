@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "versions": {
+    "torch": "2.0.0",
+    "torchvision": "0.15.1",
+    "numpy": "1.26.4",
+    "pillow": "11.3.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.15.3",
+    "shapely": "2.0.2"
+  },
+  "summary": {
+    "prediction_rows": 2,
+    "class_counts": {
+      "residential_small": 1,
+      "commercial": 1
+    },
+    "population_quantiles": {
+      "p0": 2.12646774149372,
+      "p25": 3.3795846846957653,
+      "p50": 4.63270162789781,
+      "p75": 5.885818571099856,
+      "p95": 6.888312125661491,
+      "p99": 7.088810836573819,
+      "p100": 7.138935514301901
+    }
+  },
+  "weights_verified": 7,
+  "fixture": {
+    "source": "local April LA demo; regenerated crops/masks for execution check, not v3 evaluation",
+    "source_pre_tif": "II_package/la_fire_results/demo_cell_00507/cell_00507_pre.tif",
+    "selected": [
+      {
+        "original_shared_row_zero_based": 2,
+        "bldg_uid": "fc77ca51-6f5d-45a7-af9d-66f98239a258",
+        "footprint_m2": 149.64220915224877,
+        "crop_x0": 164,
+        "crop_y0": 0
+      },
+      {
+        "original_shared_row_zero_based": 3,
+        "bldg_uid": "af6fde37-1115-424b-a689-cc2a4738d5c8",
+        "footprint_m2": 321.8574948659245,
+        "crop_x0": 18,
+        "crop_y0": 0
+      }
+    ]
+  },
+  "scope": "two local April LA demo buildings; execution check only, not LA v3 or accuracy evaluation"
+}

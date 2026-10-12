@@ -1,0 +1,10 @@
+# Install a matching torch/torchvision pair separately; see RUN.md.
+numpy==1.26.4
+pillow==11.3.0
+scikit-learn==1.9.0
+scipy==1.15.3
+joblib==1.6.0
+threadpoolctl==3.7.0
+narwhals==2.26.0
+cloudpickle==3.1.2
+shapely==2.1.2

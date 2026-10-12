@@ -1,0 +1,54 @@
+{
+  "model": "native3_drop_both_ensemble",
+  "class_names": [
+    "residential_small",
+    "residential_multi",
+    "commercial"
+  ],
+  "seeds": [
+    42,
+    123,
+    2025,
+    3407,
+    7777
+  ],
+  "population_artifact_format": "stage2a_native3_population_residual_hgb_v1",
+  "population_sklearn_version": "1.9.0",
+  "files": [
+    {
+      "path": "population_logfootprint_soft_type_residual_hgb.pkl",
+      "bytes": 676344,
+      "sha256": "33e0ea9e2ec94d4a321a06cd23f934526da7e00e851aedeb1462587c6efc1c4c"
+    },
+    {
+      "path": "population_logfootprint_soft_type_residual_hgb_summary.json",
+      "bytes": 4712,
+      "sha256": "59fdbebcc9407b697a7e335c465bf401303825afd39280edfa29419a5ba9e5fd"
+    },
+    {
+      "path": "seed123/stage2a_best_model.pt",
+      "bytes": 113524574,
+      "sha256": "f637190b6fec411d8e721cb741f35dd0091eac4fc54161b2522f802fe558c1e1"
+    },
+    {
+      "path": "seed2025/stage2a_best_model.pt",
+      "bytes": 113524574,
+      "sha256": "30aa7dbeafd60aa7ecd46e9bc0542389363c15169dcdd50e0e3beb0be42c4085"
+    },
+    {
+      "path": "seed3407/stage2a_best_model.pt",
+      "bytes": 113524574,
+      "sha256": "34077cb1cca21b6eb593061807695929d5d3ed29657d608d8fe54d40211e344e"
+    },
+    {
+      "path": "seed42/stage2a_best_model.pt",
+      "bytes": 113524574,
+      "sha256": "3bef701af663808e4e72177722a1b5ab00fc882983cf9169b85f45d9838ea2c9"
+    },
+    {
+      "path": "seed7777/stage2a_best_model.pt",
+      "bytes": 113524574,
+      "sha256": "fac6dbb182d3bbdfee69c1a6644a512bab3cdc22508bb1dd6871320e67669605"
+    }
+  ]
+}
