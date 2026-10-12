@@ -2,8 +2,8 @@
   "archives": [
     {
       "file": "stage2a_la_code.tar.gz",
-      "bytes": 34498,
-      "sha256": "9aba2cda63d5ee810bc25a317f19e23c7fcc7740fd2480df9a3ebc4185c40272",
+      "bytes": 30564,
+      "sha256": "028743c8cd89a22f9aef37b6c234d4138b8465ddd80dc01c1139da074270a9e2",
       "members": 15
     },
     {

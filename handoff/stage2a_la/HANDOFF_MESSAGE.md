@@ -3,13 +3,11 @@ Hi Xihan,
 Here is my fork with the updated Stage 2A inference package for the LA v3 buildings:
 https://github.com/jz0204/cybertraining-team4
 
-Start with handoff/stage2a_la/RUN.md. The model archives are prepared separately;
-their public Release upload is currently pending approval. The planned download
-location after publication is:
+Start with handoff/stage2a_la/RUN.md. Download the code archive, weights archive
+and SHA256SUMS from:
 https://github.com/jz0204/cybertraining-team4/releases/tag/stage2a-la-v1
 
-I have
-included the standalone code, RUN.md and model checksums in the code archive,
+I have included the standalone code, RUN.md and model checksums in the code archive,
 and the five type checkpoints plus population regression model in a separate
 weights archive. Extract both into the same directory.
 

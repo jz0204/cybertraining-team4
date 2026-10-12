@@ -6,7 +6,7 @@
 > **Updated Stage 2A handoff for the LA v3 run:** start with
 > [handoff/stage2a_la/RUN.md](handoff/stage2a_la/RUN.md). The standalone inference
 > code is in `handoff/stage2a_la/`. The five type checkpoints and population model
-> are packaged separately; public Release attachment upload is pending the owner's approval.
+> are available in the [Stage 2A release](https://github.com/jz0204/cybertraining-team4/releases/tag/stage2a-la-v1).
 
 > **Active again (October 2026): paper in progress, led by Jinyu Zhou.** Start with
 > [COLLABORATION.md](COLLABORATION.md) (what is here, what is on the lab server, how to ask for
