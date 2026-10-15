@@ -1,0 +1,23 @@
+{
+  "product_csv": "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/building_damage_all_cells.csv",
+  "product_sha256": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806",
+  "run_root": "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3",
+  "product_rows": 22024,
+  "selected_rows": 100,
+  "valid_rows": 99,
+  "excluded_rows": 1,
+  "limit": 100,
+  "shared_csv_sha256": {
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00046/shared_base/shared_instance_samples.csv": "f66fbdb5d63e79b1ca499e445fdbe797893a3ad6dbf69febd696eb4f91b9806d",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00047/shared_base/shared_instance_samples.csv": "532e1484204d87e34e6148d15212587c0a1b9d9a65ef7122b10387576d6468fc",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00048/shared_base/shared_instance_samples.csv": "c2c97c7a3376b9eb1600edf84fb863c2cc274dbdf85870231f1b411ec14fc6f0",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00049/shared_base/shared_instance_samples.csv": "597c839cf035d38fd5fe9674e3fada8ec92b60d24dc925a8e158c8fc6e1f2cc6",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00054/shared_base/shared_instance_samples.csv": "18b2a18f34e930c9a0aad2c488063c277550cd9bfdb757ae6f4aff871b83f2fe",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00055/shared_base/shared_instance_samples.csv": "41a1ba93c74b0709ffd5ad24ebe0b6e0df011397eb32d9d71a7870e7f9460ab5",
+    "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00058/shared_base/shared_instance_samples.csv": "c0ba5cb073843df0065706f23c5bd52cd37b2498251490b9ba71c9423808808d"
+  },
+  "area_crs": "EPSG:32611",
+  "area_source": "product polygon_wkt_utm",
+  "path_maps": [],
+  "partly_zero_crops": 17
+}

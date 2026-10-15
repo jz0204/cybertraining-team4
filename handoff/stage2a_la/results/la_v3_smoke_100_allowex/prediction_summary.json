@@ -1,0 +1,17 @@
+{
+  "prediction_rows": 99,
+  "class_counts": {
+    "residential_small": 55,
+    "commercial": 24,
+    "residential_multi": 20
+  },
+  "population_quantiles": {
+    "p0": 0.0,
+    "p25": 0.0,
+    "p50": 1.2066094715252884,
+    "p75": 4.069675047647127,
+    "p95": 11.797051436153907,
+    "p99": 15.320982540246716,
+    "p100": 20.504536755991005
+  }
+}

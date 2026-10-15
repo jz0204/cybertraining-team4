@@ -1,0 +1,15 @@
+[info] rows: 99
+[info] device: cuda
+[info] class_names: residential_small,residential_multi,commercial
+[info] checkpoints: 5
+[info] temperature_scaling: none
+[info] member 1/5 ckpt=/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed42/stage2a_best_model.pt
+[info] member 2/5 ckpt=/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed123/stage2a_best_model.pt
+[info] member 3/5 ckpt=/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed2025/stage2a_best_model.pt
+[info] member 4/5 ckpt=/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed3407/stage2a_best_model.pt
+[info] member 5/5 ckpt=/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed7777/stage2a_best_model.pt
+[done] rows: 99
+[done] wrote: /media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/outputs/la_v3_smoke_100_allowex/raw_predictions.csv
+[summary] class_counts: {'residential_small': 55, 'commercial': 24, 'residential_multi': 20}
+[summary] population_log_model: log_footprint_m2_soft_native3_type_residual_hgb
+[summary] pred_population quantiles p0/p25/p50/p75/p95/p99: [0.0, 0.0, 1.207, 4.07, 11.797, 15.321]

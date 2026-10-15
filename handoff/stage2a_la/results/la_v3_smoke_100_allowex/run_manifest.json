@@ -1,0 +1,172 @@
+{
+  "started_utc": "2026-10-15T05:42:35.812055+00:00",
+  "status": "complete",
+  "command": [
+    "/media/gisense/xihan/stage2a_la/bin/python",
+    "/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/scripts/stage2a/infer/infer_stage2a_native3_ensemble.py",
+    "--input_csv",
+    "/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/outputs/la_v3_smoke_100_allowex/stage2a_input.csv",
+    "--ckpts",
+    "/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed42/stage2a_best_model.pt,/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed123/stage2a_best_model.pt,/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed2025/stage2a_best_model.pt,/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed3407/stage2a_best_model.pt,/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/seed7777/stage2a_best_model.pt",
+    "--population_model_pkl",
+    "/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/weights/population_logfootprint_soft_type_residual_hgb.pkl",
+    "--out_csv",
+    "/media/gisense/xihan/archive/stage2a_la_jinyu/cybertraining-team4/handoff/stage2a_la/outputs/la_v3_smoke_100_allowex/raw_predictions.csv",
+    "--img_size",
+    "224",
+    "--batch_size",
+    "32",
+    "--num_workers",
+    "4",
+    "--device",
+    "cuda",
+    "--print_examples",
+    "0"
+  ],
+  "python": "3.11.17 (main, Oct  1 2026, 20:17:42) [GCC 14.3.0]",
+  "versions": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "numpy": "1.26.4",
+    "pillow": "11.3.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.15.3",
+    "shapely": "2.1.2"
+  },
+  "cuda_visible_devices": "0",
+  "torch_cuda_version": "12.6",
+  "device": "cuda",
+  "gpu_name": "NVIDIA RTX A6000",
+  "weights": {
+    "model": "native3_drop_both_ensemble",
+    "class_names": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "seeds": [
+      42,
+      123,
+      2025,
+      3407,
+      7777
+    ],
+    "population_artifact_format": "stage2a_native3_population_residual_hgb_v1",
+    "population_sklearn_version": "1.9.0",
+    "files": [
+      {
+        "path": "population_logfootprint_soft_type_residual_hgb.pkl",
+        "bytes": 676344,
+        "sha256": "33e0ea9e2ec94d4a321a06cd23f934526da7e00e851aedeb1462587c6efc1c4c"
+      },
+      {
+        "path": "population_logfootprint_soft_type_residual_hgb_summary.json",
+        "bytes": 4712,
+        "sha256": "59fdbebcc9407b697a7e335c465bf401303825afd39280edfa29419a5ba9e5fd"
+      },
+      {
+        "path": "seed123/stage2a_best_model.pt",
+        "bytes": 113524574,
+        "sha256": "f637190b6fec411d8e721cb741f35dd0091eac4fc54161b2522f802fe558c1e1"
+      },
+      {
+        "path": "seed2025/stage2a_best_model.pt",
+        "bytes": 113524574,
+        "sha256": "30aa7dbeafd60aa7ecd46e9bc0542389363c15169dcdd50e0e3beb0be42c4085"
+      },
+      {
+        "path": "seed3407/stage2a_best_model.pt",
+        "bytes": 113524574,
+        "sha256": "34077cb1cca21b6eb593061807695929d5d3ed29657d608d8fe54d40211e344e"
+      },
+      {
+        "path": "seed42/stage2a_best_model.pt",
+        "bytes": 113524574,
+        "sha256": "3bef701af663808e4e72177722a1b5ab00fc882983cf9169b85f45d9838ea2c9"
+      },
+      {
+        "path": "seed7777/stage2a_best_model.pt",
+        "bytes": 113524574,
+        "sha256": "fac6dbb182d3bbdfee69c1a6644a512bab3cdc22508bb1dd6871320e67669605"
+      }
+    ]
+  },
+  "input_audit": {
+    "product_csv": "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/building_damage_all_cells.csv",
+    "product_sha256": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806",
+    "run_root": "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3",
+    "product_rows": 22024,
+    "selected_rows": 100,
+    "valid_rows": 99,
+    "excluded_rows": 1,
+    "limit": 100,
+    "shared_csv_sha256": {
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00046/shared_base/shared_instance_samples.csv": "f66fbdb5d63e79b1ca499e445fdbe797893a3ad6dbf69febd696eb4f91b9806d",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00047/shared_base/shared_instance_samples.csv": "532e1484204d87e34e6148d15212587c0a1b9d9a65ef7122b10387576d6468fc",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00048/shared_base/shared_instance_samples.csv": "c2c97c7a3376b9eb1600edf84fb863c2cc274dbdf85870231f1b411ec14fc6f0",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00049/shared_base/shared_instance_samples.csv": "597c839cf035d38fd5fe9674e3fada8ec92b60d24dc925a8e158c8fc6e1f2cc6",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00054/shared_base/shared_instance_samples.csv": "18b2a18f34e930c9a0aad2c488063c277550cd9bfdb757ae6f4aff871b83f2fe",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00055/shared_base/shared_instance_samples.csv": "41a1ba93c74b0709ffd5ad24ebe0b6e0df011397eb32d9d71a7870e7f9460ab5",
+      "/media/data/building_instance_tamu/la_fire_2025/stage2_damage/multidate_full_run_v3/cell_00058/shared_base/shared_instance_samples.csv": "c0ba5cb073843df0065706f23c5bd52cd37b2498251490b9ba71c9423808808d"
+    },
+    "area_crs": "EPSG:32611",
+    "area_source": "product polygon_wkt_utm",
+    "path_maps": [],
+    "partly_zero_crops": 17
+  },
+  "input_sha256": "1cb6510191eec711c36cd99fe69cd091f027180e54160a7d9355c8a43716a64c",
+  "source_snapshot": {
+    "source_repository": "Instance-Impact-IGUIDE-SpatialAIChallenge2026",
+    "source_commit": "44e6d8b505b99b17527bcb4088bba3603eec5867",
+    "source_branch": "stage3",
+    "snapshot": "working-tree files, including the existing uncommitted inference changes",
+    "copied_source_files": [
+      {
+        "path": "II_package/scripts/stage2a/common.py",
+        "sha256": "6ff74fcfb9544ec1ae304d4b345ef8a9225b00fe97b1665612d5945b4f2c01f5"
+      },
+      {
+        "path": "II_package/scripts/stage2a/__init__.py",
+        "sha256": "aa0535eb3ae545bb9270e38c9d77c448467637867411971aea49bfb16b520a14"
+      },
+      {
+        "path": "II_package/scripts/stage2a/infer/__init__.py",
+        "sha256": "3c320484d2c34b20c59b8a80d28f77389fb6e85c676f43c99003095e535d4078"
+      },
+      {
+        "path": "II_package/scripts/stage2a/infer/infer_stage2a_native3_ensemble.py",
+        "sha256": "47cd59dc8dadd8f050ccd5fa9a2fc37bac54355fdd0c0dde59175b6a9e40ef31"
+      }
+    ],
+    "LA_repository_commit": "fca4bef62ead159c8fe42ef9806cc40166f37028",
+    "LA_product_sha256": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806"
+  },
+  "package_code_sha256": {
+    "run_la.py": "fd220f16ee9d90f4bbcc90dacd62f7ab8021543e8ec2e6d5227a48adea72cb64",
+    "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/stage2a/__init__.py": "aa0535eb3ae545bb9270e38c9d77c448467637867411971aea49bfb16b520a14",
+    "scripts/stage2a/common.py": "6ff74fcfb9544ec1ae304d4b345ef8a9225b00fe97b1665612d5945b4f2c01f5",
+    "scripts/stage2a/infer/__init__.py": "3c320484d2c34b20c59b8a80d28f77389fb6e85c676f43c99003095e535d4078",
+    "scripts/stage2a/infer/infer_stage2a_native3_ensemble.py": "47cd59dc8dadd8f050ccd5fa9a2fc37bac54355fdd0c0dde59175b6a9e40ef31"
+  },
+  "finished_utc": "2026-10-15T05:42:42.926140+00:00",
+  "returncode": 0,
+  "summary": {
+    "prediction_rows": 99,
+    "class_counts": {
+      "residential_small": 55,
+      "commercial": 24,
+      "residential_multi": 20
+    },
+    "population_quantiles": {
+      "p0": 0.0,
+      "p25": 0.0,
+      "p50": 1.2066094715252884,
+      "p75": 4.069675047647127,
+      "p95": 11.797051436153907,
+      "p99": 15.320982540246716,
+      "p100": 20.504536755991005
+    }
+  },
+  "predictions_sha256": "5fa53d96923e4aeba99b2332ec12d646971f1ffb0d9b8981204a7d2541faeb50"
+}
