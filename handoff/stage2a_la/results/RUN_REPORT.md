@@ -47,6 +47,18 @@ The run predicts 8,909 commercial buildings (41%). The Palisades and Eaton (Alta
 
 Assessor use codes, joined through the LARIAC `AIN`, would measure this properly. Median `pred_type_conf` is 0.65 and the median ensemble entropy is 0.71.
 
+## Summary figure
+
+![Stage 2A on LA](stage2a_findings.png)
+
+`stage2a_findings.png` has three panels:
+
+- **(a)** Predicted type counts.
+- **(b)** Type share by footprint area.
+- **(c)** Predicted type over Eaton (Altadena).
+
+The type mix is about the same for destroyed buildings and for undamaged ones (about 40% commercial in each). The median `pred_population` is 4.7 for commercial, 3.5 for multi-residential and 0.4 for small residential. The population proxy therefore inherits the type pattern.
+
 ## Files
 
 The `la_v3_full/` output folder holds everything requested in `RUN.md` §4:
