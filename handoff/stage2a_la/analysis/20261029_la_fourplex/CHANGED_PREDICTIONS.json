@@ -1,0 +1,114 @@
+[
+  {
+    "sample_id": "la_cell_00058_c568d76c-1f67-4b2c-b996-eee214912810",
+    "truth": "residential_small",
+    "old": "commercial",
+    "new": "residential_small",
+    "cell_id": "cell_00058"
+  },
+  {
+    "sample_id": "la_cell_00183_4089cf0e-4d69-4780-be3f-ce35394587bb",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00183"
+  },
+  {
+    "sample_id": "la_cell_00183_bdee26dc-270b-4aac-8b5e-95966d53a89d",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00183"
+  },
+  {
+    "sample_id": "la_cell_00200_300be333-3b6e-47ca-ba85-8c14d4e742b1",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00200"
+  },
+  {
+    "sample_id": "la_cell_00200_68df52f8-c8a4-4b8c-829e-c343e442ce10",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00200"
+  },
+  {
+    "sample_id": "la_cell_00203_d7f73680-ef72-4f3b-97b4-96f2c17dc88c",
+    "truth": "residential_small",
+    "old": "residential_multi",
+    "new": "residential_small",
+    "cell_id": "cell_00203"
+  },
+  {
+    "sample_id": "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00218"
+  },
+  {
+    "sample_id": "la_cell_00218_d3dca404-784b-4f7c-9d91-10637c2e4bbf",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00218"
+  },
+  {
+    "sample_id": "la_cell_00364_3016d042-13d8-45a7-86fd-679dda953c3c",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00364"
+  },
+  {
+    "sample_id": "la_cell_00365_45e861ac-7015-42dc-91a1-938d6c232e5f",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00365"
+  },
+  {
+    "sample_id": "la_cell_00368_301d980b-3cb7-4199-94ac-9485a9fd6d84",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00368"
+  },
+  {
+    "sample_id": "la_cell_00368_b72bfcf8-6ed3-466f-bd2d-dac8c56fdfbf",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00368"
+  },
+  {
+    "sample_id": "la_cell_00369_96ce44a9-b3e9-45bb-8083-267c692273f1",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00369"
+  },
+  {
+    "sample_id": "la_cell_00385_b0fba3ff-84d9-4140-99b6-a14d6bedafd5",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "commercial",
+    "cell_id": "cell_00385"
+  },
+  {
+    "sample_id": "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+    "truth": "residential_multi",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00415"
+  },
+  {
+    "sample_id": "la_cell_00471_66e1a780-d200-4358-8a0b-702ba9beab2e",
+    "truth": "residential_small",
+    "old": "residential_small",
+    "new": "residential_multi",
+    "cell_id": "cell_00471"
+  }
+]

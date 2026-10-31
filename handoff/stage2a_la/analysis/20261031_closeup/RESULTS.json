@@ -1,0 +1,730 @@
+{
+  "metrics": {
+    "fixed_42_val": {
+      "confusion_matrix": [
+        [
+          4380.0,
+          0.0,
+          20.0
+        ],
+        [
+          20.0,
+          90.0,
+          17.0
+        ],
+        [
+          3.0,
+          3.0,
+          85.0
+        ]
+      ],
+      "accuracy": 0.9863577306193158,
+      "macro_f1": 0.8704730618370814,
+      "per_class": {
+        "residential_small": {
+          "tp": 4380.0,
+          "fp": 23.0,
+          "fn": 20.0,
+          "precision": 0.994776288893936,
+          "recall": 0.9954545454545455,
+          "f1": 0.9951153016017267
+        },
+        "residential_multi": {
+          "tp": 90.0,
+          "fp": 3.0,
+          "fn": 37.0,
+          "precision": 0.967741935483871,
+          "recall": 0.7086614173228346,
+          "f1": 0.8181818181818182
+        },
+        "commercial": {
+          "tp": 85.0,
+          "fp": 37.0,
+          "fn": 6.0,
+          "precision": 0.6967213114754098,
+          "recall": 0.9340659340659341,
+          "f1": 0.7981220657276995
+        }
+      }
+    },
+    "fixed_42_test": {
+      "confusion_matrix": [
+        [
+          3235.0,
+          13.0,
+          28.0
+        ],
+        [
+          10.0,
+          2.0,
+          2.0
+        ],
+        [
+          11.0,
+          1.0,
+          30.0
+        ]
+      ],
+      "accuracy": 0.9804921968787516,
+      "macro_f1": 0.5706922981480814,
+      "per_class": {
+        "residential_small": {
+          "tp": 3235.0,
+          "fp": 21.0,
+          "fn": 41.0,
+          "precision": 0.9935503685503686,
+          "recall": 0.9874847374847375,
+          "f1": 0.9905082669932639
+        },
+        "residential_multi": {
+          "tp": 2.0,
+          "fp": 14.0,
+          "fn": 12.0,
+          "precision": 0.125,
+          "recall": 0.14285714285714285,
+          "f1": 0.13333333333333333
+        },
+        "commercial": {
+          "tp": 30.0,
+          "fp": 30.0,
+          "fn": 12.0,
+          "precision": 0.5,
+          "recall": 0.7142857142857143,
+          "f1": 0.5882352941176471
+        }
+      }
+    },
+    "fixed_43_val": {
+      "confusion_matrix": [
+        [
+          4400.0,
+          0.0,
+          0.0
+        ],
+        [
+          17.0,
+          104.0,
+          6.0
+        ],
+        [
+          4.0,
+          9.0,
+          78.0
+        ]
+      ],
+      "accuracy": 0.9922044174967518,
+      "macro_f1": 0.9185715185443107,
+      "per_class": {
+        "residential_small": {
+          "tp": 4400.0,
+          "fp": 21.0,
+          "fn": 0.0,
+          "precision": 0.9952499434517078,
+          "recall": 1.0,
+          "f1": 0.9976193175376942
+        },
+        "residential_multi": {
+          "tp": 104.0,
+          "fp": 9.0,
+          "fn": 23.0,
+          "precision": 0.9203539823008849,
+          "recall": 0.8188976377952756,
+          "f1": 0.8666666666666667
+        },
+        "commercial": {
+          "tp": 78.0,
+          "fp": 6.0,
+          "fn": 13.0,
+          "precision": 0.9285714285714286,
+          "recall": 0.8571428571428571,
+          "f1": 0.8914285714285715
+        }
+      }
+    },
+    "fixed_43_test": {
+      "confusion_matrix": [
+        [
+          3234.0,
+          23.0,
+          19.0
+        ],
+        [
+          10.0,
+          3.0,
+          1.0
+        ],
+        [
+          14.0,
+          3.0,
+          25.0
+        ]
+      ],
+      "accuracy": 0.9789915966386554,
+      "macro_f1": 0.5680488390993603,
+      "per_class": {
+        "residential_small": {
+          "tp": 3234.0,
+          "fp": 24.0,
+          "fn": 42.0,
+          "precision": 0.992633517495396,
+          "recall": 0.9871794871794872,
+          "f1": 0.98989898989899
+        },
+        "residential_multi": {
+          "tp": 3.0,
+          "fp": 26.0,
+          "fn": 11.0,
+          "precision": 0.10344827586206896,
+          "recall": 0.21428571428571427,
+          "f1": 0.13953488372093023
+        },
+        "commercial": {
+          "tp": 25.0,
+          "fp": 20.0,
+          "fn": 17.0,
+          "precision": 0.5555555555555556,
+          "recall": 0.5952380952380952,
+          "f1": 0.5747126436781609
+        }
+      }
+    },
+    "fixed_val": {
+      "confusion_matrix": [
+        [
+          4400.0,
+          0.0,
+          0.0
+        ],
+        [
+          19.0,
+          99.0,
+          9.0
+        ],
+        [
+          4.0,
+          3.0,
+          84.0
+        ]
+      ],
+      "accuracy": 0.9924209614551754,
+      "macro_f1": 0.925021825381839,
+      "per_class": {
+        "residential_small": {
+          "tp": 4400.0,
+          "fp": 23.0,
+          "fn": 0.0,
+          "precision": 0.9947999095636446,
+          "recall": 1.0,
+          "f1": 0.9973931769239488
+        },
+        "residential_multi": {
+          "tp": 99.0,
+          "fp": 3.0,
+          "fn": 28.0,
+          "precision": 0.9705882352941176,
+          "recall": 0.7795275590551181,
+          "f1": 0.8646288209606987
+        },
+        "commercial": {
+          "tp": 84.0,
+          "fp": 9.0,
+          "fn": 7.0,
+          "precision": 0.9032258064516129,
+          "recall": 0.9230769230769231,
+          "f1": 0.9130434782608695
+        }
+      }
+    },
+    "fixed_test": {
+      "confusion_matrix": [
+        [
+          3242.0,
+          15.0,
+          19.0
+        ],
+        [
+          10.0,
+          3.0,
+          1.0
+        ],
+        [
+          12.0,
+          0.0,
+          30.0
+        ]
+      ],
+      "accuracy": 0.9828931572629052,
+      "macro_f1": 0.6103704073039933,
+      "per_class": {
+        "residential_small": {
+          "tp": 3242.0,
+          "fp": 22.0,
+          "fn": 34.0,
+          "precision": 0.9932598039215687,
+          "recall": 0.9896214896214897,
+          "f1": 0.9914373088685016
+        },
+        "residential_multi": {
+          "tp": 3.0,
+          "fp": 15.0,
+          "fn": 11.0,
+          "precision": 0.16666666666666666,
+          "recall": 0.21428571428571427,
+          "f1": 0.1875
+        },
+        "commercial": {
+          "tp": 30.0,
+          "fp": 20.0,
+          "fn": 12.0,
+          "precision": 0.6,
+          "recall": 0.7142857142857143,
+          "f1": 0.6521739130434783
+        }
+      }
+    },
+    "closeup_42_val": {
+      "confusion_matrix": [
+        [
+          4400.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.0,
+          88.0,
+          19.0
+        ],
+        [
+          6.0,
+          2.0,
+          83.0
+        ]
+      ],
+      "accuracy": 0.9898224339540926,
+      "macro_f1": 0.8894058976487175,
+      "per_class": {
+        "residential_small": {
+          "tp": 4400.0,
+          "fp": 26.0,
+          "fn": 0.0,
+          "precision": 0.9941256213285133,
+          "recall": 1.0,
+          "f1": 0.997054158169046
+        },
+        "residential_multi": {
+          "tp": 88.0,
+          "fp": 2.0,
+          "fn": 39.0,
+          "precision": 0.9777777777777777,
+          "recall": 0.6929133858267716,
+          "f1": 0.8110599078341014
+        },
+        "commercial": {
+          "tp": 83.0,
+          "fp": 19.0,
+          "fn": 8.0,
+          "precision": 0.8137254901960784,
+          "recall": 0.9120879120879121,
+          "f1": 0.8601036269430051
+        }
+      }
+    },
+    "closeup_42_test": {
+      "confusion_matrix": [
+        [
+          3225.0,
+          20.0,
+          31.0
+        ],
+        [
+          10.0,
+          3.0,
+          1.0
+        ],
+        [
+          12.0,
+          0.0,
+          30.0
+        ]
+      ],
+      "accuracy": 0.9777911164465787,
+      "macro_f1": 0.575964689792683,
+      "per_class": {
+        "residential_small": {
+          "tp": 3225.0,
+          "fp": 22.0,
+          "fn": 51.0,
+          "precision": 0.9932245149368648,
+          "recall": 0.9844322344322345,
+          "f1": 0.9888088302928101
+        },
+        "residential_multi": {
+          "tp": 3.0,
+          "fp": 20.0,
+          "fn": 11.0,
+          "precision": 0.13043478260869565,
+          "recall": 0.21428571428571427,
+          "f1": 0.16216216216216217
+        },
+        "commercial": {
+          "tp": 30.0,
+          "fp": 32.0,
+          "fn": 12.0,
+          "precision": 0.4838709677419355,
+          "recall": 0.7142857142857143,
+          "f1": 0.5769230769230769
+        }
+      }
+    },
+    "closeup_43_val": {
+      "confusion_matrix": [
+        [
+          4360.0,
+          20.0,
+          20.0
+        ],
+        [
+          15.0,
+          99.0,
+          13.0
+        ],
+        [
+          5.0,
+          4.0,
+          82.0
+        ]
+      ],
+      "accuracy": 0.9833261152013859,
+      "macro_f1": 0.8604275972901047,
+      "per_class": {
+        "residential_small": {
+          "tp": 4360.0,
+          "fp": 20.0,
+          "fn": 40.0,
+          "precision": 0.9954337899543378,
+          "recall": 0.990909090909091,
+          "f1": 0.9931662870159453
+        },
+        "residential_multi": {
+          "tp": 99.0,
+          "fp": 24.0,
+          "fn": 28.0,
+          "precision": 0.8048780487804879,
+          "recall": 0.7795275590551181,
+          "f1": 0.792
+        },
+        "commercial": {
+          "tp": 82.0,
+          "fp": 33.0,
+          "fn": 9.0,
+          "precision": 0.7130434782608696,
+          "recall": 0.9010989010989011,
+          "f1": 0.7961165048543689
+        }
+      }
+    },
+    "closeup_43_test": {
+      "confusion_matrix": [
+        [
+          3208.0,
+          30.0,
+          38.0
+        ],
+        [
+          10.0,
+          3.0,
+          1.0
+        ],
+        [
+          11.0,
+          1.0,
+          30.0
+        ]
+      ],
+      "accuracy": 0.9726890756302521,
+      "macro_f1": 0.5506195857656273,
+      "per_class": {
+        "residential_small": {
+          "tp": 3208.0,
+          "fp": 21.0,
+          "fn": 68.0,
+          "precision": 0.9934964385258594,
+          "recall": 0.9792429792429792,
+          "f1": 0.9863182167563412
+        },
+        "residential_multi": {
+          "tp": 3.0,
+          "fp": 31.0,
+          "fn": 11.0,
+          "precision": 0.08823529411764706,
+          "recall": 0.21428571428571427,
+          "f1": 0.125
+        },
+        "commercial": {
+          "tp": 30.0,
+          "fp": 39.0,
+          "fn": 12.0,
+          "precision": 0.43478260869565216,
+          "recall": 0.7142857142857143,
+          "f1": 0.5405405405405406
+        }
+      }
+    },
+    "closeup_val": {
+      "confusion_matrix": [
+        [
+          4400.0,
+          0.0,
+          0.0
+        ],
+        [
+          16.0,
+          94.0,
+          17.0
+        ],
+        [
+          5.0,
+          3.0,
+          83.0
+        ]
+      ],
+      "accuracy": 0.991121697704634,
+      "macro_f1": 0.902004993155796,
+      "per_class": {
+        "residential_small": {
+          "tp": 4400.0,
+          "fp": 21.0,
+          "fn": 0.0,
+          "precision": 0.9952499434517078,
+          "recall": 1.0,
+          "f1": 0.9976193175376942
+        },
+        "residential_multi": {
+          "tp": 94.0,
+          "fp": 3.0,
+          "fn": 33.0,
+          "precision": 0.9690721649484536,
+          "recall": 0.7401574803149606,
+          "f1": 0.8392857142857143
+        },
+        "commercial": {
+          "tp": 83.0,
+          "fp": 17.0,
+          "fn": 8.0,
+          "precision": 0.83,
+          "recall": 0.9120879120879121,
+          "f1": 0.8691099476439791
+        }
+      }
+    },
+    "closeup_test": {
+      "confusion_matrix": [
+        [
+          3227.0,
+          21.0,
+          28.0
+        ],
+        [
+          10.0,
+          3.0,
+          1.0
+        ],
+        [
+          12.0,
+          0.0,
+          30.0
+        ]
+      ],
+      "accuracy": 0.978391356542617,
+      "macro_f1": 0.5803576389096865,
+      "per_class": {
+        "residential_small": {
+          "tp": 3227.0,
+          "fp": 22.0,
+          "fn": 49.0,
+          "precision": 0.9932286857494613,
+          "recall": 0.9850427350427351,
+          "f1": 0.9891187739463602
+        },
+        "residential_multi": {
+          "tp": 3.0,
+          "fp": 21.0,
+          "fn": 11.0,
+          "precision": 0.125,
+          "recall": 0.21428571428571427,
+          "f1": 0.15789473684210525
+        },
+        "commercial": {
+          "tp": 30.0,
+          "fp": 29.0,
+          "fn": 12.0,
+          "precision": 0.5084745762711864,
+          "recall": 0.7142857142857143,
+          "f1": 0.594059405940594
+        }
+      }
+    }
+  },
+  "paired_cell_bootstrap": {
+    "macro_f1": {
+      "mean": -0.030605056812554963,
+      "percentile95": [
+        -0.073069900528696,
+        0.002399544122151487
+      ],
+      "n": 2000
+    },
+    "multifamily_recall": {
+      "mean": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ],
+      "n": 2000
+    }
+  },
+  "multifamily_cases": {
+    "fixed": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00218_d3dca404-784b-4f7c-9d91-10637c2e4bbf",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00484_c193c5a5-0676-4ee2-9d9b-7b69eaef1236"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    },
+    "closeup": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00157_1367fdf6-58cf-495f-827a-c1211f88fe6a",
+        "la_cell_00169_f5400e67-bd48-434a-b7f6-dec254a46b57",
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00200_0827b1d0-032d-4e28-acb3-724c0ed37ef7",
+        "la_cell_00200_55e57368-e04f-45d8-9a3d-24f50e163d1a",
+        "la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00360_933cf2c3-0510-45a6-8e55-3c3dff7c9fdd",
+        "la_cell_00373_2f720d6c-55a3-47fc-a838-b5c38cfdd757",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00377_391b8ee3-8d6f-465a-a6d0-deac167d8393",
+        "la_cell_00385_86b04478-7577-434e-ae1b-5b453e04300c",
+        "la_cell_00396_5bedb4d0-82fd-497d-ac4e-c518bb9ecea9",
+        "la_cell_00396_7afab275-89cb-476b-899f-6779387df928",
+        "la_cell_00415_0c52b041-7a0c-4196-84a5-a5e739625fbd",
+        "la_cell_00416_a9e7797c-0493-4795-82f0-6f785ab784ba",
+        "la_cell_00444_53aa0773-6de4-4579-9f15-04ba21efbd75",
+        "la_cell_00471_66e1a780-d200-4358-8a0b-702ba9beab2e",
+        "la_cell_00495_edfaa832-8123-488f-8061-635c1b8075f0"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    }
+  },
+  "checks": {
+    "fixed_42": {
+      "selected_epoch": 4,
+      "seconds": 178.80870024417527,
+      "peak_reserved_gib": 2.517578125,
+      "checkpoint_sha256": "faf583335401e88d0e4359066a63854b1db325d4f4f37dd918e07044565f187f"
+    },
+    "fixed_43": {
+      "selected_epoch": 6,
+      "seconds": 178.27089046500623,
+      "peak_reserved_gib": 2.517578125,
+      "checkpoint_sha256": "9780be14c633f67c255ccf25978e38dcb7ffc9864d1ad14377403a370f42e7b9"
+    },
+    "closeup_42": {
+      "selected_epoch": 6,
+      "seconds": 176.95557062188163,
+      "peak_reserved_gib": 2.517578125,
+      "checkpoint_sha256": "3fa96716ba3132c1ad13efbea4bc1c8e44dcc9c66efcdefcc153c73f846ba57f"
+    },
+    "closeup_43": {
+      "selected_epoch": 6,
+      "seconds": 174.97781030414626,
+      "peak_reserved_gib": 2.517578125,
+      "checkpoint_sha256": "1c1493173331f8e42a65ad2d1293cd203648c5c55e2c9af5641759f4292d9cf1"
+    }
+  },
+  "input_checks": {
+    "passed": true,
+    "n": 18480,
+    "summary": {
+      "la:train": {
+        "n": 799,
+        "zoomed": 755,
+        "edge_fallback": 18
+      },
+      "la:val": {
+        "n": 438,
+        "zoomed": 395,
+        "edge_fallback": 16
+      },
+      "source:train": {
+        "n": 13911,
+        "zoomed": 11903,
+        "edge_fallback": 1954
+      },
+      "la_test:test": {
+        "n": 3332,
+        "zoomed": 3204,
+        "edge_fallback": 121
+      }
+    },
+    "unchanged_source_hashes": 36960,
+    "fixed_runtime_tensor_parity": true,
+    "augmented_geometry_parity": true,
+    "all_visible_target_pixels_retained": true,
+    "changed_tensor_checks": 112,
+    "free_gib": 11.123714447021484,
+    "torch": "2.13.0+cu130"
+  },
+  "paired_draws_match": true,
+  "protocol_sha256": "b1a59a760719f49f475488747e213ab69e37f63101e7cdcaf562416c1fdf7dea",
+  "unit_panel": "Pending independent verification; not used in training"
+}

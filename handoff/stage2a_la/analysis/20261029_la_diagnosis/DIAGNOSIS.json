@@ -1,0 +1,2900 @@
+{
+  "metrics": {
+    "full3332": {
+      "CNN_N2": {
+        "n": 3332,
+        "accuracy": 0.9582833133253301,
+        "macro_f1": 0.48327922264838336,
+        "balanced_accuracy": 0.6151811151811152,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9582833133253301,
+        "prediction_counts": {
+          "residential_small": 3181,
+          "commercial": 124,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9933983024206224,
+            "recall": 0.9645909645909646,
+            "f1": 0.9787827164317795
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.07407407407407407,
+            "recall": 0.14285714285714285,
+            "f1": 0.0975609756097561
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.25,
+            "recall": 0.7380952380952381,
+            "f1": 0.37349397590361444
+          }
+        },
+        "confusion": [
+          [
+            3160,
+            25,
+            91,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_nf4_zero": {
+        "n": 3332,
+        "accuracy": 0.9345738295318127,
+        "macro_f1": 0.5172676282051282,
+        "balanced_accuracy": 0.4657102157102157,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.9863794741843522,
+        "prediction_counts": {
+          "residential_small": 3124,
+          "unknown": 175,
+          "other": 7,
+          "commercial": 23,
+          "institutional": 3
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9907170294494239,
+            "recall": 0.9447496947496947,
+            "f1": 0.9671875
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8260869565217391,
+            "recall": 0.4523809523809524,
+            "f1": 0.5846153846153846
+          }
+        },
+        "confusion": [
+          [
+            3095,
+            0,
+            1,
+            3,
+            2,
+            175,
+            0
+          ],
+          [
+            10,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            19,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_qlora_s42": {
+        "n": 3332,
+        "accuracy": 0.4345738295318127,
+        "macro_f1": 0.4198290122785555,
+        "balanced_accuracy": 0.4776149776149776,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.4586632879315806,
+        "prediction_counts": {
+          "residential_small": 1429,
+          "unknown": 175,
+          "residential_multi": 1472,
+          "institutional": 42,
+          "other": 182,
+          "commercial": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9923023093072079,
+            "recall": 0.43284493284493286,
+            "f1": 0.6027630180658874
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004076086956521739,
+            "recall": 0.42857142857142855,
+            "f1": 0.008075370121130552
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.75,
+            "recall": 0.5714285714285714,
+            "f1": 0.6486486486486487
+          }
+        },
+        "confusion": [
+          [
+            1418,
+            1464,
+            4,
+            40,
+            175,
+            175,
+            0
+          ],
+          [
+            4,
+            6,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            2,
+            24,
+            2,
+            7,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_qlora_s43": {
+        "n": 3332,
+        "accuracy": 0.5735294117647058,
+        "macro_f1": 0.3767825967504553,
+        "balanced_accuracy": 0.3991656491656492,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.6053215077605322,
+        "prediction_counts": {
+          "residential_small": 1904,
+          "unknown": 175,
+          "residential_multi": 772,
+          "other": 397,
+          "institutional": 69,
+          "commercial": 15
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9952731092436975,
+            "recall": 0.5784493284493285,
+            "f1": 0.7316602316602316
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.006476683937823834,
+            "recall": 0.35714285714285715,
+            "f1": 0.01272264631043257
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.7333333333333333,
+            "recall": 0.2619047619047619,
+            "f1": 0.38596491228070173
+          }
+        },
+        "confusion": [
+          [
+            1895,
+            766,
+            1,
+            61,
+            378,
+            175,
+            0
+          ],
+          [
+            3,
+            5,
+            3,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            1,
+            11,
+            8,
+            16,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s42": {
+        "n": 3332,
+        "accuracy": 0.047418967587034816,
+        "macro_f1": 0.131922283418523,
+        "balanced_accuracy": 0.3315018315018315,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.05004751346214761,
+        "prediction_counts": {
+          "residential_multi": 2725,
+          "unknown": 175,
+          "institutional": 268,
+          "residential_small": 141,
+          "commercial": 23
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9787234042553191,
+            "recall": 0.04212454212454213,
+            "f1": 0.08077260755048288
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.003669724770642202,
+            "recall": 0.7142857142857143,
+            "f1": 0.007301935012778387
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.43478260869565216,
+            "recall": 0.23809523809523808,
+            "f1": 0.3076923076923077
+          }
+        },
+        "confusion": [
+          [
+            138,
+            2691,
+            12,
+            260,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            10,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            24,
+            10,
+            8,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s43": {
+        "n": 3332,
+        "accuracy": 0.07082833133253301,
+        "macro_f1": 0.10313074625006165,
+        "balanced_accuracy": 0.3161375661375661,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.07475451377890402,
+        "prediction_counts": {
+          "institutional": 549,
+          "unknown": 175,
+          "residential_multi": 2379,
+          "residential_small": 224,
+          "commercial": 4,
+          "other": 1
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9866071428571429,
+            "recall": 0.06746031746031746,
+            "f1": 0.12628571428571428
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004623791509037411,
+            "recall": 0.7857142857142857,
+            "f1": 0.00919348098620978
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 1.0,
+            "recall": 0.09523809523809523,
+            "f1": 0.17391304347826086
+          }
+        },
+        "confusion": [
+          [
+            221,
+            2349,
+            0,
+            531,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            19,
+            4,
+            18,
+            1,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s42": {
+        "n": 3332,
+        "accuracy": 0.5744297719087635,
+        "macro_f1": 0.4258602126306406,
+        "balanced_accuracy": 0.4545177045177045,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.6062717770034843,
+        "prediction_counts": {
+          "institutional": 992,
+          "unknown": 175,
+          "residential_small": 1904,
+          "residential_multi": 243,
+          "commercial": 18
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9942226890756303,
+            "recall": 0.5778388278388278,
+            "f1": 0.7308880308880309
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.024691358024691357,
+            "recall": 0.42857142857142855,
+            "f1": 0.04669260700389105
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8333333333333334,
+            "recall": 0.35714285714285715,
+            "f1": 0.5
+          }
+        },
+        "confusion": [
+          [
+            1893,
+            229,
+            2,
+            977,
+            0,
+            175,
+            0
+          ],
+          [
+            6,
+            6,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            8,
+            15,
+            14,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s43": {
+        "n": 3332,
+        "accuracy": 0.6086434573829532,
+        "macro_f1": 0.4436308422636619,
+        "balanced_accuracy": 0.3871591371591372,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.6423820082356668,
+        "prediction_counts": {
+          "institutional": 1062,
+          "unknown": 175,
+          "residential_small": 2026,
+          "residential_multi": 53,
+          "commercial": 16
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9925962487660415,
+            "recall": 0.6138583638583639,
+            "f1": 0.7585816672953603
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.05660377358490566,
+            "recall": 0.21428571428571427,
+            "f1": 0.08955223880597014
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.875,
+            "recall": 0.3333333333333333,
+            "f1": 0.4827586206896552
+          }
+        },
+        "confusion": [
+          [
+            2011,
+            44,
+            2,
+            1044,
+            0,
+            175,
+            0
+          ],
+          [
+            10,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            6,
+            14,
+            17,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "all_small": {
+        "n": 3332,
+        "accuracy": 0.9831932773109243,
+        "macro_f1": 0.3305084745762712,
+        "balanced_accuracy": 0.3333333333333333,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9831932773109243,
+        "prediction_counts": {
+          "residential_small": 3332
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9831932773109243,
+            "recall": 1.0,
+            "f1": 0.9915254237288136
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            3276,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s42_three_way_readout": {
+        "n": 3332,
+        "accuracy": 0.05102040816326531,
+        "macro_f1": 0.15431371827510637,
+        "balanced_accuracy": 0.3797313797313797,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.05384859043395629,
+        "prediction_counts": {
+          "residential_multi": 2966,
+          "unknown": 175,
+          "residential_small": 147,
+          "commercial": 44
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9795918367346939,
+            "recall": 0.04395604395604396,
+            "f1": 0.08413672217353199
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0033715441672285905,
+            "recall": 0.7142857142857143,
+            "f1": 0.006711409395973154
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.36363636363636365,
+            "recall": 0.38095238095238093,
+            "f1": 0.37209302325581395
+          }
+        },
+        "confusion": [
+          [
+            144,
+            2930,
+            27,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            10,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            26,
+            16,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s43_three_way_readout": {
+        "n": 3332,
+        "accuracy": 0.07893157262905162,
+        "macro_f1": 0.18536679863910985,
+        "balanced_accuracy": 0.38939763939763933,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.08330693696547355,
+        "prediction_counts": {
+          "residential_multi": 2893,
+          "unknown": 175,
+          "residential_small": 243,
+          "commercial": 21
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9835390946502057,
+            "recall": 0.07295482295482296,
+            "f1": 0.13583404376243252
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0038022813688212928,
+            "recall": 0.7857142857142857,
+            "f1": 0.007567939456484348
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6190476190476191,
+            "recall": 0.30952380952380953,
+            "f1": 0.4126984126984127
+          }
+        },
+        "confusion": [
+          [
+            239,
+            2854,
+            8,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            28,
+            13,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s42_three_way_readout": {
+        "n": 3332,
+        "accuracy": 0.725390156062425,
+        "macro_f1": 0.45524561953193016,
+        "balanced_accuracy": 0.5999185999186,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.7656002534051315,
+        "prediction_counts": {
+          "residential_small": 2398,
+          "unknown": 175,
+          "residential_multi": 706,
+          "commercial": 53
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9949958298582152,
+            "recall": 0.7283272283272283,
+            "f1": 0.8410292562566091
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.009915014164305949,
+            "recall": 0.5,
+            "f1": 0.019444444444444445
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4528301886792453,
+            "recall": 0.5714285714285714,
+            "f1": 0.5052631578947369
+          }
+        },
+        "confusion": [
+          [
+            2386,
+            687,
+            28,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            6,
+            7,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            12,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s43_three_way_readout": {
+        "n": 3332,
+        "accuracy": 0.8199279711884754,
+        "macro_f1": 0.4569840921300196,
+        "balanced_accuracy": 0.5765160765160765,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.8653785239151093,
+        "prediction_counts": {
+          "residential_small": 2718,
+          "unknown": 175,
+          "residential_multi": 365,
+          "commercial": 74
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9941133186166299,
+            "recall": 0.8247863247863247,
+            "f1": 0.9015682349015682
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.010958904109589041,
+            "recall": 0.2857142857142857,
+            "f1": 0.021108179419525065
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.35135135135135137,
+            "recall": 0.6190476190476191,
+            "f1": 0.4482758620689655
+          }
+        },
+        "confusion": [
+          [
+            2702,
+            351,
+            48,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            10,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            10,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_probability_ensemble": {
+        "n": 3332,
+        "accuracy": 0.05612244897959184,
+        "macro_f1": 0.13051211020481654,
+        "balanced_accuracy": 0.34249084249084244,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.059233449477351915,
+        "prediction_counts": {
+          "residential_multi": 2622,
+          "unknown": 175,
+          "institutional": 350,
+          "residential_small": 171,
+          "commercial": 14
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9824561403508771,
+            "recall": 0.05128205128205128,
+            "f1": 0.09747606614447346
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004195270785659802,
+            "recall": 0.7857142857142857,
+            "f1": 0.00834597875569044
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5714285714285714,
+            "recall": 0.19047619047619047,
+            "f1": 0.2857142857142857
+          }
+        },
+        "confusion": [
+          [
+            168,
+            2591,
+            6,
+            336,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            20,
+            8,
+            14,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_probability_ensemble_three_way": {
+        "n": 3332,
+        "accuracy": 0.05942376950780312,
+        "macro_f1": 0.16550467110620753,
+        "balanced_accuracy": 0.39061864061864066,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.0627177700348432,
+        "prediction_counts": {
+          "residential_multi": 2950,
+          "unknown": 175,
+          "residential_small": 177,
+          "commercial": 30
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9774011299435028,
+            "recall": 0.05280830280830281,
+            "f1": 0.10020272227048943
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.003728813559322034,
+            "recall": 0.7857142857142857,
+            "f1": 0.007422402159244264
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4666666666666667,
+            "recall": 0.3333333333333333,
+            "f1": 0.3888888888888889
+          }
+        },
+        "confusion": [
+          [
+            173,
+            2912,
+            16,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            27,
+            14,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_probability_ensemble": {
+        "n": 3332,
+        "accuracy": 0.5942376950780313,
+        "macro_f1": 0.4334916197065628,
+        "balanced_accuracy": 0.45339845339845336,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.627177700348432,
+        "prediction_counts": {
+          "institutional": 1030,
+          "unknown": 175,
+          "residential_small": 1972,
+          "residential_multi": 138,
+          "commercial": 17
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9939148073022313,
+            "recall": 0.5982905982905983,
+            "f1": 0.7469512195121951
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.043478260869565216,
+            "recall": 0.42857142857142855,
+            "f1": 0.07894736842105263
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8235294117647058,
+            "recall": 0.3333333333333333,
+            "f1": 0.4745762711864407
+          }
+        },
+        "confusion": [
+          [
+            1960,
+            125,
+            3,
+            1013,
+            0,
+            175,
+            0
+          ],
+          [
+            7,
+            6,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            7,
+            14,
+            16,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_probability_ensemble_three_way": {
+        "n": 3332,
+        "accuracy": 0.7779111644657863,
+        "macro_f1": 0.45442074713102754,
+        "balanced_accuracy": 0.6177248677248677,
+        "five_use_coverage": 0.9474789915966386,
+        "selective_accuracy": 0.8210326259106747,
+        "prediction_counts": {
+          "residential_small": 2574,
+          "unknown": 175,
+          "residential_multi": 521,
+          "commercial": 62
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9949494949494949,
+            "recall": 0.7817460317460317,
+            "f1": 0.8755555555555555
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.013435700575815739,
+            "recall": 0.5,
+            "f1": 0.026168224299065422
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.3870967741935484,
+            "recall": 0.5714285714285714,
+            "f1": 0.46153846153846156
+          }
+        },
+        "confusion": [
+          [
+            2561,
+            502,
+            38,
+            0,
+            0,
+            175,
+            0
+          ],
+          [
+            7,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            12,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_zero_missing_input_CNN_fallback": {
+        "n": 3332,
+        "accuracy": 0.9798919567827131,
+        "macro_f1": 0.4776180688432679,
+        "balanced_accuracy": 0.4810744810744811,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9798919567827131,
+        "prediction_counts": {
+          "residential_small": 3275,
+          "other": 7,
+          "commercial": 44,
+          "residential_multi": 3,
+          "institutional": 3
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.991145038167939,
+            "recall": 0.9908424908424909,
+            "f1": 0.9909937414135247
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4318181818181818,
+            "recall": 0.4523809523809524,
+            "f1": 0.4418604651162791
+          }
+        },
+        "confusion": [
+          [
+            3246,
+            3,
+            22,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            19,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "common3157": {
+      "CNN_N2": {
+        "n": 3157,
+        "accuracy": 0.9635730123535001,
+        "macro_f1": 0.5048061466609792,
+        "balanced_accuracy": 0.6170948439571464,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9635730123535001,
+        "prediction_counts": {
+          "residential_small": 3030,
+          "commercial": 103,
+          "residential_multi": 24
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9930693069306931,
+            "recall": 0.9703321509190583,
+            "f1": 0.981569075191649
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08333333333333333,
+            "recall": 0.14285714285714285,
+            "f1": 0.10526315789473684
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.30097087378640774,
+            "recall": 0.7380952380952381,
+            "f1": 0.42758620689655175
+          }
+        },
+        "confusion": [
+          [
+            3009,
+            22,
+            70,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_nf4_zero": {
+        "n": 3157,
+        "accuracy": 0.9863794741843522,
+        "macro_f1": 0.5263309648851817,
+        "balanced_accuracy": 0.4834820308860941,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9863794741843522,
+        "prediction_counts": {
+          "residential_small": 3124,
+          "other": 7,
+          "commercial": 23,
+          "institutional": 3
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9907170294494239,
+            "recall": 0.9980651402773298,
+            "f1": 0.9943775100401606
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8260869565217391,
+            "recall": 0.4523809523809524,
+            "f1": 0.5846153846153846
+          }
+        },
+        "confusion": [
+          [
+            3095,
+            0,
+            1,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            19,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_qlora_s42": {
+        "n": 3157,
+        "accuracy": 0.4586632879315806,
+        "macro_f1": 0.42759086129706403,
+        "balanced_accuracy": 0.48575728259701173,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.4586632879315806,
+        "prediction_counts": {
+          "residential_small": 1429,
+          "residential_multi": 1472,
+          "institutional": 42,
+          "other": 182,
+          "commercial": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9923023093072079,
+            "recall": 0.45727184779103514,
+            "f1": 0.6260485651214128
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004076086956521739,
+            "recall": 0.42857142857142855,
+            "f1": 0.008075370121130552
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.75,
+            "recall": 0.5714285714285714,
+            "f1": 0.6486486486486487
+          }
+        },
+        "confusion": [
+          [
+            1418,
+            1464,
+            4,
+            40,
+            175,
+            0,
+            0
+          ],
+          [
+            4,
+            6,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            2,
+            24,
+            2,
+            7,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_qlora_s43": {
+        "n": 3157,
+        "accuracy": 0.6053215077605322,
+        "macro_f1": 0.3853101052779639,
+        "balanced_accuracy": 0.4100469382636425,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.6053215077605322,
+        "prediction_counts": {
+          "residential_small": 1904,
+          "residential_multi": 772,
+          "other": 397,
+          "institutional": 69,
+          "commercial": 15
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9952731092436975,
+            "recall": 0.6110931957433086,
+            "f1": 0.7572427572427572
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.006476683937823834,
+            "recall": 0.35714285714285715,
+            "f1": 0.01272264631043257
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.7333333333333333,
+            "recall": 0.2619047619047619,
+            "f1": 0.38596491228070173
+          }
+        },
+        "confusion": [
+          [
+            1895,
+            766,
+            1,
+            61,
+            378,
+            0,
+            0
+          ],
+          [
+            3,
+            5,
+            3,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            1,
+            11,
+            8,
+            16,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s42": {
+        "n": 3157,
+        "accuracy": 0.05004751346214761,
+        "macro_f1": 0.13337562562717345,
+        "balanced_accuracy": 0.33229424200078833,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.05004751346214761,
+        "prediction_counts": {
+          "residential_multi": 2725,
+          "institutional": 268,
+          "residential_small": 141,
+          "commercial": 23
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9787234042553191,
+            "recall": 0.04450177362141245,
+            "f1": 0.0851326341764343
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.003669724770642202,
+            "recall": 0.7142857142857143,
+            "f1": 0.007301935012778387
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.43478260869565216,
+            "recall": 0.23809523809523808,
+            "f1": 0.3076923076923077
+          }
+        },
+        "confusion": [
+          [
+            138,
+            2691,
+            12,
+            260,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            10,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            24,
+            10,
+            8,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s43": {
+        "n": 3157,
+        "accuracy": 0.07475451377890402,
+        "macro_f1": 0.10534628509717943,
+        "balanced_accuracy": 0.3174065713569099,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.07475451377890402,
+        "prediction_counts": {
+          "institutional": 549,
+          "residential_multi": 2379,
+          "residential_small": 224,
+          "commercial": 4,
+          "other": 1
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9866071428571429,
+            "recall": 0.07126733311834892,
+            "f1": 0.13293233082706768
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004623791509037411,
+            "recall": 0.7857142857142857,
+            "f1": 0.00919348098620978
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 1.0,
+            "recall": 0.09523809523809523,
+            "f1": 0.17391304347826086
+          }
+        },
+        "confusion": [
+          [
+            221,
+            2349,
+            0,
+            531,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            19,
+            4,
+            18,
+            1,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s42": {
+        "n": 3157,
+        "accuracy": 0.6062717770034843,
+        "macro_f1": 0.43437872114914916,
+        "balanced_accuracy": 0.4653875094055681,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.6062717770034843,
+        "prediction_counts": {
+          "institutional": 992,
+          "residential_small": 1904,
+          "residential_multi": 243,
+          "commercial": 18
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9942226890756303,
+            "recall": 0.6104482425024186,
+            "f1": 0.7564435564435564
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.024691358024691357,
+            "recall": 0.42857142857142855,
+            "f1": 0.04669260700389105
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8333333333333334,
+            "recall": 0.35714285714285715,
+            "f1": 0.5
+          }
+        },
+        "confusion": [
+          [
+            1893,
+            229,
+            2,
+            977,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            6,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            8,
+            15,
+            14,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s43": {
+        "n": 3157,
+        "accuracy": 0.6423820082356668,
+        "macro_f1": 0.45226173698940714,
+        "balanced_accuracy": 0.39870651044465943,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.6423820082356668,
+        "prediction_counts": {
+          "institutional": 1062,
+          "residential_small": 2026,
+          "residential_multi": 53,
+          "commercial": 16
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925962487660415,
+            "recall": 0.6485004837149306,
+            "f1": 0.784474351472596
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.05660377358490566,
+            "recall": 0.21428571428571427,
+            "f1": 0.08955223880597014
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.875,
+            "recall": 0.3333333333333333,
+            "f1": 0.4827586206896552
+          }
+        },
+        "confusion": [
+          [
+            2011,
+            44,
+            2,
+            1044,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            6,
+            14,
+            17,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "all_small": {
+        "n": 3157,
+        "accuracy": 0.9822616407982262,
+        "macro_f1": 0.3303504847129008,
+        "balanced_accuracy": 0.3333333333333333,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9822616407982262,
+        "prediction_counts": {
+          "residential_small": 3157
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9822616407982262,
+            "recall": 1.0,
+            "f1": 0.9910514541387024
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            3101,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s42_three_way_readout": {
+        "n": 3157,
+        "accuracy": 0.05384859043395629,
+        "macro_f1": 0.15582479446356778,
+        "balanced_accuracy": 0.3805582428607259,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.05384859043395629,
+        "prediction_counts": {
+          "residential_multi": 2966,
+          "residential_small": 147,
+          "commercial": 44
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9795918367346939,
+            "recall": 0.04643663334408255,
+            "f1": 0.08866995073891626
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0033715441672285905,
+            "recall": 0.7142857142857143,
+            "f1": 0.006711409395973154
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.36363636363636365,
+            "recall": 0.38095238095238093,
+            "f1": 0.37209302325581395
+          }
+        },
+        "confusion": [
+          [
+            144,
+            2930,
+            27,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            10,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            26,
+            16,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_s43_three_way_readout": {
+        "n": 3157,
+        "accuracy": 0.08330693696547355,
+        "macro_f1": 0.18773631196231813,
+        "balanced_accuracy": 0.39077000250815147,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.08330693696547355,
+        "prediction_counts": {
+          "residential_multi": 2893,
+          "residential_small": 243,
+          "commercial": 21
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9835390946502057,
+            "recall": 0.07707191228635923,
+            "f1": 0.14294258373205743
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0038022813688212928,
+            "recall": 0.7857142857142857,
+            "f1": 0.007567939456484348
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6190476190476191,
+            "recall": 0.30952380952380953,
+            "f1": 0.4126984126984127
+          }
+        },
+        "confusion": [
+          [
+            239,
+            2854,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            28,
+            13,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s42_three_way_readout": {
+        "n": 3157,
+        "accuracy": 0.7656002534051315,
+        "macro_f1": 0.46416724890969013,
+        "balanced_accuracy": 0.6136192626034612,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.7656002534051315,
+        "prediction_counts": {
+          "residential_small": 2398,
+          "residential_multi": 706,
+          "commercial": 53
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9949958298582152,
+            "recall": 0.7694292163818123,
+            "f1": 0.8677941443898891
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.009915014164305949,
+            "recall": 0.5,
+            "f1": 0.019444444444444445
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4528301886792453,
+            "recall": 0.5714285714285714,
+            "f1": 0.5052631578947369
+          }
+        },
+        "confusion": [
+          [
+            2386,
+            687,
+            28,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            12,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_s43_three_way_readout": {
+        "n": 3157,
+        "accuracy": 0.8653785239151093,
+        "macro_f1": 0.46602198186524185,
+        "balanced_accuracy": 0.5920312444014476,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.8653785239151093,
+        "prediction_counts": {
+          "residential_small": 2718,
+          "residential_multi": 365,
+          "commercial": 74
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9941133186166299,
+            "recall": 0.871331828442438,
+            "f1": 0.928681904107235
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.010958904109589041,
+            "recall": 0.2857142857142857,
+            "f1": 0.021108179419525065
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.35135135135135137,
+            "recall": 0.6190476190476191,
+            "f1": 0.4482758620689655
+          }
+        },
+        "confusion": [
+          [
+            2702,
+            351,
+            48,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            10,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_probability_ensemble": {
+        "n": 3157,
+        "accuracy": 0.059233449477351915,
+        "macro_f1": 0.13224991700751446,
+        "balanced_accuracy": 0.34345551614174635,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.059233449477351915,
+        "prediction_counts": {
+          "residential_multi": 2622,
+          "institutional": 350,
+          "residential_small": 171,
+          "commercial": 14
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9824561403508771,
+            "recall": 0.05417607223476298,
+            "f1": 0.10268948655256724
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.004195270785659802,
+            "recall": 0.7857142857142857,
+            "f1": 0.00834597875569044
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5714285714285714,
+            "recall": 0.19047619047619047,
+            "f1": 0.2857142857142857
+          }
+        },
+        "confusion": [
+          [
+            168,
+            2591,
+            6,
+            336,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            20,
+            8,
+            14,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "A_nyc_probability_ensemble_three_way": {
+        "n": 3157,
+        "accuracy": 0.0627177700348432,
+        "macro_f1": 0.16728781900099454,
+        "balanced_accuracy": 0.39161202479486906,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.0627177700348432,
+        "prediction_counts": {
+          "residential_multi": 2950,
+          "residential_small": 177,
+          "commercial": 30
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9774011299435028,
+            "recall": 0.05578845533698807,
+            "f1": 0.10555216595485052
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.003728813559322034,
+            "recall": 0.7857142857142857,
+            "f1": 0.007422402159244264
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4666666666666667,
+            "recall": 0.3333333333333333,
+            "f1": 0.3888888888888889
+          }
+        },
+        "confusion": [
+          [
+            173,
+            2912,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            27,
+            14,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_probability_ensemble": {
+        "n": 3157,
+        "accuracy": 0.627177700348432,
+        "macro_f1": 0.44208065074767156,
+        "balanced_accuracy": 0.4646529793256655,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.627177700348432,
+        "prediction_counts": {
+          "institutional": 1030,
+          "residential_small": 1972,
+          "residential_multi": 138,
+          "commercial": 17
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9939148073022313,
+            "recall": 0.6320541760722348,
+            "f1": 0.7727183126355214
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.043478260869565216,
+            "recall": 0.42857142857142855,
+            "f1": 0.07894736842105263
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8235294117647058,
+            "recall": 0.3333333333333333,
+            "f1": 0.4745762711864407
+          }
+        },
+        "confusion": [
+          [
+            1960,
+            125,
+            3,
+            1013,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            6,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            7,
+            14,
+            16,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "B_multicity_probability_ensemble_three_way": {
+        "n": 3157,
+        "accuracy": 0.8210326259106747,
+        "macro_f1": 0.46342058397227404,
+        "balanced_accuracy": 0.6324303987960873,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.8210326259106747,
+        "prediction_counts": {
+          "residential_small": 2574,
+          "residential_multi": 521,
+          "commercial": 62
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9949494949494949,
+            "recall": 0.8258626249596904,
+            "f1": 0.9025550660792951
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.013435700575815739,
+            "recall": 0.5,
+            "f1": 0.026168224299065422
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.3870967741935484,
+            "recall": 0.5714285714285714,
+            "f1": 0.46153846153846156
+          }
+        },
+        "confusion": [
+          [
+            2561,
+            502,
+            38,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            12,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "qwen_zero_missing_input_CNN_fallback": {
+        "n": 3157,
+        "accuracy": 0.9863794741843522,
+        "macro_f1": 0.5263309648851817,
+        "balanced_accuracy": 0.4834820308860941,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9863794741843522,
+        "prediction_counts": {
+          "residential_small": 3124,
+          "other": 7,
+          "commercial": 23,
+          "institutional": 3
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9907170294494239,
+            "recall": 0.9980651402773298,
+            "f1": 0.9943775100401606
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8260869565217391,
+            "recall": 0.4523809523809524,
+            "f1": 0.5846153846153846
+          }
+        },
+        "confusion": [
+          [
+            3095,
+            0,
+            1,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            19,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    }
+  },
+  "seed_stats": {
+    "A_nyc": {
+      "accuracy": {
+        "mean": 0.062401013620525816,
+        "sample_std": 0.017470487466756637
+      },
+      "macro_f1": {
+        "mean": 0.11936095536217645,
+        "sample_std": 0.01981973676094571
+      }
+    },
+    "A_nyc_three_way_readout": {
+      "accuracy": {
+        "mean": 0.06857776369971491,
+        "sample_std": 0.020830196594979065
+      },
+      "macro_f1": {
+        "mean": 0.17178055321294294,
+        "sample_std": 0.022564850421319543
+      }
+    },
+    "B_multicity": {
+      "accuracy": {
+        "mean": 0.6243268926195755,
+        "sample_std": 0.025533789374490495
+      },
+      "macro_f1": {
+        "mean": 0.44332022906927815,
+        "sample_std": 0.01264520176871286
+      }
+    },
+    "B_multicity_three_way_readout": {
+      "accuracy": {
+        "mean": 0.8154893886601204,
+        "sample_std": 0.07055389169267101
+      },
+      "macro_f1": {
+        "mean": 0.465094615387466,
+        "sample_std": 0.001311494250160788
+      }
+    }
+  },
+  "cnn_qwen_overlap": {
+    "residential_small": {
+      "both_correct": 3005,
+      "cnn_only": 4,
+      "qwen_only": 90,
+      "neither_correct": 2
+    },
+    "residential_multi": {
+      "both_correct": 0,
+      "cnn_only": 2,
+      "qwen_only": 0,
+      "neither_correct": 12
+    },
+    "commercial": {
+      "both_correct": 18,
+      "cnn_only": 13,
+      "qwen_only": 1,
+      "neither_correct": 10
+    }
+  },
+  "cohort_counts": {
+    "residential_small": 3276,
+    "commercial": 42,
+    "residential_multi": 14
+  },
+  "common_counts": {
+    "residential_small": 3101,
+    "commercial": 42,
+    "residential_multi": 14
+  },
+  "missing_input_cells": {
+    "cell_00046": 4,
+    "cell_00183": 13,
+    "cell_00200": 37,
+    "cell_00218": 22,
+    "cell_00346": 10,
+    "cell_00347": 25,
+    "cell_00348": 29,
+    "cell_00349": 17,
+    "cell_00350": 16,
+    "cell_00531": 2
+  },
+  "full_accuracy_ceiling_without_input_fallback": 0.9474789915966386,
+  "multi_units": {
+    "4.0": 9,
+    "5.0": 2,
+    "8.0": 2,
+    "26.0": 1
+  },
+  "commercial_subtypes": {
+    "Office Building": 8,
+    "Professional Building": 14,
+    "Service Station": 1,
+    "Store": 8,
+    "Auto, Recreation Equipment, Construction Equipment Sales and Service": 1,
+    "Restaurant, Cocktail Lounge": 4,
+    "Supermarket": 3,
+    "Bank, Savings and Loan": 2,
+    "Non-Auto Service and Repair Shop, Paint Shop, or Laundry": 1
+  },
+  "source_hashes": {
+    "dataset.json": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/execution/remote_la/runs/qwen_nf4_zero/predictions.json": "0425fd132438ee4ec1a2439ab2cf79d12714edd314941c5754d994e0715a7cda",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/execution/remote_la/runs/qwen_qlora_s42/predictions.json": "e4a53c7aa53e92483ff97fefe6780091255601d73e6afd147ea1dd29ab4f8e96",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/execution/remote_la/runs/qwen_qlora_s43/predictions.json": "a102354ca45bc2b51a4d5f4d1aa22722766ca028268db4d23990f2500eda7ef4",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/multicity_transfer_20261028/execution/remote_multicity/A_nyc/la/runs/dino_finetune_s42/predictions.json": "e8d8611c012f538f89ca3483060f576365d33c126e586012a8120512a2d5510c",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/multicity_transfer_20261028/execution/remote_multicity/A_nyc/la/runs/dino_finetune_s43/predictions.json": "3b0db606e4f53bec82846c0556903a9fb07d6c861974e6a0922d57414a7432e1",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/multicity_transfer_20261028/execution/remote_multicity/B_multicity/la/runs/dino_finetune_s42/predictions.json": "522fe71d2323c27370dfa94ba930b2d59ab333fa4708d77662d6217fa3afe086",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/multicity_transfer_20261028/execution/remote_multicity/B_multicity/la/runs/dino_finetune_s43/predictions.json": "42d6310c791d064fe7c8db7bf965c24c63d2ce3824ec5217d3fcf949f84d582d"
+  },
+  "limits": [
+    "All new readouts, probability ensembles and fallback are post-hoc diagnostics on inspected LA data.",
+    "Three-way readout assumes only the three benchmark uses; cannot recognize institutional/other.",
+    "No training, new model inference, source data changes or production changes performed.",
+    "Assessor references are not independently adjudicated building-use or role truth."
+  ]
+}

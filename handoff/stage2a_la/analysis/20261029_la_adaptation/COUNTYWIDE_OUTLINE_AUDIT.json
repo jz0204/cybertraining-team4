@@ -1,0 +1,349 @@
+{
+  "source": "https://dpw.gis.lacounty.gov/dpw/rest/services/FEMAFloodzoneAdopted/MapServer/15",
+  "year": 2014,
+  "records": [
+    {
+      "review_index": 1,
+      "sample_id": "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+      "AIN": "5839009039",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 2,
+      "sample_id": "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+      "AIN": "5845005031",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 3,
+      "sample_id": "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+      "AIN": "5845005006",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 4,
+      "sample_id": "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+      "AIN": "5841031022",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 5,
+      "sample_id": "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+      "AIN": "5841032022",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 6,
+      "sample_id": "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+      "AIN": "5841031021",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 7,
+      "sample_id": "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192",
+      "AIN": "5841031023",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 8,
+      "sample_id": "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+      "AIN": "5847004015",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 9,
+      "sample_id": "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+      "AIN": "5743004008",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 10,
+      "sample_id": "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+      "AIN": "5853008003",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 11,
+      "sample_id": "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+      "AIN": "5853021003",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 12,
+      "sample_id": "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+      "AIN": "5743005010",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 13,
+      "sample_id": "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+      "AIN": "5743005011",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 14,
+      "sample_id": "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab",
+      "AIN": "5853007003",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 15,
+      "sample_id": "la_cell_00107_ad66a0b1-06f7-412c-875d-e3cd5363bba2",
+      "AIN": "4446001010",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 16,
+      "sample_id": "la_cell_00364_0d691854-675a-4f52-be49-91868c0e3982",
+      "AIN": "5845029011",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 17,
+      "sample_id": "la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac",
+      "AIN": "5845016023",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 18,
+      "sample_id": "la_cell_00364_3ecd767a-3dee-48fe-8637-8bf5444b70fe",
+      "AIN": "5845029014",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 19,
+      "sample_id": "la_cell_00364_59dbd09d-3feb-4367-a87d-40f065478b08",
+      "AIN": "5848037001",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 20,
+      "sample_id": "la_cell_00364_6fd677a2-f208-47c3-ad95-b4d2ee677f87",
+      "AIN": "5845010005",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 21,
+      "sample_id": "la_cell_00364_7a25eadb-774a-46b7-9a2b-90ea7968d339",
+      "AIN": "5845010025",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 22,
+      "sample_id": "la_cell_00364_91927654-ef96-42f2-b599-99c41acf84b5",
+      "AIN": "5845024021",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 23,
+      "sample_id": "la_cell_00364_cdb68eed-3493-4031-bb32-b0167f1b4163",
+      "AIN": "5845023002",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 24,
+      "sample_id": "la_cell_00364_f7be62be-d426-4521-ac9a-5baa03bbfa32",
+      "AIN": "5845023029",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 25,
+      "sample_id": "la_cell_00365_1ed0ea72-1345-4f97-b58e-740b523a4924",
+      "AIN": "5845023027",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 26,
+      "sample_id": "la_cell_00365_36791316-59d3-4342-9e38-d637cf537dce",
+      "AIN": "5845005001",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 27,
+      "sample_id": "la_cell_00365_3f4f2a8d-e7c1-4161-a244-d0322bb1f209",
+      "AIN": "5845008025",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 28,
+      "sample_id": "la_cell_00365_47f0e135-aed9-49fc-8dbd-b20847a28fd3",
+      "AIN": "5845023026",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 29,
+      "sample_id": "la_cell_00365_4c3e5a4d-bab6-46fb-babf-bcf50293db8c",
+      "AIN": "5845018012",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 30,
+      "sample_id": "la_cell_00365_6675a1e3-76d9-4c75-b344-95cc9d9aab04",
+      "AIN": "5845008027",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 31,
+      "sample_id": "la_cell_00365_7251866c-c633-4236-bd81-ee0332bc9b7d",
+      "AIN": "5845021035",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 32,
+      "sample_id": "la_cell_00365_97307f88-80ea-47b2-baa5-63dd72a3e939",
+      "AIN": "5845019017",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 33,
+      "sample_id": "la_cell_00365_a8b9fdea-ea3c-45b1-bf57-57b18b2e24b2",
+      "AIN": "5845020014",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 34,
+      "sample_id": "la_cell_00365_ac97a36c-7545-4725-894a-dd5af3ef384a",
+      "AIN": "5845020013",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 35,
+      "sample_id": "la_cell_00365_b5cf424b-9ecd-40eb-8136-05b2be36e81e",
+      "AIN": "5845023023",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 36,
+      "sample_id": "la_cell_00365_dd0c579e-2d29-4bd2-b9c0-f2cd34e8f543",
+      "AIN": "5845008015",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 37,
+      "sample_id": "la_cell_00365_f15bb546-66ee-4e6a-acf4-5084ceb49b22",
+      "AIN": "5845018005",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 38,
+      "sample_id": "la_cell_00365_f8d300a5-3086-4b12-ab68-09430ddc4cb4",
+      "AIN": "5845018013",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 39,
+      "sample_id": "la_cell_00365_f8fe43e5-b77e-45db-87fa-73fa2a6f6eae",
+      "AIN": "5845019019",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 40,
+      "sample_id": "la_cell_00366_5c846695-ff58-410b-a3bd-1453359bac9a",
+      "AIN": "5841032001",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 41,
+      "sample_id": "la_cell_00366_695a23cb-9f8a-405c-93f1-fc7b83555323",
+      "AIN": "5845017003",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 42,
+      "sample_id": "la_cell_00366_7cc6260b-74c3-4f85-8027-86a62a6add15",
+      "AIN": "5845017008",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 43,
+      "sample_id": "la_cell_00366_84da5731-149e-431e-a23b-b85368474d6d",
+      "AIN": "5845017016",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 44,
+      "sample_id": "la_cell_00366_a07b3802-21e2-4824-868f-e41544d2dba5",
+      "AIN": "5841032023",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 45,
+      "sample_id": "la_cell_00366_b17080e1-76f7-4157-8695-0c91fcd2f3bc",
+      "AIN": "5845002007",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 46,
+      "sample_id": "la_cell_00366_dd99f7f3-ea90-4fa3-b0f3-061704a003ed",
+      "AIN": "5845002015",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 47,
+      "sample_id": "la_cell_00415_02d5bcfe-a954-4457-bc1a-2cd2b1a1f79a",
+      "AIN": "5751005020",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 48,
+      "sample_id": "la_cell_00415_09104891-815f-42f4-aa98-28bf63a09062",
+      "AIN": "5751005003",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 49,
+      "sample_id": "la_cell_00415_12249c81-7382-4076-bab3-c657a5fe2867",
+      "AIN": "5751005033",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 50,
+      "sample_id": "la_cell_00415_a2458ba2-c51f-43c9-ba7d-2182892eb41e",
+      "AIN": "5751005004",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 51,
+      "sample_id": "la_cell_00415_bc699b6f-68d2-4a3f-a464-8f4d5440621c",
+      "AIN": "5751008001",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 52,
+      "sample_id": "la_cell_00415_dec5a329-82cd-4d93-b530-9f5482f03106",
+      "AIN": "5853019001",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 53,
+      "sample_id": "la_cell_00416_0106f8bf-1497-4aab-bed8-890be6dc4199",
+      "AIN": "5853007002",
+      "countywide_2014_outlines": 1
+    },
+    {
+      "review_index": 54,
+      "sample_id": "la_cell_00428_5d02c27b-57f4-4ba2-9f44-12afbba15989",
+      "AIN": "5751005044",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 55,
+      "sample_id": "la_cell_00428_600e2d69-ac14-4f44-bcb9-538118795eaa",
+      "AIN": "5751005008",
+      "countywide_2014_outlines": 2
+    },
+    {
+      "review_index": 56,
+      "sample_id": "la_cell_00428_8747f3a6-181e-4df7-8df7-a3972a1dae56",
+      "AIN": "5751005011",
+      "countywide_2014_outlines": 0
+    },
+    {
+      "review_index": 57,
+      "sample_id": "la_cell_00456_b5669b59-e639-430f-b565-7ef792c54ef5",
+      "AIN": "5759009008",
+      "countywide_2014_outlines": 1
+    }
+  ],
+  "limitation": "Older countywide outlines are corroboration, not proof of the 2024 building count or use."
+}

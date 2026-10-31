@@ -1,0 +1,21 @@
+{
+  "model": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+  "revision": "5931719e67bbdb9737e363e781fb0c67687896bc",
+  "files": {
+    "config.json": {
+      "sha256": "3c9cc418f4622fd6d5587fd142b6f3cba0ba6a69f67ced907d8b7f26118451ec",
+      "bytes": 744,
+      "hub_lfs_verified": false
+    },
+    "preprocessor_config.json": {
+      "sha256": "960c41d1f3a7778b936365769a2d90550b318a6c0a53a0296957adacfe5e0dd7",
+      "bytes": 585,
+      "hub_lfs_verified": false
+    },
+    "model.safetensors": {
+      "sha256": "9a21ac3df0c63839d62612dda6f454d816c25611cc7a52966ed5a5a94921dc8b",
+      "bytes": 342662192,
+      "hub_lfs_verified": true
+    }
+  }
+}

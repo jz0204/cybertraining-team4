@@ -1,0 +1,7 @@
+{
+  "evaluation/la_fire_validation/data/lariac_dins_in_region.gpkg": "669ea0bd85c05f30653b142214ea865dd41e889394fbfb2df1e6626b7aaa1ab1",
+  "evaluation/la_fire_validation/data/matched_v2.csv": "cd386be3f34671f860732f74a944b89d96cac537287707dc13219dc72eb0ba5c",
+  "results/final_product/building_damage_all_cells.csv": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806",
+  "handoff/stage2a_la/results/la_v3_full/stage2a_predictions.csv": "f8396bb8a9238c7b134665c7439574c5c286853cfcef681a0843818e29339abf",
+  "handoff/stage2a_la/analysis/20261015_gsd_assessor/raw/assessor_2024.json": "f57a8297a3366d1b97787af95fa38cf692ace4f0de3fff2c2d3ef1a71ea0ef9c"
+}

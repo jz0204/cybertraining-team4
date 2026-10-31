@@ -1,0 +1,62 @@
+[
+  {
+    "code": "B25033_002E",
+    "notebook_assumed_meaning": "pop_1unit_detached",
+    "official_meaning": "Estimate!!Total:!!Owner occupied:"
+  },
+  {
+    "code": "B25033_004E",
+    "notebook_assumed_meaning": "pop_2units",
+    "official_meaning": "Estimate!!Total:!!Owner occupied:!!2 to 4"
+  },
+  {
+    "code": "B25033_005E",
+    "notebook_assumed_meaning": "pop_3to4units",
+    "official_meaning": "Estimate!!Total:!!Owner occupied:!!5 or more"
+  },
+  {
+    "code": "B25033_010E",
+    "notebook_assumed_meaning": "pop_5to9units",
+    "official_meaning": "Estimate!!Total:!!Renter occupied:!!2 to 4"
+  },
+  {
+    "code": "B25033_011E",
+    "notebook_assumed_meaning": "pop_10plus_units",
+    "official_meaning": "Estimate!!Total:!!Renter occupied:!!5 or more"
+  },
+  {
+    "code": "B25032_003E",
+    "notebook_assumed_meaning": "occ_1unit_detached",
+    "official_meaning": "Estimate!!Total:!!Owner-occupied housing units:!!1, detached"
+  },
+  {
+    "code": "B25032_004E",
+    "notebook_assumed_meaning": "occ_2units",
+    "official_meaning": "Estimate!!Total:!!Owner-occupied housing units:!!1, attached"
+  },
+  {
+    "code": "B25032_005E",
+    "notebook_assumed_meaning": "occ_3to4units",
+    "official_meaning": "Estimate!!Total:!!Owner-occupied housing units:!!2"
+  },
+  {
+    "code": "B25032_008E",
+    "notebook_assumed_meaning": "occ_5to9units",
+    "official_meaning": "Estimate!!Total:!!Owner-occupied housing units:!!10 to 19"
+  },
+  {
+    "code": "B25032_011E",
+    "notebook_assumed_meaning": "occ_10plus_units",
+    "official_meaning": "Estimate!!Total:!!Owner-occupied housing units:!!Mobile home"
+  },
+  {
+    "code": "B25002_001E",
+    "notebook_assumed_meaning": "total_housing_units",
+    "official_meaning": "Estimate!!Total:"
+  },
+  {
+    "code": "B25002_002E",
+    "notebook_assumed_meaning": "occupied_housing_units",
+    "official_meaning": "Estimate!!Total:!!Occupied"
+  }
+]

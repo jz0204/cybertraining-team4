@@ -1,0 +1,391 @@
+{
+  "scores": {
+    "CNN_old": {
+      "residential_multi": {
+        "n": 14,
+        "fn": 12,
+        "fp": 25,
+        "roc_auc": 0.6627271161629209,
+        "average_precision": 0.15053414491516426,
+        "wrong_max_probability_gt90": 11,
+        "false_positive_probability_gt90": 2
+      },
+      "commercial": {
+        "n": 42,
+        "fn": 11,
+        "fp": 93,
+        "roc_auc": 0.9513243595310465,
+        "average_precision": 0.526337370412689,
+        "wrong_max_probability_gt90": 8,
+        "false_positive_probability_gt90": 35
+      }
+    },
+    "cnn_ensemble": {
+      "residential_multi": {
+        "n": 14,
+        "fn": 11,
+        "fp": 29,
+        "roc_auc": 0.8336131921122879,
+        "average_precision": 0.22225184406465398,
+        "wrong_max_probability_gt90": 10,
+        "false_positive_probability_gt90": 11
+      },
+      "commercial": {
+        "n": 42,
+        "fn": 14,
+        "fp": 24,
+        "roc_auc": 0.9688811694890722,
+        "average_precision": 0.6328356369992371,
+        "wrong_max_probability_gt90": 12,
+        "false_positive_probability_gt90": 8
+      }
+    },
+    "cnn_lowrise_ensemble": {
+      "residential_multi": {
+        "n": 14,
+        "fn": 11,
+        "fp": 27,
+        "roc_auc": 0.8572935503315251,
+        "average_precision": 0.19827749824917149,
+        "wrong_max_probability_gt90": 9,
+        "false_positive_probability_gt90": 8
+      },
+      "commercial": {
+        "n": 42,
+        "fn": 14,
+        "fp": 21,
+        "roc_auc": 0.9646837458387612,
+        "average_precision": 0.6409209474189167,
+        "wrong_max_probability_gt90": 12,
+        "false_positive_probability_gt90": 11
+      }
+    },
+    "dino_ensemble": {
+      "residential_multi": {
+        "n": 14,
+        "fn": 11,
+        "fp": 40,
+        "roc_auc": 0.8624171187462326,
+        "average_precision": 0.20654999591184353,
+        "wrong_max_probability_gt90": 10,
+        "false_positive_probability_gt90": 8
+      },
+      "commercial": {
+        "n": 42,
+        "fn": 18,
+        "fp": 11,
+        "roc_auc": 0.9688884064264004,
+        "average_precision": 0.7019786801638916,
+        "wrong_max_probability_gt90": 10,
+        "false_positive_probability_gt90": 3
+      }
+    },
+    "cnn_fourplex_ensemble": {
+      "residential_multi": {
+        "n": 14,
+        "fn": 10,
+        "fp": 35,
+        "roc_auc": 0.8657969516920693,
+        "average_precision": 0.2029165235729352,
+        "wrong_max_probability_gt90": 10,
+        "false_positive_probability_gt90": 11
+      },
+      "commercial": {
+        "n": 42,
+        "fn": 14,
+        "fp": 29,
+        "roc_auc": 0.9762483716891011,
+        "average_precision": 0.6507948537866709,
+        "wrong_max_probability_gt90": 10,
+        "false_positive_probability_gt90": 12
+      }
+    }
+  },
+  "priors": {
+    "classes": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "training_effective": [
+      0.7439310521393258,
+      0.10314054357014435,
+      0.1529284042905299
+    ],
+    "validation_raw": [
+      0.502283105022831,
+      0.2899543378995434,
+      0.20776255707762556
+    ],
+    "validation_sampling_weighted": [
+      0.9527934170636639,
+      0.027501082719792118,
+      0.019705500216543957
+    ],
+    "test_observed": [
+      0.9831932773109243,
+      0.004201680672268907,
+      0.012605042016806723
+    ],
+    "note": "Observed test prevalence is diagnostic only; not used to tune thresholds or priors."
+  },
+  "image_groups": {
+    "all_multifamily": {
+      "n": 14,
+      "predictions": {
+        "residential_small": 9,
+        "residential_multi": 4,
+        "commercial": 1
+      },
+      "area_m2_quantiles": [
+        154.9259459977763,
+        338.34144250099143,
+        2550.731674999541
+      ],
+      "feature_mask_area_cells_quantiles": [
+        1.3125,
+        2.77734375,
+        20.6181640625
+      ],
+      "mask_area_ratio_quantiles": [
+        1.0057677554869557,
+        1.0316799344162662,
+        1.0541051363322076
+      ],
+      "ratio_below95": 0,
+      "original_context_unavailable": 0,
+      "saved_rgb_zero_fraction_gt10": 0,
+      "assessor_use_counts": {
+        "0400": 9,
+        "0500": 5
+      }
+    },
+    "missed_multifamily": {
+      "n": 10,
+      "predictions": {
+        "residential_small": 9,
+        "commercial": 1
+      },
+      "area_m2_quantiles": [
+        154.9259459977763,
+        329.6761502505858,
+        473.05621349761014
+      ],
+      "feature_mask_area_cells_quantiles": [
+        1.3125,
+        2.7158203125,
+        3.8515625
+      ],
+      "mask_area_ratio_quantiles": [
+        1.013587534494427,
+        1.034162418122829,
+        1.0541051363322076
+      ],
+      "ratio_below95": 0,
+      "original_context_unavailable": 0,
+      "saved_rgb_zero_fraction_gt10": 0,
+      "assessor_use_counts": {
+        "0400": 8,
+        "0500": 2
+      }
+    },
+    "new_multifamily_false_positive": {
+      "n": 7,
+      "predictions": {
+        "residential_multi": 7
+      },
+      "area_m2_quantiles": [
+        255.684060002162,
+        378.38532149989487,
+        761.8595979978265
+      ],
+      "feature_mask_area_cells_quantiles": [
+        2.2265625,
+        3.06640625,
+        6.1689453125
+      ],
+      "mask_area_ratio_quantiles": [
+        1.0079873901933671,
+        1.0402504370904375,
+        1.0651461163523113
+      ],
+      "ratio_below95": 0,
+      "original_context_unavailable": 3,
+      "saved_rgb_zero_fraction_gt10": 1,
+      "assessor_use_counts": {
+        "0101": 4,
+        "0100": 3
+      }
+    },
+    "missed_commercial": {
+      "n": 14,
+      "predictions": {
+        "residential_small": 13,
+        "residential_multi": 1
+      },
+      "area_m2_quantiles": [
+        92.39429500071867,
+        206.71065249729008,
+        1317.0106400036614
+      ],
+      "feature_mask_area_cells_quantiles": [
+        0.814453125,
+        1.73779296875,
+        10.859375
+      ],
+      "mask_area_ratio_quantiles": [
+        1.018912758810122,
+        1.0286539845341047,
+        1.0839145441491285
+      ],
+      "ratio_below95": 0,
+      "original_context_unavailable": 0,
+      "saved_rgb_zero_fraction_gt10": 0,
+      "assessor_use_counts": {
+        "1700": 4,
+        "1910": 4,
+        "1900": 3,
+        "1100": 2,
+        "1922": 1
+      }
+    },
+    "multifamily_false_positive": {
+      "n": 35,
+      "predictions": {
+        "residential_multi": 35
+      },
+      "area_m2_quantiles": [
+        180.50717100079362,
+        410.81544600330614,
+        1317.0106400036614
+      ],
+      "feature_mask_area_cells_quantiles": [
+        1.5048828125,
+        3.3642578125,
+        10.859375
+      ],
+      "mask_area_ratio_quantiles": [
+        1.0079873901933671,
+        1.0261911486889217,
+        1.0651461163523113
+      ],
+      "ratio_below95": 0,
+      "original_context_unavailable": 11,
+      "saved_rgb_zero_fraction_gt10": 2,
+      "assessor_use_counts": {
+        "0100": 21,
+        "0101": 12,
+        "0104": 1,
+        "1700": 1
+      }
+    }
+  },
+  "context_availability_strata": {
+    "True": {
+      "n": 3157,
+      "multi_negatives": 3143,
+      "multi_fp": 24,
+      "saved_rgb_zero_fraction_gt10": 0
+    },
+    "False": {
+      "n": 175,
+      "multi_negatives": 175,
+      "multi_fp": 11,
+      "saved_rgb_zero_fraction_gt10": 48
+    }
+  },
+  "la_commercial_coverage": {
+    "train": {
+      "n": 177,
+      "use_prefix_counts": {
+        "21": 19,
+        "11": 73,
+        "26": 29,
+        "17": 22,
+        "18": 1,
+        "25": 4,
+        "19": 10,
+        "14": 2,
+        "15": 7,
+        "29": 1,
+        "13": 1,
+        "23": 3,
+        "16": 3,
+        "10": 2
+      },
+      "area_m2_quantiles": [
+        57.26301798348045,
+        451.64381355180456,
+        11900.08178187481
+      ],
+      "area_below300": 56,
+      "office_professional_count": 32
+    },
+    "val": {
+      "n": 91,
+      "use_prefix_counts": {
+        "11": 32,
+        "21": 4,
+        "17": 18,
+        "26": 12,
+        "18": 4,
+        "28": 1,
+        "19": 9,
+        "15": 4,
+        "23": 1,
+        "24": 3,
+        "14": 2,
+        "10": 1
+      },
+      "area_m2_quantiles": [
+        54.079232306246496,
+        351.06185387598896,
+        3430.8616156437197
+      ],
+      "area_below300": 35,
+      "office_professional_count": 27
+    },
+    "test": {
+      "n": 42,
+      "use_prefix_counts": {
+        "17": 8,
+        "19": 14,
+        "25": 1,
+        "11": 8,
+        "26": 1,
+        "21": 4,
+        "14": 3,
+        "23": 2,
+        "24": 1
+      },
+      "office_professional_count": 22
+    },
+    "missed": {
+      "n": 14,
+      "use_prefix_counts": {
+        "17": 4,
+        "19": 8,
+        "11": 2
+      },
+      "office_professional_count": 12
+    }
+  },
+  "architecture": {
+    "feature_shape": [
+      768,
+      7,
+      7
+    ],
+    "input_size": 224,
+    "pooling": "mask_m",
+    "note": "Feature shape confirmed by actual CPU forward of the saved common.py model; weighted cells do not measure independent receptive fields."
+  },
+  "reference_sha256": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5",
+  "training_sha256": "94f95e68cd56968e3a2a5de9d5f6ed99c1c256631eb0096b54a33d98e894d0b8",
+  "assessor_reference_sha256": "c081d5a02fc5a77217487100bd5ea77849ace1dde1c3d9ecc0a2bb3a82d2a92a",
+  "candidates_sha256": "1be720dca5defd48946f69a4871cac4b68b7b36faf3ae8880a483b45eb56f70a",
+  "source_prediction_sha256": {
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_la_fourplex/PREDICTIONS.json": "b5d522ec088bf04f76e6da38cfb513ed5363474504627dd0764ce5d2acab96be",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_la_adaptation/PREDICTIONS.json": "f6dd64f29f5d1b4cc955a074781562255831be3cf8f0d75ac20ece9ee269cf5b"
+  }
+}

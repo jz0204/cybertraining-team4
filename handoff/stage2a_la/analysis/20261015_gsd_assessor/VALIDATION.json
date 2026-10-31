@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "tests": "python -m unittest discover -s handoff/stage2a_la/tests -v",
+  "test_count": 10,
+  "tests_passed": 10,
+  "compilation": "passed for all new scripts",
+  "whitespace_check": "git diff --check passed",
+  "artifact_hash_entries_verified": 40,
+  "raw_uid_geometries_verified": 23014,
+  "archived_labels_reproduced": 23014,
+  "frozen_population_predictions_reproduced": 21888,
+  "cnn_diagnostic_examples": 300,
+  "cnn_ensemble_members": 5,
+  "primary_assessor_rows": 3332,
+  "raw_originals_modified": false,
+  "model_retraining_performed": false
+}

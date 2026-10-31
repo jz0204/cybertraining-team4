@@ -1,0 +1,95 @@
+{
+  "n": 300,
+  "sampling": "100 per archived active class, deterministic random_state=2025; diagnostic training-package sample, not held-out accuracy",
+  "checkpoint_configs": [
+    {
+      "seed": 42,
+      "geometry_cols": [
+        "log_footprint_m2",
+        "mask_fill_ratio",
+        "bbox_aspect_ratio",
+        "geometry_compactness"
+      ],
+      "type_geometry_mode": "concat",
+      "input_mode": "rgb_mask_geometry"
+    },
+    {
+      "seed": 123,
+      "geometry_cols": [
+        "log_footprint_m2",
+        "mask_fill_ratio",
+        "bbox_aspect_ratio",
+        "geometry_compactness"
+      ],
+      "type_geometry_mode": "concat",
+      "input_mode": "rgb_mask_geometry"
+    },
+    {
+      "seed": 2025,
+      "geometry_cols": [
+        "log_footprint_m2",
+        "mask_fill_ratio",
+        "bbox_aspect_ratio",
+        "geometry_compactness"
+      ],
+      "type_geometry_mode": "concat",
+      "input_mode": "rgb_mask_geometry"
+    },
+    {
+      "seed": 3407,
+      "geometry_cols": [
+        "log_footprint_m2",
+        "mask_fill_ratio",
+        "bbox_aspect_ratio",
+        "geometry_compactness"
+      ],
+      "type_geometry_mode": "concat",
+      "input_mode": "rgb_mask_geometry"
+    },
+    {
+      "seed": 7777,
+      "geometry_cols": [
+        "log_footprint_m2",
+        "mask_fill_ratio",
+        "bbox_aspect_ratio",
+        "geometry_compactness"
+      ],
+      "type_geometry_mode": "concat",
+      "input_mode": "rgb_mask_geometry"
+    }
+  ],
+  "intervention": "Same RGB, same mask, same extracted image features; replace only numeric log area, or zero all geometry inputs. No model training.",
+  "original_area": {
+    "class_counts": {
+      "commercial": 104,
+      "residential_multi": 102,
+      "residential_small": 94
+    },
+    "argmax_changed_vs_original": 0,
+    "mean_probability_L1_change": 0.0,
+    "agreement_with_archived_proxy_labels": 0.96,
+    "agreement_with_area_counterfactual_labels": 0.44666666666666666
+  },
+  "physical_area": {
+    "class_counts": {
+      "commercial": 104,
+      "residential_multi": 102,
+      "residential_small": 94
+    },
+    "argmax_changed_vs_original": 0,
+    "mean_probability_L1_change": 0.003846130333840847,
+    "agreement_with_archived_proxy_labels": 0.96,
+    "agreement_with_area_counterfactual_labels": 0.44666666666666666
+  },
+  "zero_geometry": {
+    "class_counts": {
+      "commercial": 104,
+      "residential_multi": 101,
+      "residential_small": 95
+    },
+    "argmax_changed_vs_original": 1,
+    "mean_probability_L1_change": 0.0074693202041089535,
+    "agreement_with_archived_proxy_labels": 0.9633333333333334,
+    "agreement_with_area_counterfactual_labels": 0.45
+  }
+}

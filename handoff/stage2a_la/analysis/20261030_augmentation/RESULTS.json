@@ -1,0 +1,575 @@
+{
+  "metrics": {
+    "baseline": {
+      "n": 3332,
+      "accuracy": 0.9786914765906363,
+      "macro_f1": 0.5803933392384916,
+      "balanced_accuracy": 0.6223036223036224,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9786914765906363,
+      "prediction_counts": {
+        "residential_small": 3253,
+        "commercial": 49,
+        "residential_multi": 30
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929296034429758,
+          "recall": 0.985958485958486,
+          "f1": 0.9894317659672232
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.1,
+          "recall": 0.21428571428571427,
+          "f1": 0.13636363636363635
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1": 0.6153846153846154
+        }
+      },
+      "confusion": [
+        [
+          3230,
+          26,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          28,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "42": {
+      "n": 3332,
+      "accuracy": 0.9810924369747899,
+      "macro_f1": 0.5986818743306579,
+      "balanced_accuracy": 0.6309523809523809,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9810924369747899,
+      "prediction_counts": {
+        "residential_small": 3260,
+        "commercial": 47,
+        "residential_multi": 25
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929447852760737,
+          "recall": 0.9880952380952381,
+          "f1": 0.9905140758873929
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.12,
+          "recall": 0.21428571428571427,
+          "f1": 0.15384615384615385
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.6170212765957447,
+          "recall": 0.6904761904761905,
+          "f1": 0.651685393258427
+        }
+      },
+      "confusion": [
+        [
+          3237,
+          22,
+          17,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "baseline42": {
+      "n": 3332,
+      "accuracy": 0.9801920768307323,
+      "macro_f1": 0.5829816847992456,
+      "balanced_accuracy": 0.6071428571428571,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9801920768307323,
+      "prediction_counts": {
+        "residential_small": 3261,
+        "commercial": 42,
+        "residential_multi": 29
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9926402943882244,
+          "recall": 0.9880952380952381,
+          "f1": 0.9903625516291877
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.10344827586206896,
+          "recall": 0.21428571428571427,
+          "f1": 0.13953488372093023
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.6190476190476191,
+          "recall": 0.6190476190476191,
+          "f1": 0.6190476190476191
+        }
+      },
+      "confusion": [
+        [
+          3237,
+          24,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          2,
+          26,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "43": {
+      "n": 3332,
+      "accuracy": 0.9771908763505402,
+      "macro_f1": 0.555379960186125,
+      "balanced_accuracy": 0.5982905982905983,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9771908763505402,
+      "prediction_counts": {
+        "residential_small": 3252,
+        "commercial": 51,
+        "residential_multi": 29
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.992619926199262,
+          "recall": 0.9853479853479854,
+          "f1": 0.9889705882352942
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.10344827586206896,
+          "recall": 0.21428571428571427,
+          "f1": 0.13953488372093023
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.49019607843137253,
+          "recall": 0.5952380952380952,
+          "f1": 0.5376344086021505
+        }
+      },
+      "confusion": [
+        [
+          3228,
+          23,
+          25,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          3,
+          25,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "baseline43": {
+      "n": 3332,
+      "accuracy": 0.9660864345738295,
+      "macro_f1": 0.518441964196771,
+      "balanced_accuracy": 0.6260683760683761,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9660864345738295,
+      "prediction_counts": {
+        "residential_small": 3209,
+        "commercial": 76,
+        "residential_multi": 47
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9937675288251792,
+          "recall": 0.9734432234432234,
+          "f1": 0.9835003855050116
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.0851063829787234,
+          "recall": 0.2857142857142857,
+          "f1": 0.13114754098360656
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.34210526315789475,
+          "recall": 0.6190476190476191,
+          "f1": 0.4406779661016949
+        }
+      },
+      "confusion": [
+        [
+          3189,
+          38,
+          49,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          5,
+          26,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "augmentation": {
+      "n": 3332,
+      "accuracy": 0.9810924369747899,
+      "macro_f1": 0.5909065948074668,
+      "balanced_accuracy": 0.6231176231176231,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9810924369747899,
+      "prediction_counts": {
+        "residential_small": 3261,
+        "commercial": 49,
+        "residential_multi": 22
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929469487887151,
+          "recall": 0.9884004884004884,
+          "f1": 0.9906685023711183
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.13636363636363635,
+          "recall": 0.21428571428571427,
+          "f1": 0.16666666666666666
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1": 0.6153846153846154
+        }
+      },
+      "confusion": [
+        [
+          3238,
+          18,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          28,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    }
+  },
+  "paired_cell_bootstrap": {
+    "delta_macro_f1": 0.0105132555689752,
+    "ci95": [
+      -0.005782068519857871,
+      0.03448162563008445
+    ],
+    "cells": 92,
+    "draws": 1000
+  },
+  "checks": {
+    "42": {
+      "best_epoch": 3,
+      "sampling_draws_identical": true,
+      "initial_validation_identical": true,
+      "checkpoint_sha256": "3badfcba3cc112f40af2b5b19537625b63395be3fc01770f15f5565787d51fec"
+    },
+    "43": {
+      "best_epoch": 5,
+      "sampling_draws_identical": true,
+      "initial_validation_identical": true,
+      "checkpoint_sha256": "c8725a97e4ba56ae8715274eef88a501aba0aac70af36f68f85a6bb83a047831"
+    }
+  },
+  "multifamily_cases": {
+    "baseline": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00169_f5400e67-bd48-434a-b7f6-dec254a46b57",
+        "la_cell_00183_0a84e703-6e78-40d9-85f5-35e35b03349b",
+        "la_cell_00183_22e001a0-210f-40b7-9332-7bb77a7b3f7e",
+        "la_cell_00183_6ccff10a-62ee-4ac1-92b5-03f5e761cfeb",
+        "la_cell_00183_8d7a5e39-fbf9-4e2c-b23f-ab9443da11d9",
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_bdee26dc-270b-4aac-8b5e-95966d53a89d",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00183_f58dbf2e-1cb5-4f55-863f-a0213c377b94",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_3f824189-606b-47b5-9bcf-88659c0f76e6",
+        "la_cell_00200_e2bcb603-05c8-479a-b418-fb9d39d5aaf6",
+        "la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d",
+        "la_cell_00203_d7f73680-ef72-4f3b-97b4-96f2c17dc88c",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac",
+        "la_cell_00366_eb53614e-e3bd-43ca-b2ea-53546290cc67",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00377_1cece5e3-08e9-422a-8007-8c16d98b08a5",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00385_d91a5091-5381-4137-8cea-46032f7b3d94",
+        "la_cell_00430_01260e2d-eeb3-469f-9633-394a3ca6a004"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    },
+    "augmentation": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00183_0a84e703-6e78-40d9-85f5-35e35b03349b",
+        "la_cell_00183_22e001a0-210f-40b7-9332-7bb77a7b3f7e",
+        "la_cell_00183_6ccff10a-62ee-4ac1-92b5-03f5e761cfeb",
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_e2bcb603-05c8-479a-b418-fb9d39d5aaf6",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac",
+        "la_cell_00369_bd35f933-7c87-4a85-88bd-2c30babc14d3",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00385_d91a5091-5381-4137-8cea-46032f7b3d94"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    }
+  }
+}

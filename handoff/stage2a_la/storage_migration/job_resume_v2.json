@@ -1,0 +1,141 @@
+{
+  "apiVersion": "batch/v1",
+  "kind": "Job",
+  "metadata": {
+    "name": "stage2a-la-data-resume-20261025-v2",
+    "namespace": "instance-impact-stage3"
+  },
+  "spec": {
+    "suspend": true,
+    "backoffLimit": 0,
+    "activeDeadlineSeconds": 7200,
+    "template": {
+      "spec": {
+        "restartPolicy": "Never",
+        "runtimeClassName": "nvidia",
+        "nodeSelector": {
+          "kubernetes.io/hostname": "geog-zk8-wk3.artsci.tamu.edu"
+        },
+        "containers": [
+          {
+            "name": "training",
+            "image": "pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+            "imagePullPolicy": "IfNotPresent",
+            "command": [
+              "/bin/bash",
+              "-c",
+              "set -e -o pipefail; python -u /stage3/stage2a_la_data_20261024/test_data_sampler.py; python -u /resume/resume_data.py 2>&1 | tee /stage3/stage2a_la_data_20261024/resume_20261025.log"
+            ],
+            "env": [
+              {
+                "name": "PYTHONPATH",
+                "value": "/stage3/python_deps:/stage3/stage2a_la_data_20261024/runtime/II_package:/stage3/stage2a_la_data_20261024"
+              },
+              {
+                "name": "TORCH_HOME",
+                "value": "/stage3/stage2a_rebuild_20261015/torch_cache"
+              },
+              {
+                "name": "OMP_NUM_THREADS",
+                "value": "8"
+              },
+              {
+                "name": "MKL_NUM_THREADS",
+                "value": "8"
+              },
+              {
+                "name": "OPENBLAS_NUM_THREADS",
+                "value": "8"
+              },
+              {
+                "name": "NVIDIA_TF32_OVERRIDE",
+                "value": "0"
+              }
+            ],
+            "resources": {
+              "requests": {
+                "cpu": "8",
+                "memory": "32Gi",
+                "nvidia.com/gpu": "1"
+              },
+              "limits": {
+                "cpu": "8",
+                "memory": "32Gi",
+                "nvidia.com/gpu": "1"
+              }
+            },
+            "volumeMounts": [
+              {
+                "name": "workspace",
+                "mountPath": "/stage3"
+              },
+              {
+                "name": "shared-memory",
+                "mountPath": "/dev/shm"
+              },
+              {
+                "name": "resume",
+                "mountPath": "/resume",
+                "readOnly": true
+              },
+              {
+                "name": "active-0",
+                "mountPath": "/stage3/II_package"
+              },
+              {
+                "name": "active-1",
+                "mountPath": "/stage3/stage2a_la_explore_20261023"
+              },
+              {
+                "name": "active-2",
+                "mountPath": "/stage3/stage2a_la_data_20261024"
+              }
+            ]
+          }
+        ],
+        "volumes": [
+          {
+            "name": "workspace",
+            "persistentVolumeClaim": {
+              "claimName": "harvey-workspace"
+            }
+          },
+          {
+            "name": "shared-memory",
+            "emptyDir": {
+              "medium": "Memory",
+              "sizeLimit": "4Gi"
+            }
+          },
+          {
+            "name": "resume",
+            "configMap": {
+              "name": "stage2a-la-resume-20261025"
+            }
+          },
+          {
+            "name": "active-0",
+            "hostPath": {
+              "path": "/home/zhjyu11/active-II_package",
+              "type": "Directory"
+            }
+          },
+          {
+            "name": "active-1",
+            "hostPath": {
+              "path": "/home/zhjyu11/active-stage2a_la_explore_20261023",
+              "type": "Directory"
+            }
+          },
+          {
+            "name": "active-2",
+            "hostPath": {
+              "path": "/home/zhjyu11/active-stage2a_la_data_20261024",
+              "type": "Directory"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

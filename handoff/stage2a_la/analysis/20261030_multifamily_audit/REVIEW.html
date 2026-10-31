@@ -1,0 +1,254 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>LA多户逐栋复核</title>
+<style>body{font:16px system-ui;max-width:1200px;margin:32px auto;padding:0 20px;color:#17202a}nav{position:sticky;top:0;background:white;padding:12px 0;border-bottom:1px solid #bbb}nav a{margin-right:24px}article{margin:40px 0}img{width:100%;height:auto}p{line-height:1.6}h2{margin-bottom:8px}</style>
+<h1>11栋漏判 · 27条误报 · 3栋正确对照</h1><p>当前最佳低层重采样CNN。原测试标签不变；图像观察和工作假设不构成新真值。</p>
+<nav><a href="#FN">漏判11</a><a href="#FP">误报27</a><a href="#TP">正确对照3</a><a href="REPORT.md">分析报告</a></nav>
+<h2 id="FN">FN</h2>
+<article id="FN01"><h2>FN01 · la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531</h2><img loading="lazy" src="cards/FN01.jpg" alt="FN01四视图">
+<p><b>观察：</b>街旁小型浅色平屋顶，旁边另有相似屋顶；目标清晰完整。</p>
+<p><b>标签：</b>重点复核：原4户来自2条assessor建筑记录；同建筑ID在旧轮廓表的AIN为5839009027，冻结参考为5839009039。不能将地块总4户直接视为该栋4户，也不能凭历史AIN差异改标签。</p>
+<p><b>图像：</b>未见明显空白、错位或裁切。</p>
+<p><b>工作判断：</b>标签归属不确定与小体量住宅外观混淆并存。</p>
+</article>
+<article id="FN02"><h2>FN02 · la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26</h2><img loading="lazy" src="cards/FN02.jpg" alt="FN02四视图">
+<p><b>观察：</b>街旁长坡屋顶，后侧有其他结构，形态接近独栋住宅；主屋顶可见。</p>
+<p><b>标签：</b>原5户、单条assessor记录，县级相同建筑ID匹配；航片不能直接计数内部住户。</p>
+<p><b>图像：</b>RGB和mask坐标检查通过；与县级轮廓的覆盖约75.9%，有边界/屋檐差异，需作为轮廓敏感性检查。</p>
+<p><b>工作判断：</b>小体量5户与普通住宅混淆，不能仅靠提高阈值解决。</p>
+</article>
+<article id="FN03"><h2>FN03 · la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9</h2><img loading="lazy" src="cards/FN03.jpg" alt="FN03四视图">
+<p><b>观察：</b>较长的红棕色坡屋顶，前院、侧通道和后排结构均可见。</p>
+<p><b>标签：</b>原4户、单条assessor记录，未发现支持改标的直接证据。</p>
+<p><b>图像：</b>目标完整、无黑边；近景更大但没有显露可靠户数证据。</p>
+<p><b>工作判断：</b>外观类似独栋；当前多户概率约0.245，属于模型混淆。</p>
+</article>
+<article id="FN04"><h2>FN04 · la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848</h2><img loading="lazy" src="cards/FN04.jpg" alt="FN04四视图">
+<p><b>观察：</b>白色长方形平屋顶，邻近多栋平屋顶和道路，环境兼有商业式布局。</p>
+<p><b>标签：</b>原8户、单条assessor记录且同ID轮廓存在；未确认用途错误。</p>
+<p><b>图像：</b>清晰完整，无目标空白或裁切。</p>
+<p><b>工作判断：</b>多户与商业的功能混淆；CNN和DINO都判商业。</p>
+</article>
+<article id="FN05"><h2>FN05 · la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb</h2><img loading="lazy" src="cards/FN05.jpg" alt="FN05四视图">
+<p><b>观察：</b>紧凑的深色坡屋顶，前院、树木及后排屋顶，外观近似普通住宅。</p>
+<p><b>标签：</b>原4户且单条记录；单凭紧凑体量不能判成附属建筑。</p>
+<p><b>图像：</b>目标完整，无显著数据缺失。</p>
+<p><b>工作判断：</b>低层4户正例形态覆盖不足。</p>
+</article>
+<article id="FN06"><h2>FN06 · la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1</h2><img loading="lazy" src="cards/FN06.jpg" alt="FN06四视图">
+<p><b>观察：</b>沿街长红坡屋顶，后侧独立长条结构；与相邻几栋四户候选形态相似。</p>
+<p><b>标签：</b>同地块县级目录实际有2个轮廓，目标是较大一个，影像支持街前主楼解释；原4户标签仍属地块证据。</p>
+<p><b>图像：</b>主屋顶完整；不能把单个评估轮廓解释成地块只有一栋。</p>
+<p><b>工作判断：</b>模型边界及种子不稳定；两个种子分类不同，四户补样模型能识别此例。</p>
+</article>
+<article id="FN07"><h2>FN07 · la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b</h2><img loading="lazy" src="cards/FN07.jpg" alt="FN07四视图">
+<p><b>观察：</b>浅灰色长条屋顶，街道连续住宅布局，旁边有坡屋顶和其他浅色屋顶。</p>
+<p><b>标签：</b>原4户、单条assessor记录，未发现明确错标。</p>
+<p><b>图像：</b>轮廓完整，没有靠扩大裁剪就可恢复的缺失主屋顶。</p>
+<p><b>工作判断：</b>小型多户形态未被学到，模型高置信判小型住宅。</p>
+</article>
+<article id="FN08"><h2>FN08 · la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370</h2><img loading="lazy" src="cards/FN08.jpg" alt="FN08四视图">
+<p><b>观察：</b>约155平方米的小红坡屋顶，旁边有相似屋顶及停车空间；不呈明显车棚外观。</p>
+<p><b>标签：</b>原4户、单条assessor记录，县级同ID轮廓存在。面积小不构成错标证据，独立楼栋用途仍需门址/建筑记录确认。</p>
+<p><b>图像：</b>目标完整且可见，但7×7特征上的目标面积很小。</p>
+<p><b>工作判断：</b>屋顶形态与户数缺乏直接对应，目标表征尺度可能放大混淆。</p>
+</article>
+<article id="FN09"><h2>FN09 · la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87</h2><img loading="lazy" src="cards/FN09.jpg" alt="FN09四视图">
+<p><b>观察：</b>长红坡屋顶，街前主楼与后排长条结构分开；类似FN06。</p>
+<p><b>标签：</b>县级目录2个轮廓，目标为较大一个；没有把后排附属屋顶作为当前目标的明显证据。</p>
+<p><b>图像：</b>目标没有显著裁切，近景可见完整主屋顶。</p>
+<p><b>工作判断：</b>模型把主楼外形当成小型住宅；多户补样后也未稳定识别。</p>
+</article>
+<article id="FN10"><h2>FN10 · la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f</h2><img loading="lazy" src="cards/FN10.jpg" alt="FN10四视图">
+<p><b>观察：</b>长红坡屋顶带侧向凸出，与FN06/FN09同街形态相似，后排结构独立。</p>
+<p><b>标签：</b>县级目录2个轮廓，目标为较大一个；原4户归属没有获得独立楼栋级金标准。</p>
+<p><b>图像：</b>主屋顶完整、无黑边或明显错位。</p>
+<p><b>工作判断：</b>小型四户与独栋的表征混淆。</p>
+</article>
+<article id="FN11"><h2>FN11 · la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab</h2><img loading="lazy" src="cards/FN11.jpg" alt="FN11四视图">
+<p><b>观察：</b>街旁较长红色坡屋顶，周边为低密住宅及院落。</p>
+<p><b>标签：</b>原4户、单条记录，未发现直接错标证据。</p>
+<p><b>图像：</b>完整屋顶可见，目标像素无缺失。</p>
+<p><b>工作判断：</b>小体量多户与普通住宅外观相近，模型高置信漏判。</p>
+</article>
+<h2 id="FP">FP</h2>
+<article id="FP01"><h2>FP01 · la_cell_00169_f5400e67-bd48-434a-b7f6-dec254a46b57</h2><img loading="lazy" src="cards/FP01.jpg" alt="FP01四视图">
+<p><b>观察：</b>长棕色屋顶，院落和沿街停车，住宅式布局。</p>
+<p><b>标签：</b>原1户SFR、单条记录；同ID县级轮廓匹配。</p>
+<p><b>图像：</b>目标完整且有清楚mask。</p>
+<p><b>工作判断：</b>长条住宅形态被当作多户，当前概率接近分类边界。</p>
+</article>
+<article id="FP02"><h2>FP02 · la_cell_00183_0a84e703-6e78-40d9-85f5-35e35b03349b</h2><img loading="lazy" src="cards/FP02.jpg" alt="FP02四视图">
+<p><b>观察：</b>街角宽大灰色平屋顶，前后有独立庭院。</p>
+<p><b>标签：</b>原1户SFR；未见可确认多户的影像证据。</p>
+<p><b>图像：</b>目标完整，无空白。</p>
+<p><b>工作判断：</b>较大平屋顶独栋是缺少的难负例。</p>
+</article>
+<article id="FP03"><h2>FP03 · la_cell_00183_22e001a0-210f-40b7-9332-7bb77a7b3f7e</h2><img loading="lazy" src="cards/FP03.jpg" alt="FP03四视图">
+<p><b>观察：</b>坡地旁狭长白色平屋顶，周围为分散住宅。</p>
+<p><b>标签：</b>原1户SFR且同ID匹配；用途未获新的独立核实。</p>
+<p><b>图像：</b>实际CNN目标可见；300米诊断图底部缺失，原目标轮廓覆盖县级轮廓约62%，需检查建筑轮廓是否只取部分。</p>
+<p><b>工作判断：</b>白色屋顶形态混淆，伴随几何覆盖与宽视野缺失限制。</p>
+</article>
+<article id="FP04"><h2>FP04 · la_cell_00183_6ccff10a-62ee-4ac1-92b5-03f5e761cfeb</h2><img loading="lazy" src="cards/FP04.jpg" alt="FP04四视图">
+<p><b>观察：</b>T形白色平屋顶，后侧可见泳池与庭院。</p>
+<p><b>标签：</b>原1户SFR带Pool；泳池只作环境观察，不作为用途判定规则。</p>
+<p><b>图像：</b>目标完整、轮廓贴合，无缺失。</p>
+<p><b>工作判断：</b>高置信平屋顶独栋误报，主要支持难负例不足。</p>
+</article>
+<article id="FP05"><h2>FP05 · la_cell_00183_8d7a5e39-fbf9-4e2c-b23f-ab9443da11d9</h2><img loading="lazy" src="cards/FP05.jpg" alt="FP05四视图">
+<p><b>观察：</b>白色方形屋顶，屋顶设施、独立庭院及后侧泳池。</p>
+<p><b>标签：</b>原1户SFR带Pool。</p>
+<p><b>图像：</b>目标完整。</p>
+<p><b>工作判断：</b>平屋顶设施与多户/商业形态混淆。</p>
+</article>
+<article id="FP06"><h2>FP06 · la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9</h2><img loading="lazy" src="cards/FP06.jpg" alt="FP06四视图">
+<p><b>观察：</b>浅棕色L形屋顶，与道路和院落相接，邻近泳池。</p>
+<p><b>标签：</b>原1户SFR；未确认真实多户用途。</p>
+<p><b>图像：</b>原mask与产品几何一致，但只覆盖县级参考轮廓约58.4%，可能有屋檐、附接部分或年代差异。</p>
+<p><b>工作判断：</b>高置信住宅误报，轮廓完整性需单独敏感性检查。</p>
+</article>
+<article id="FP07"><h2>FP07 · la_cell_00183_bdee26dc-270b-4aac-8b5e-95966d53a89d</h2><img loading="lazy" src="cards/FP07.jpg" alt="FP07四视图">
+<p><b>观察：</b>白色T形平屋顶，宽松住宅街区及独立院落。</p>
+<p><b>标签：</b>原1户SFR带Pool。</p>
+<p><b>图像：</b>屋顶及mask完整。</p>
+<p><b>工作判断：</b>与多户相似的平屋顶负例，种子不稳定。</p>
+</article>
+<article id="FP08"><h2>FP08 · la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673</h2><img loading="lazy" src="cards/FP08.jpg" alt="FP08四视图">
+<p><b>观察：</b>灰色长方形屋顶带多处小设施，后侧庭院清晰。</p>
+<p><b>标签：</b>原1户SFR且同ID轮廓匹配。</p>
+<p><b>图像：</b>目标完整、无黑边。</p>
+<p><b>工作判断：</b>模型将屋顶形状/设施当成多户证据，高置信误报。</p>
+</article>
+<article id="FP09"><h2>FP09 · la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32</h2><img loading="lazy" src="cards/FP09.jpg" alt="FP09四视图">
+<p><b>观察：</b>较大灰色平屋顶，规则院落及邻近泳池环境。</p>
+<p><b>标签：</b>原1户SFR带Pool。</p>
+<p><b>图像：</b>目标完整，无显著错位。</p>
+<p><b>工作判断：</b>大体量平屋顶独栋误报。</p>
+</article>
+<article id="FP10"><h2>FP10 · la_cell_00183_f58dbf2e-1cb5-4f55-863f-a0213c377b94</h2><img loading="lazy" src="cards/FP10.jpg" alt="FP10四视图">
+<p><b>观察：</b>灰色折角屋顶，建筑围绕院落/泳池，街旁独立住宅布局。</p>
+<p><b>标签：</b>原1户SFR；较新目录找到原ID，旧2014目录ID不同不是用途错标证据。</p>
+<p><b>图像：</b>目标完整，轮廓与较新参考有较高重叠。</p>
+<p><b>工作判断：</b>形态混淆，概率接近边界。</p>
+</article>
+<article id="FP11"><h2>FP11 · la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f</h2><img loading="lazy" src="cards/FP11.jpg" alt="FP11四视图">
+<p><b>观察：</b>大型不规则浅灰屋顶，内侧有深色区域，周边为大型独栋地块。</p>
+<p><b>标签：</b>原1户SFR带Pool；形状大不代表多户。</p>
+<p><b>图像：</b>CNN窗口内完整，但原产品面积明显大于县级轮廓；深色区域可能是内院或屋顶构件，需要更高分辨率确认。</p>
+<p><b>工作判断：</b>大体量独栋与面积/形状特征混淆，几何定义可能放大影响。</p>
+</article>
+<article id="FP12"><h2>FP12 · la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472</h2><img loading="lazy" src="cards/FP12.jpg" alt="FP12四视图">
+<p><b>观察：</b>灰色方形平屋顶，邻接其他独立住宅，街道与院落分明。</p>
+<p><b>标签：</b>原1户SFR；县级目录2个轮廓，当前目标为较大一个。</p>
+<p><b>图像：</b>CNN目标完整；300米诊断图底部缺失。</p>
+<p><b>工作判断：</b>平屋顶住宅误报，缺少相似主楼难负例。</p>
+</article>
+<article id="FP13"><h2>FP13 · la_cell_00200_3f824189-606b-47b5-9bcf-88659c0f76e6</h2><img loading="lazy" src="cards/FP13.jpg" alt="FP13四视图">
+<p><b>观察：</b>长白色平屋顶，独立院落及旁侧泳池。</p>
+<p><b>标签：</b>原1户SFR；同地块2个县级轮廓，目标较大。</p>
+<p><b>图像：</b>目标无空白；县级边界与现影像有一定差异。</p>
+<p><b>工作判断：</b>狭长白屋顶与多户/商业混淆。</p>
+</article>
+<article id="FP14"><h2>FP14 · la_cell_00200_e2bcb603-05c8-479a-b418-fb9d39d5aaf6</h2><img loading="lazy" src="cards/FP14.jpg" alt="FP14四视图">
+<p><b>观察：</b>灰色近方形屋顶，位于独立庭院，邻居为白色长屋顶。</p>
+<p><b>标签：</b>原1户SFR。</p>
+<p><b>图像：</b>目标完整，无空白。</p>
+<p><b>工作判断：</b>多户与商业概率接近，缺少同形独栋负例。</p>
+</article>
+<article id="FP15"><h2>FP15 · la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d</h2><img loading="lazy" src="cards/FP15.jpg" alt="FP15四视图">
+<p><b>观察：</b>街旁狭长白色平屋顶，后侧院落，周边独栋布局。</p>
+<p><b>标签：</b>原1户SFR且同ID轮廓匹配。</p>
+<p><b>图像：</b>CNN目标完整；宽视野底部缺失。</p>
+<p><b>工作判断：</b>白色长屋顶独栋误报。</p>
+</article>
+<article id="FP16"><h2>FP16 · la_cell_00203_d7f73680-ef72-4f3b-97b4-96f2c17dc88c</h2><img loading="lazy" src="cards/FP16.jpg" alt="FP16四视图">
+<p><b>观察：</b>较长深色屋顶贴近相邻红色屋顶，街区包含重复住宅形态。</p>
+<p><b>标签：</b>重点复核：原PUD记录1户；需确认一个产权记录是否对应整栋当前轮廓，不能从PUD名称推断户数。</p>
+<p><b>图像：</b>目标贴CNN裁剪下边缘，mask与产品坐标一致，完整实体屋顶需要单独核对。</p>
+<p><b>工作判断：</b>形态混淆与目标边缘/单元到楼栋归属疑点并存。</p>
+</article>
+<article id="FP17"><h2>FP17 · la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd</h2><img loading="lazy" src="cards/FP17.jpg" alt="FP17四视图">
+<p><b>观察：</b>灰色矩形平屋顶，邻接独立住宅与道路。</p>
+<p><b>标签：</b>原1户SFR带Spa；较新目录同ID存在。</p>
+<p><b>图像：</b>CNN底部约6.6%黑边不覆盖目标；300米视野大面积缺失。</p>
+<p><b>工作判断：</b>目标清晰，黑边只能作为候选背景影响，不能直接归因。</p>
+</article>
+<article id="FP18"><h2>FP18 · la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588</h2><img loading="lazy" src="cards/FP18.jpg" alt="FP18四视图">
+<p><b>观察：</b>浅色住宅屋顶处于原裁剪左下角，邻近屋顶占据较大画面。</p>
+<p><b>标签：</b>原1户SFR带Pool，较新目录原ID存在。</p>
+<p><b>图像：</b>原RGB约38.3%黑边，目标触左/下边；目标mask内无零像素不等于整个屋顶完整。</p>
+<p><b>工作判断：</b>输入边界与几何完整性是本例明确的优先复核项，也可能与邻居形态混淆。</p>
+</article>
+<article id="FP19"><h2>FP19 · la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2</h2><img loading="lazy" src="cards/FP19.jpg" alt="FP19四视图">
+<p><b>观察：</b>灰色矩形屋顶位于原裁剪左侧，边缘外还有屋顶延伸，右侧可见邻居。</p>
+<p><b>标签：</b>原1户SFR；2023编号在当前较新服务未返回，属于目录覆盖限制，不能判错标。</p>
+<p><b>图像：</b>目标触左边，原RGB约9.8%底部黑边；诊断近景显示更完整周边。</p>
+<p><b>工作判断：</b>边界输入及普通住宅外观混淆，需要单独裁剪实验。</p>
+</article>
+<article id="FP20"><h2>FP20 · la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62</h2><img loading="lazy" src="cards/FP20.jpg" alt="FP20四视图">
+<p><b>观察：</b>白色近方形平屋顶，住宅道路、车道及庭院。</p>
+<p><b>标签：</b>原1户SFR且同ID轮廓匹配。</p>
+<p><b>图像：</b>CNN目标完整无缺失；宽视野底部缺失。</p>
+<p><b>工作判断：</b>近分类边界的平屋顶住宅误报。</p>
+</article>
+<article id="FP21"><h2>FP21 · la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac</h2><img loading="lazy" src="cards/FP21.jpg" alt="FP21四视图">
+<p><b>观察：</b>大型长条白色平屋顶，屋顶设备明显，周边有停车及其他建筑。</p>
+<p><b>标签：</b>重点复核：原Office、单条记录，但SQFTmain仅1730平方英尺，远小于约1317平方米的整栋屋顶；可能是子单元/地块到整栋归属，不能据此确定整栋真实用途。</p>
+<p><b>图像：</b>实际目标完整清晰；较新目录同ID重叠约0.888，未见裁剪错误。</p>
+<p><b>工作判断：</b>商业—多户功能混淆，同时存在参考记录粒度疑点。</p>
+</article>
+<article id="FP22"><h2>FP22 · la_cell_00366_eb53614e-e3bd-43ca-b2ea-53546290cc67</h2><img loading="lazy" src="cards/FP22.jpg" alt="FP22四视图">
+<p><b>观察：</b>浅色长坡屋顶紧邻大型连排多户屋顶，目标本身较小。</p>
+<p><b>标签：</b>原1户SFR；较新目录同ID匹配，未确认误贴多户标签。</p>
+<p><b>图像：</b>目标mask完整，邻近大型建筑在CNN视野内。</p>
+<p><b>工作判断：</b>目标与邻居语义混淆是可检验假设，需目标/背景干预而非直接断言。</p>
+</article>
+<article id="FP23"><h2>FP23 · la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d</h2><img loading="lazy" src="cards/FP23.jpg" alt="FP23四视图">
+<p><b>观察：</b>大型U形红色坡屋顶，中间可见内院式区域，位于独立住宅院落。</p>
+<p><b>标签：</b>原1户SFR，单条记录及同ID轮廓存在。</p>
+<p><b>图像：</b>外轮廓完整；mask可能将中央内院并入目标，影响面积与池化，需几何对照。</p>
+<p><b>工作判断：</b>大体量独栋、内院形态与公寓混淆。</p>
+</article>
+<article id="FP24"><h2>FP24 · la_cell_00377_1cece5e3-08e9-422a-8007-8c16d98b08a5</h2><img loading="lazy" src="cards/FP24.jpg" alt="FP24四视图">
+<p><b>观察：</b>深色折角坡屋顶，独立院落，山坡边住宅街。</p>
+<p><b>标签：</b>原1户SFR。</p>
+<p><b>图像：</b>目标完整，无黑边。</p>
+<p><b>工作判断：</b>普通住宅形态误报且概率接近边界。</p>
+</article>
+<article id="FP25"><h2>FP25 · la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385</h2><img loading="lazy" src="cards/FP25.jpg" alt="FP25四视图">
+<p><b>观察：</b>多折面灰色坡屋顶，大片独立院落，邻近一栋红屋顶。</p>
+<p><b>标签：</b>原1户SFR；2023建筑ID在较新服务未返回，旧轮廓形状不同，可能有年代变化。</p>
+<p><b>图像：</b>当前影像内目标完整；不能用旧轮廓直接替换当前目标。</p>
+<p><b>工作判断：</b>高置信复杂大独栋误报；旧几何不足以证明当前影像错位。</p>
+</article>
+<article id="FP26"><h2>FP26 · la_cell_00385_d91a5091-5381-4137-8cea-46032f7b3d94</h2><img loading="lazy" src="cards/FP26.jpg" alt="FP26四视图">
+<p><b>观察：</b>沿弯曲道路的长浅色屋顶，屋后为独立院落。</p>
+<p><b>标签：</b>原1户SFR。</p>
+<p><b>图像：</b>目标完整、无缺失。</p>
+<p><b>工作判断：</b>多户与商业接近各半，狭长屋顶形态混淆。</p>
+</article>
+<article id="FP27"><h2>FP27 · la_cell_00430_01260e2d-eeb3-469f-9633-394a3ca6a004</h2><img loading="lazy" src="cards/FP27.jpg" alt="FP27四视图">
+<p><b>观察：</b>L形棕色坡屋顶及较大庭院，低密住宅布局。</p>
+<p><b>标签：</b>原1户SFR，同ID轮廓存在。</p>
+<p><b>图像：</b>目标完整、无明显错位。</p>
+<p><b>工作判断：</b>不规则住宅形态误报，需要匹配形态的负例。</p>
+</article>
+<h2 id="TP">TP</h2>
+<article id="TP01"><h2>TP01 · la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333</h2><img loading="lazy" src="cards/TP01.jpg" alt="TP01四视图">
+<p><b>观察：</b>明显长条住宅屋顶，与旁边长条楼体平行排列。</p>
+<p><b>标签：</b>原5户；作为正确对照，不是新增金标准。</p>
+<p><b>图像：</b>目标完整且比漏判组更大。</p>
+<p><b>工作判断：</b>模型能识别大体量连排/公寓式形态。</p>
+</article>
+<article id="TP02"><h2>TP02 · la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573</h2><img loading="lazy" src="cards/TP02.jpg" alt="TP02四视图">
+<p><b>观察：</b>较大长条屋顶及周围平行建筑布局。</p>
+<p><b>标签：</b>原8户；作为正确对照。</p>
+<p><b>图像：</b>目标完整，特征面积明显大于漏判组。</p>
+<p><b>工作判断：</b>模型偏向可见的大型多户形态。</p>
+</article>
+<article id="TP03"><h2>TP03 · la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192</h2><img loading="lazy" src="cards/TP03.jpg" alt="TP03四视图">
+<p><b>观察：</b>大型U形建筑组团，尺度与其余小型住宅明显不同。</p>
+<p><b>标签：</b>原26户；作为正确对照。</p>
+<p><b>图像：</b>整个组团在裁剪中可见，目标占据大面积。</p>
+<p><b>工作判断：</b>大型公寓容易识别，不能代表小体量四户识别能力。</p>
+</article>
+</html>

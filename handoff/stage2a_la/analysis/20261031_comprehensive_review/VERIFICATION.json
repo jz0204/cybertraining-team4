@@ -1,0 +1,238 @@
+{
+  "reviewed_at": "2026-10-31T14:33:15.138831-05:00",
+  "scope": "Saved-artifact documentation review; no retraining, new inference, live cluster or browser checks",
+  "checks": {
+    "harris_locked": {
+      "rows": 18036,
+      "split_counts": {
+        "train": 13355,
+        "test": 2653,
+        "val": 2028
+      },
+      "class_counts": {
+        "residential_small": 15621,
+        "commercial": 1132,
+        "residential_multi": 1283
+      }
+    },
+    "harris_clean": {
+      "rows": 18012,
+      "split_counts": {
+        "train": 13333,
+        "test": 2653,
+        "val": 2026
+      },
+      "class_counts": {
+        "residential_small": 15597,
+        "commercial": 1132,
+        "residential_multi": 1283
+      }
+    },
+    "current_C_dataset": {
+      "rows": 18480,
+      "split_counts": {
+        "train": 14710,
+        "val": 438,
+        "test": 3332
+      },
+      "training_domain_classes": {
+        "la:residential_small": 484,
+        "la:residential_multi": 138,
+        "la:commercial": 177,
+        "source:residential_small": 11808,
+        "source:commercial": 963,
+        "source:residential_multi": 1140
+      },
+      "dataset_sha256": "5093ef0b4f3296bff6c0d3e0ec7608b2ea6d0fc0e444ca83d081c1d42e3fe1f3"
+    },
+    "current_C_metric_reconstruction": {
+      "accuracy": 0.9828931572629052,
+      "macro_f1": 0.6103704073039933,
+      "confusion": [
+        [
+          3242,
+          15,
+          19
+        ],
+        [
+          10,
+          3,
+          1
+        ],
+        [
+          12,
+          0,
+          30
+        ]
+      ],
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "tp": 3242,
+          "fp": 22,
+          "fn": 34,
+          "precision": 0.9932598039215687,
+          "recall": 0.9896214896214897,
+          "f1": 0.9914373088685016
+        },
+        "residential_multi": {
+          "n": 14,
+          "tp": 3,
+          "fp": 15,
+          "fn": 11,
+          "precision": 0.16666666666666666,
+          "recall": 0.21428571428571427,
+          "f1": 0.1875
+        },
+        "commercial": {
+          "n": 42,
+          "tp": 30,
+          "fp": 20,
+          "fn": 12,
+          "precision": 0.6,
+          "recall": 0.7142857142857143,
+          "f1": 0.6521739130434783
+        }
+      },
+      "majority_small_accuracy": 0.9831932773109243,
+      "majority_small_macro_f1": 0.3305084745762712,
+      "available_near_wide": 3157
+    },
+    "full_preview": {
+      "n": 22024,
+      "input_status": {
+        "original_valid": 21888,
+        "recovered_pixel_geometry": 136
+      },
+      "class_counts": {
+        "residential_small": 20993,
+        "commercial": 844,
+        "residential_multi": 187
+      },
+      "reference_class_agreement": 3332,
+      "max_probability_difference": 1.817941665649414e-06
+    },
+    "exposure": {
+      "n": 22024,
+      "total": 69023.95545051547,
+      "damaged_total": 17522.956611005426,
+      "saved_test_max_log_error_recorded": 0.0
+    },
+    "census_reconstruction": {
+      "blocks_2020": {
+        "fully_covered_no_missing_original": {
+          "n": 323,
+          "population": 20568.0,
+          "old": {
+            "total": 35166.42543197247,
+            "mae": 51.029256834352715,
+            "bias": 0.7097639747166702
+          },
+          "current_shared": {
+            "total": 33309.015668453445,
+            "mae": 43.757344772940755,
+            "bias": 0.6194581713561573
+          }
+        },
+        "fully_covered_all": {
+          "n": 383,
+          "population": 30129.0,
+          "old": {
+            "total": 54205.33301955322,
+            "mae": 69.34424512638313,
+            "bias": 0.7991082684308546
+          },
+          "current_shared": {
+            "total": 48801.71575699069,
+            "mae": 55.84193091068255,
+            "bias": 0.6197588953164955
+          }
+        },
+        "coverage_99pct_sensitivity": {
+          "n": 397,
+          "population": 31704.0,
+          "old": {
+            "total": 57973.507876740485,
+            "mae": 74.55159626928157,
+            "bias": 0.8285865467051629
+          },
+          "current_shared": {
+            "total": 51436.6700187814,
+            "mae": 58.717389813395656,
+            "bias": 0.622403167385232
+          }
+        }
+      },
+      "block_groups": {
+        "fully_covered_no_missing_original": {
+          "n": 2,
+          "population": 1338.0,
+          "old": {
+            "total": 3481.6972714066665,
+            "mae": 1071.8486357033332,
+            "bias": 1.602165374743398
+          },
+          "current_shared": {
+            "total": 3483.0527245242743,
+            "mae": 1072.5263622621371,
+            "bias": 1.6031784189269613
+          }
+        },
+        "fully_covered_all": {
+          "n": 10,
+          "population": 10157.0,
+          "old": {
+            "total": 16005.0826975926,
+            "mae": 629.4519853431465,
+            "bias": 0.5757687011511863
+          },
+          "current_shared": {
+            "total": 17142.749463030956,
+            "mae": 698.5749463030955,
+            "bias": 0.6877768497618347
+          }
+        },
+        "coverage_99pct_sensitivity": {
+          "n": 11,
+          "population": 11555.0,
+          "old": {
+            "total": 17473.94137935601,
+            "mae": 578.6707759268066,
+            "bias": 0.5122407078629172
+          },
+          "current_shared": {
+            "total": 18821.749747078436,
+            "mae": 660.6136133707668,
+            "bias": 0.62888357828459
+          }
+        }
+      }
+    },
+    "current_asset_hashes": {
+      "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_hard_ablation_20261030/execution/collected/C_positive_negative/runs/cnn_lowrise_s42/best.pt": "faf583335401e88d0e4359066a63854b1db325d4f4f37dd918e07044565f187f",
+      "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_hard_ablation_20261030/execution/collected/C_positive_negative/runs/cnn_lowrise_s43/best.pt": "9780be14c633f67c255ccf25978e38dcb7ffc9864d1ad14377403a370f42e7b9",
+      "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_data_20261024/exposure_oof_20261026/heads/B_semantics_mean3.pkl": "29c66aee57b73d6737ff8b5436502c12f4d231ba3128cbc27f24f859ed3adaac"
+    },
+    "unit_panel": {
+      "n": 51,
+      "classifier_training_overlap": 24,
+      "verified_building_unit_references": 0,
+      "independent_test_references": 0
+    },
+    "document_links": {
+      "local_link_occurrences": 68,
+      "unique_local_targets": 67,
+      "missing": []
+    }
+  },
+  "result": "PASS",
+  "document": {
+    "path": "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/STAGE2A_COMPLETE_REVIEW_2026-10-31.md",
+    "words": 10673,
+    "lines": 675,
+    "sha256": "34975a26aae5b8db219d1ba46270fe4094a74266b3959d180f123b066e8578fc",
+    "toc_anchors": 14,
+    "toc_anchors_valid": true,
+    "code_fences_balanced": true
+  }
+}

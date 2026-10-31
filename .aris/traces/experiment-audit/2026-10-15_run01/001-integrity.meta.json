@@ -1,0 +1,12 @@
+{
+  "call_number": 1,
+  "purpose": "integrity-review",
+  "timestamp": "2026-10-15",
+  "agent_id": "/root/integrity_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "ok"
+}

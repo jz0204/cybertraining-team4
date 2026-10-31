@@ -1,0 +1,1236 @@
+{
+  "protocol_sha256": "4f2ad6f1a04e7261a0cdbd8ff3e4245778f1689c8c9e1adc0afb7ebb0d0ee817",
+  "counts": {
+    "nyc:train:residential_small": 120,
+    "nyc:val:residential_small": 30,
+    "nyc:train:residential_multi": 120,
+    "nyc:val:residential_multi": 30,
+    "nyc:train:commercial": 120,
+    "nyc:val:commercial": 30,
+    "nyc:train:institutional": 120,
+    "nyc:val:institutional": 30,
+    "nyc:train:other": 120,
+    "nyc:val:other": 29,
+    "nyc:train:auxiliary": 120,
+    "nyc:val:auxiliary": 25,
+    "cambridge:test:residential_small": 50,
+    "cambridge:test:residential_multi": 50,
+    "cambridge:test:commercial": 50,
+    "cambridge:test:institutional": 50,
+    "cambridge:test:other": 50,
+    "cambridge:test:auxiliary": 50,
+    "seattle:test:residential_small": 50,
+    "seattle:test:residential_multi": 50,
+    "seattle:test:commercial": 45,
+    "seattle:test:institutional": 50,
+    "seattle:test:other": 49
+  },
+  "results": {
+    "dino_frozen_s42": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.408,
+          "macro_f1": 0.37700185822185334,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.5,
+              "recall": 0.06,
+              "f1": 0.10714285714285714
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.34951456310679613,
+              "recall": 0.72,
+              "f1": 0.47058823529411764
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.9230769230769231,
+              "recall": 0.24,
+              "f1": 0.38095238095238093
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.2976190476190476,
+              "recall": 0.5,
+              "f1": 0.373134328358209
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.5909090909090909,
+              "recall": 0.52,
+              "f1": 0.5531914893617021
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.9,
+          "macro_f1": 0.8375568551007146,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.9661016949152542,
+              "recall": 0.912,
+              "f1": 0.9382716049382716
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.65625,
+              "recall": 0.84,
+              "f1": 0.7368421052631579
+            }
+          }
+        },
+        "selective_use": {
+          "n": 250,
+          "accuracy": 0.304,
+          "macro_f1": 0.32880143517413857,
+          "coverage": 0.672,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6,
+              "recall": 0.06,
+              "f1": 0.10909090909090909
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.35064935064935066,
+              "recall": 0.54,
+              "f1": 0.4251968503937008
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.18181818181818182
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.36,
+              "recall": 0.36,
+              "f1": 0.36
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.7419354838709677,
+              "recall": 0.46,
+              "f1": 0.5679012345679012
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.3729508196721312,
+          "macro_f1": 0.3259876853851326,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.18181818181818182,
+              "recall": 0.24,
+              "f1": 0.20689655172413793
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.8571428571428571,
+              "recall": 0.13333333333333333,
+              "f1": 0.23076923076923078
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.29133858267716534,
+              "recall": 0.74,
+              "f1": 0.4180790960451977
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.8181818181818182,
+              "recall": 0.7346938775510204,
+              "f1": 0.7741935483870968
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.9262295081967213,
+          "macro_f1": 0.9617021276595744,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.9262295081967213,
+              "f1": 0.9617021276595744
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "selective_use": {
+          "n": 244,
+          "accuracy": 0.3237704918032787,
+          "macro_f1": 0.3050123433480142,
+          "coverage": 0.8073770491803278,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.22641509433962265,
+              "recall": 0.24,
+              "f1": 0.23300970873786409
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 1.0,
+              "recall": 0.08888888888888889,
+              "f1": 0.16326530612244897
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.32710280373831774,
+              "recall": 0.7,
+              "f1": 0.445859872611465
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.8484848484848485,
+              "recall": 0.5714285714285714,
+              "f1": 0.6829268292682927
+            }
+          }
+        }
+      }
+    },
+    "dino_frozen_s43": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.432,
+          "macro_f1": 0.41801238453550627,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.5714285714285714,
+              "recall": 0.24,
+              "f1": 0.3380281690140845
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.35802469135802467,
+              "recall": 0.58,
+              "f1": 0.44274809160305345
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.9,
+              "recall": 0.18,
+              "f1": 0.3
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.31868131868131866,
+              "recall": 0.58,
+              "f1": 0.41134751773049644
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.6170212765957447,
+              "recall": 0.58,
+              "f1": 0.5979381443298969
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.8866666666666667,
+          "macro_f1": 0.8292143861764114,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.9821428571428571,
+              "recall": 0.88,
+              "f1": 0.9282700421940928
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.6052631578947368,
+              "recall": 0.92,
+              "f1": 0.7301587301587301
+            }
+          }
+        },
+        "selective_use": {
+          "n": 250,
+          "accuracy": 0.324,
+          "macro_f1": 0.36135792078619167,
+          "coverage": 0.664,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6363636363636364,
+              "recall": 0.14,
+              "f1": 0.22950819672131148
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.34545454545454546,
+              "recall": 0.38,
+              "f1": 0.3619047619047619
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.18181818181818182
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.4339622641509434,
+              "recall": 0.46,
+              "f1": 0.44660194174757284
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.6428571428571429,
+              "recall": 0.54,
+              "f1": 0.5869565217391305
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.4139344262295082,
+          "macro_f1": 0.3623271066963499,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6666666666666666,
+              "recall": 0.04,
+              "f1": 0.07547169811320754
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.24324324324324326,
+              "recall": 0.36,
+              "f1": 0.2903225806451613
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.8333333333333334,
+              "recall": 0.1111111111111111,
+              "f1": 0.19607843137254902
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.336283185840708,
+              "recall": 0.76,
+              "f1": 0.4662576687116564
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.7916666666666666,
+              "recall": 0.7755102040816326,
+              "f1": 0.7835051546391752
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.8565573770491803,
+          "macro_f1": 0.9227373068432672,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.8565573770491803,
+              "f1": 0.9227373068432672
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "selective_use": {
+          "n": 244,
+          "accuracy": 0.38114754098360654,
+          "macro_f1": 0.34632681092561324,
+          "coverage": 0.8483606557377049,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 1.0,
+              "recall": 0.02,
+              "f1": 0.0392156862745098
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.23728813559322035,
+              "recall": 0.28,
+              "f1": 0.25688073394495414
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 1.0,
+              "recall": 0.06666666666666667,
+              "f1": 0.125
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.37,
+              "recall": 0.74,
+              "f1": 0.49333333333333335
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.8636363636363636,
+              "recall": 0.7755102040816326,
+              "f1": 0.8172043010752689
+            }
+          }
+        }
+      }
+    },
+    "dino_finetune_s42": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.488,
+          "macro_f1": 0.47231246113072667,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.4782608695652174,
+              "recall": 0.22,
+              "f1": 0.3013698630136986
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.39823008849557523,
+              "recall": 0.9,
+              "f1": 0.5521472392638037
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.8260869565217391,
+              "recall": 0.38,
+              "f1": 0.5205479452054794
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.40425531914893614,
+              "recall": 0.38,
+              "f1": 0.3917525773195876
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.6363636363636364,
+              "recall": 0.56,
+              "f1": 0.5957446808510638
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.88,
+          "macro_f1": 0.821239406779661,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.9819819819819819,
+              "recall": 0.872,
+              "f1": 0.923728813559322
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.5897435897435898,
+              "recall": 0.92,
+              "f1": 0.71875
+            }
+          }
+        },
+        "selective_use": {
+          "n": 250,
+          "accuracy": 0.372,
+          "macro_f1": 0.4143609950421096,
+          "coverage": 0.7,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6,
+              "recall": 0.12,
+              "f1": 0.2
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.38372093023255816,
+              "recall": 0.66,
+              "f1": 0.4852941176470588
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.9333333333333333,
+              "recall": 0.28,
+              "f1": 0.4307692307692308
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.5,
+              "recall": 0.26,
+              "f1": 0.34210526315789475
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.7105263157894737,
+              "recall": 0.54,
+              "f1": 0.6136363636363636
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.4098360655737705,
+          "macro_f1": 0.36407039276714226,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.22666666666666666,
+              "recall": 0.34,
+              "f1": 0.272
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.6923076923076923,
+              "recall": 0.2,
+              "f1": 0.3103448275862069
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.34234234234234234,
+              "recall": 0.76,
+              "f1": 0.4720496894409938
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.8,
+              "recall": 0.7346938775510204,
+              "f1": 0.7659574468085106
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.860655737704918,
+          "macro_f1": 0.9251101321585903,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.860655737704918,
+              "f1": 0.9251101321585903
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "selective_use": {
+          "n": 244,
+          "accuracy": 0.3442622950819672,
+          "macro_f1": 0.34611330321572215,
+          "coverage": 0.7581967213114754,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.24074074074074073,
+              "recall": 0.26,
+              "f1": 0.25
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.7777777777777778,
+              "recall": 0.15555555555555556,
+              "f1": 0.25925925925925924
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.36904761904761907,
+              "recall": 0.62,
+              "f1": 0.4626865671641791
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.868421052631579,
+              "recall": 0.673469387755102,
+              "f1": 0.7586206896551724
+            }
+          }
+        }
+      }
+    },
+    "dino_finetune_s43": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.476,
+          "macro_f1": 0.46287280556292076,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.4838709677419355,
+              "recall": 0.3,
+              "f1": 0.37037037037037035
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.35833333333333334,
+              "recall": 0.86,
+              "f1": 0.5058823529411764
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.7037037037037037,
+              "recall": 0.38,
+              "f1": 0.4935064935064935
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.52,
+              "recall": 0.26,
+              "f1": 0.3466666666666667
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.6170212765957447,
+              "recall": 0.58,
+              "f1": 0.5979381443298969
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.9133333333333333,
+          "macro_f1": 0.8610715303505272,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.9786324786324786,
+              "recall": 0.916,
+              "f1": 0.9462809917355371
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.6818181818181818,
+              "recall": 0.9,
+              "f1": 0.7758620689655172
+            }
+          }
+        },
+        "selective_use": {
+          "n": 250,
+          "accuracy": 0.372,
+          "macro_f1": 0.42656686149559364,
+          "coverage": 0.644,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6923076923076923,
+              "recall": 0.18,
+              "f1": 0.2857142857142857
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.4125,
+              "recall": 0.66,
+              "f1": 0.5076923076923077
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.85,
+              "recall": 0.34,
+              "f1": 0.4857142857142857
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.5833333333333334,
+              "recall": 0.14,
+              "f1": 0.22580645161290322
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.75,
+              "recall": 0.54,
+              "f1": 0.627906976744186
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.4672131147540984,
+          "macro_f1": 0.4362689146585096,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 1.0,
+              "recall": 0.02,
+              "f1": 0.0392156862745098
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.3116883116883117,
+              "recall": 0.48,
+              "f1": 0.3779527559055118
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.6785714285714286,
+              "recall": 0.4222222222222222,
+              "f1": 0.5205479452054794
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.3684210526315789,
+              "recall": 0.7,
+              "f1": 0.4827586206896552
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.813953488372093,
+              "recall": 0.7142857142857143,
+              "f1": 0.7608695652173914
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.8975409836065574,
+          "macro_f1": 0.9460043196544277,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.8975409836065574,
+              "f1": 0.9460043196544277
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "selective_use": {
+          "n": 244,
+          "accuracy": 0.3360655737704918,
+          "macro_f1": 0.3608723701212204,
+          "coverage": 0.6844262295081968,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.2641509433962264,
+              "recall": 0.28,
+              "f1": 0.27184466019417475
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.75,
+              "recall": 0.2,
+              "f1": 0.3157894736842105
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.417910447761194,
+              "recall": 0.56,
+              "f1": 0.47863247863247865
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.8857142857142857,
+              "recall": 0.6326530612244898,
+              "f1": 0.7380952380952381
+            }
+          }
+        }
+      }
+    },
+    "qwen_nf4_zero": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.428,
+          "macro_f1": 0.3742927858566496,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.36283185840707965,
+              "recall": 0.82,
+              "f1": 0.5030674846625767
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 1.0,
+              "recall": 0.04,
+              "f1": 0.07692307692307693
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.3333333333333333,
+              "recall": 0.52,
+              "f1": 0.40625
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.8,
+              "recall": 0.16,
+              "f1": 0.26666666666666666
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.6382978723404256,
+              "recall": 0.6,
+              "f1": 0.6185567010309279
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.83,
+          "macro_f1": 0.47225000862336586,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.835016835016835,
+              "recall": 0.992,
+              "f1": 0.906764168190128
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.3333333333333333,
+              "recall": 0.02,
+              "f1": 0.03773584905660377
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.5245901639344263,
+          "macro_f1": 0.43688139841128243,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.45454545454545453,
+              "recall": 1.0,
+              "f1": 0.625
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.43478260869565216,
+              "recall": 0.6666666666666666,
+              "f1": 0.5263157894736842
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.8888888888888888,
+              "recall": 0.16,
+              "f1": 0.2711864406779661
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.7142857142857143,
+              "recall": 0.8163265306122449,
+              "f1": 0.7619047619047619
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.9918032786885246,
+          "macro_f1": 0.9958847736625515,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.9918032786885246,
+              "f1": 0.9958847736625515
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      }
+    },
+    "qwen_qlora_s42": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.448,
+          "macro_f1": 0.4499740738730981,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.5,
+              "recall": 0.36,
+              "f1": 0.4186046511627907
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.28888888888888886,
+              "recall": 0.26,
+              "f1": 0.2736842105263158
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.3918918918918919,
+              "recall": 0.58,
+              "f1": 0.46774193548387094
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.4166666666666667,
+              "recall": 0.5,
+              "f1": 0.45454545454545453
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.7714285714285715,
+              "recall": 0.54,
+              "f1": 0.6352941176470588
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.9566666666666667,
+          "macro_f1": 0.9271286832713617,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.991701244813278,
+              "recall": 0.956,
+              "f1": 0.9735234215885947
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.8135593220338984,
+              "recall": 0.96,
+              "f1": 0.8807339449541285
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.5409836065573771,
+          "macro_f1": 0.5400788738719773,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.7291666666666666,
+              "recall": 0.7,
+              "f1": 0.7142857142857143
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.42857142857142855,
+              "recall": 0.24,
+              "f1": 0.3076923076923077
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.34444444444444444,
+              "recall": 0.6888888888888889,
+              "f1": 0.45925925925925926
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.6756756756756757,
+              "recall": 0.5,
+              "f1": 0.5747126436781609
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.7073170731707317,
+              "recall": 0.5918367346938775,
+              "f1": 0.6444444444444445
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.9549180327868853,
+          "macro_f1": 0.9769392033542977,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.9549180327868853,
+              "f1": 0.9769392033542977
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      }
+    },
+    "qwen_qlora_s43": {
+      "cambridge": {
+        "use": {
+          "n": 250,
+          "accuracy": 0.428,
+          "macro_f1": 0.40604171761771823,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.4067796610169492,
+              "recall": 0.48,
+              "f1": 0.44036697247706424
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.24,
+              "recall": 0.12,
+              "f1": 0.16
+            },
+            "commercial": {
+              "n": 50,
+              "precision": 0.5,
+              "recall": 0.28,
+              "f1": 0.358974358974359
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.3466666666666667,
+              "recall": 0.52,
+              "f1": 0.416
+            },
+            "other": {
+              "n": 50,
+              "precision": 0.5873015873015873,
+              "recall": 0.74,
+              "f1": 0.6548672566371682
+            }
+          }
+        },
+        "role": {
+          "n": 300,
+          "accuracy": 0.93,
+          "macro_f1": 0.8899351840528311,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 250,
+              "precision": 0.9956709956709957,
+              "recall": 0.92,
+              "f1": 0.9563409563409564
+            },
+            "auxiliary": {
+              "n": 50,
+              "precision": 0.7101449275362319,
+              "recall": 0.98,
+              "f1": 0.8235294117647058
+            }
+          }
+        }
+      },
+      "seattle": {
+        "use": {
+          "n": 244,
+          "accuracy": 0.5573770491803278,
+          "macro_f1": 0.5093501880879223,
+          "coverage": 1.0,
+          "per_class": {
+            "residential_small": {
+              "n": 50,
+              "precision": 0.6551724137931034,
+              "recall": 0.76,
+              "f1": 0.7037037037037037
+            },
+            "residential_multi": {
+              "n": 50,
+              "precision": 0.2222222222222222,
+              "recall": 0.04,
+              "f1": 0.06779661016949153
+            },
+            "commercial": {
+              "n": 45,
+              "precision": 0.46,
+              "recall": 0.5111111111111111,
+              "f1": 0.4842105263157895
+            },
+            "institutional": {
+              "n": 50,
+              "precision": 0.532258064516129,
+              "recall": 0.66,
+              "f1": 0.5892857142857143
+            },
+            "other": {
+              "n": 49,
+              "precision": 0.6153846153846154,
+              "recall": 0.8163265306122449,
+              "f1": 0.7017543859649122
+            }
+          }
+        },
+        "role": {
+          "n": 244,
+          "accuracy": 0.9385245901639344,
+          "macro_f1": 0.9682875264270613,
+          "coverage": 1.0,
+          "per_class": {
+            "primary": {
+              "n": 244,
+              "precision": 1.0,
+              "recall": 0.9385245901639344,
+              "f1": 0.9682875264270613
+            },
+            "auxiliary": {
+              "n": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "paired_spatial_block_bootstrap": {
+    "cambridge:dino_finetune": {
+      "delta": 0.07008551196814392,
+      "ci95": [
+        0.028213169913588822,
+        0.11558725468901371
+      ],
+      "spatial_blocks": 9,
+      "buildings": 250,
+      "draws": 500
+    },
+    "cambridge:qwen_qlora": {
+      "delta": 0.05371510988875858,
+      "ci95": [
+        0.003925317539364137,
+        0.1290430230860698
+      ],
+      "spatial_blocks": 9,
+      "buildings": 250,
+      "draws": 500
+    },
+    "seattle:dino_finetune": {
+      "delta": 0.056012257672084675,
+      "ci95": [
+        0.02874215995918348,
+        0.08400051480557001
+      ],
+      "spatial_blocks": 59,
+      "buildings": 244,
+      "draws": 500
+    },
+    "seattle:qwen_qlora": {
+      "delta": 0.08783313256866737,
+      "ci95": [
+        0.04073516303292785,
+        0.1458681743884763
+      ],
+      "spatial_blocks": 59,
+      "buildings": 244,
+      "draws": 500
+    }
+  },
+  "limits": [
+    "Official-source references, not independent human or exact-imagery-date gold.",
+    "Purposive class-stratified samples; accuracy is not city prevalence-weighted accuracy.",
+    "Seattle has primary-role references only; no Seattle auxiliary recall estimate.",
+    "Conditional building-use classification on supplied footprints; no detector AP measured."
+  ]
+}

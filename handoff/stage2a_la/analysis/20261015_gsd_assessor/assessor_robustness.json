@@ -1,0 +1,120 @@
+{
+  "primary_no_zero_pixels": {
+    "n": 2932,
+    "accuracy": 0.06855388813096862,
+    "macro_f1": 0.04783803739183349,
+    "confusion_rows_truth_columns_prediction": [
+      [
+        169,
+        727,
+        1980
+      ],
+      [
+        1,
+        1,
+        12
+      ],
+      [
+        4,
+        7,
+        31
+      ]
+    ],
+    "classes": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "per_class": {
+      "residential_small": {
+        "precision": 0.9712643678160919,
+        "recall": 0.05876216968011127,
+        "f1-score": 0.11081967213114755,
+        "support": 2876.0
+      },
+      "residential_multi": {
+        "precision": 0.0013605442176870747,
+        "recall": 0.07142857142857142,
+        "f1-score": 0.0026702269692923898,
+        "support": 14.0
+      },
+      "commercial": {
+        "precision": 0.01532377656945131,
+        "recall": 0.7380952380952381,
+        "f1-score": 0.03002421307506053,
+        "support": 42.0
+      }
+    },
+    "truth_counts": {
+      "residential_small": 2876,
+      "commercial": 42,
+      "residential_multi": 14
+    },
+    "prediction_counts": {
+      "commercial": 2023,
+      "residential_multi": 735,
+      "residential_small": 174
+    },
+    "majority_small_accuracy": 0.9809004092769441,
+    "majority_small_macro_f1": 0.330119375573921
+  },
+  "primary_iou70_exploratory": {
+    "n": 1943,
+    "accuracy": 0.0514668039114771,
+    "macro_f1": 0.03801465883525433,
+    "confusion_rows_truth_columns_prediction": [
+      [
+        74,
+        461,
+        1363
+      ],
+      [
+        1,
+        1,
+        10
+      ],
+      [
+        2,
+        6,
+        25
+      ]
+    ],
+    "classes": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "per_class": {
+      "residential_small": {
+        "precision": 0.961038961038961,
+        "recall": 0.03898840885142255,
+        "f1-score": 0.0749367088607595,
+        "support": 1898.0
+      },
+      "residential_multi": {
+        "precision": 0.002136752136752137,
+        "recall": 0.08333333333333333,
+        "f1-score": 0.004166666666666667,
+        "support": 12.0
+      },
+      "commercial": {
+        "precision": 0.0178826895565093,
+        "recall": 0.7575757575757576,
+        "f1-score": 0.03494060097833683,
+        "support": 33.0
+      }
+    },
+    "truth_counts": {
+      "residential_small": 1898,
+      "commercial": 33,
+      "residential_multi": 12
+    },
+    "prediction_counts": {
+      "commercial": 1398,
+      "residential_multi": 468,
+      "residential_small": 77
+    },
+    "majority_small_accuracy": 0.9768399382398353,
+    "majority_small_macro_f1": 0.32942810032109693
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "reviewer": "assistant_visual_screening_not_independent_human_gold",
+  "viewed": "all 57 near/wide pairs in sheets01-10; no model predictions shown",
+  "labels_changed": 0,
+  "records": [
+    {
+      "review_index": 1,
+      "sample_id": "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+      "observation": "Multiple assessor building records; image cannot assign parcel units to this one target.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 2,
+      "sample_id": "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 3,
+      "sample_id": "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 4,
+      "sample_id": "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 5,
+      "sample_id": "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 6,
+      "sample_id": "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 7,
+      "sample_id": "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 8,
+      "sample_id": "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+      "observation": "Vegetation and shadow partly obscure target roof.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 9,
+      "sample_id": "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+      "observation": "Outline appears to cover one part of a continuous roof; check building/parcel boundary.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 10,
+      "sample_id": "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 11,
+      "sample_id": "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+      "observation": "Roof partly shadowed/occluded by vegetation.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 12,
+      "sample_id": "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+      "observation": "Outline appears to cover one part of a continuous roof; check building/parcel boundary.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 13,
+      "sample_id": "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+      "observation": "Outline appears to cover one part of a continuous roof; check building/parcel boundary.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 14,
+      "sample_id": "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 15,
+      "sample_id": "la_cell_00107_ad66a0b1-06f7-412c-875d-e3cd5363bba2",
+      "observation": "Very small detached-looking roof; office use cannot be established visually.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 16,
+      "sample_id": "la_cell_00364_0d691854-675a-4f52-be49-91868c0e3982",
+      "observation": "Residential-looking pitched-roof structure with medical/dental reference; converted use cannot be verified aerially.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 17,
+      "sample_id": "la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 18,
+      "sample_id": "la_cell_00364_3ecd767a-3dee-48fe-8637-8bf5444b70fe",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 19,
+      "sample_id": "la_cell_00364_59dbd09d-3feb-4367-a87d-40f065478b08",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 20,
+      "sample_id": "la_cell_00364_6fd677a2-f208-47c3-ad95-b4d2ee677f87",
+      "observation": "Target appears adjacent to or part of continuous nearby roofs; roof/building boundary uncertain.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 21,
+      "sample_id": "la_cell_00364_7a25eadb-774a-46b7-9a2b-90ea7968d339",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 22,
+      "sample_id": "la_cell_00364_91927654-ef96-42f2-b599-99c41acf84b5",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 23,
+      "sample_id": "la_cell_00364_cdb68eed-3493-4031-bb32-b0167f1b4163",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 24,
+      "sample_id": "la_cell_00364_f7be62be-d426-4521-ac9a-5baa03bbfa32",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 25,
+      "sample_id": "la_cell_00365_1ed0ea72-1345-4f97-b58e-740b523a4924",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 26,
+      "sample_id": "la_cell_00365_36791316-59d3-4342-9e38-d637cf537dce",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 27,
+      "sample_id": "la_cell_00365_3f4f2a8d-e7c1-4161-a244-d0322bb1f209",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 28,
+      "sample_id": "la_cell_00365_47f0e135-aed9-49fc-8dbd-b20847a28fd3",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 29,
+      "sample_id": "la_cell_00365_4c3e5a4d-bab6-46fb-babf-bcf50293db8c",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 30,
+      "sample_id": "la_cell_00365_6675a1e3-76d9-4c75-b344-95cc9d9aab04",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 31,
+      "sample_id": "la_cell_00365_7251866c-c633-4236-bd81-ee0332bc9b7d",
+      "observation": "Multiple assessor building records; roof visible, parcel-to-building assignment uncertain.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 32,
+      "sample_id": "la_cell_00365_97307f88-80ea-47b2-baa5-63dd72a3e939",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 33,
+      "sample_id": "la_cell_00365_a8b9fdea-ea3c-45b1-bf57-57b18b2e24b2",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 34,
+      "sample_id": "la_cell_00365_ac97a36c-7545-4725-894a-dd5af3ef384a",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 35,
+      "sample_id": "la_cell_00365_b5cf424b-9ecd-40eb-8136-05b2be36e81e",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 36,
+      "sample_id": "la_cell_00365_dd0c579e-2d29-4bd2-b9c0-f2cd34e8f543",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 37,
+      "sample_id": "la_cell_00365_f15bb546-66ee-4e6a-acf4-5084ceb49b22",
+      "observation": "Small target beside a larger roof; attachment/role uncertain.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 38,
+      "sample_id": "la_cell_00365_f8d300a5-3086-4b12-ab68-09430ddc4cb4",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 39,
+      "sample_id": "la_cell_00365_f8fe43e5-b77e-45db-87fa-73fa2a6f6eae",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 40,
+      "sample_id": "la_cell_00366_5c846695-ff58-410b-a3bd-1453359bac9a",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 41,
+      "sample_id": "la_cell_00366_695a23cb-9f8a-405c-93f1-fc7b83555323",
+      "observation": "Narrow target near larger roofs; possible partial building or ancillary roof, unverified.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 42,
+      "sample_id": "la_cell_00366_7cc6260b-74c3-4f85-8027-86a62a6add15",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 43,
+      "sample_id": "la_cell_00366_84da5731-149e-431e-a23b-b85368474d6d",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 44,
+      "sample_id": "la_cell_00366_a07b3802-21e2-4824-868f-e41544d2dba5",
+      "observation": "Multiple assessor building records; target roof visible but parcel assignment not resolved.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 45,
+      "sample_id": "la_cell_00366_b17080e1-76f7-4157-8695-0c91fcd2f3bc",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 46,
+      "sample_id": "la_cell_00366_dd99f7f3-ea90-4fa3-b0f3-061704a003ed",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 47,
+      "sample_id": "la_cell_00415_02d5bcfe-a954-4457-bc1a-2cd2b1a1f79a",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 48,
+      "sample_id": "la_cell_00415_09104891-815f-42f4-aa98-28bf63a09062",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 49,
+      "sample_id": "la_cell_00415_12249c81-7382-4076-bab3-c657a5fe2867",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 50,
+      "sample_id": "la_cell_00415_a2458ba2-c51f-43c9-ba7d-2182892eb41e",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 51,
+      "sample_id": "la_cell_00415_bc699b6f-68d2-4a3f-a464-8f4d5440621c",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 52,
+      "sample_id": "la_cell_00415_dec5a329-82cd-4d93-b530-9f5482f03106",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 53,
+      "sample_id": "la_cell_00416_0106f8bf-1497-4aab-bed8-890be6dc4199",
+      "observation": "Target contains strong tree shadows and a narrow roof/covered area; use and ancillary role unclear.",
+      "flagged_for_followup": true
+    },
+    {
+      "review_index": 54,
+      "sample_id": "la_cell_00428_5d02c27b-57f4-4ba2-9f44-12afbba15989",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 55,
+      "sample_id": "la_cell_00428_600e2d69-ac14-4f44-bcb9-538118795eaa",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 56,
+      "sample_id": "la_cell_00428_8747f3a6-181e-4df7-8df7-a3972a1dae56",
+      "observation": "Marked roof is visible in near and wide views; no obvious blank image. Actual use/unit count is not established by aerial appearance.",
+      "flagged_for_followup": false
+    },
+    {
+      "review_index": 57,
+      "sample_id": "la_cell_00456_b5669b59-e639-430f-b565-7ef792c54ef5",
+      "observation": "UseCode0101 and Units4 conflict; aerial appearance cannot resolve it.",
+      "flagged_for_followup": true
+    }
+  ]
+}

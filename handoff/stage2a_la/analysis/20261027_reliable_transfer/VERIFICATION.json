@@ -1,0 +1,39 @@
+{
+  "verified_utc": "2026-10-28T03:56:02.768189+00:00",
+  "scoring": "Independent sklearn script exit0; saved per-city metrics agree to 1e-10; frozen IDs, source-only selection and raw parsing verified.",
+  "download": {
+    "files": 56,
+    "bytes": 299117399,
+    "all_hashes_match": true,
+    "complete_models": 7,
+    "includes_all_checkpoints": true,
+    "images_already_local": true
+  },
+  "source_replay_exact": {
+    "seed42": 174,
+    "seed43": 174
+  },
+  "trained_artifacts_hash_unchanged": 30,
+  "services_restored_and_healthy_utc": "2026-10-28T03:52:28.809975+00:00",
+  "reader_terminal": "Succeeded",
+  "report_tables_and_links_checked": true,
+  "figure_visually_inspected": true,
+  "outputs_sha256": {
+    "MEAN_METRICS.json": "bc11d9d3599f885cff0b134c37ad928d1ab8b5db1f026d1ed64f8552a4fe9cf5",
+    "METHODS.md": "ce644d72dc7dd8f8f4d5a49214b0278add86f0e271a4f9454abfbcbb4cd1482e",
+    "PER_CLASS_RECALL.pdf": "6530b4f756542fc8f848c877929895bf2742af5030e15715a12b720013a0b8cb",
+    "PER_CLASS_RECALL.png": "eda269136efe7e972a073eb21dce5ccba79057c91e1dc10be8f8af1915c6c856",
+    "READOUT.md": "fee316ed6c46314319dd61eebc5c5c37d3b1afa1d8061cc765a2954f6e25514f",
+    "RESULTS.json": "20bb4b9a5c66efabafa55aa2013cc0c32288a4b6d75b60b6c8c925d135c7be67",
+    "RESULTS.md": "d1e1437cc8d4a92f1d0b333efe70a4944167de23192bb8a9657e49992ea3188d",
+    "SUMMARY.csv": "6f628da6c5d670e5bbd1a35b81d35fbae231f00a26c78d48378b32bb4ee183f9",
+    "make_summary.py": "3d8a60919a559490f422792bc5e4bdd1aa1c7b06227d932aa58c637789f2178c"
+  },
+  "limitations": [
+    "Official reference cohort, not independently adjudicated gold",
+    "No prevalence-weighted or detection AP evaluation",
+    "No RTX3080 hardware validation",
+    "No matched new-cohort CNN run",
+    "Two seeds; only NYC supervised training"
+  ]
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "city": "cambridge",
+    "model": "DINO frozen",
+    "runs": [
+      "dino_frozen_s42",
+      "dino_frozen_s43"
+    ],
+    "use": {
+      "accuracy": 0.42,
+      "macro_f1": 0.39750712137867983,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.8933333333333333,
+      "macro_f1": 0.833385620638563,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.15,
+      "residential_multi": 0.6499999999999999,
+      "commercial": 0.21,
+      "institutional": 0.54,
+      "other": 0.55
+    },
+    "use_precision": {
+      "residential_small": 0.5357142857142857,
+      "residential_multi": 0.3537696272324104,
+      "commercial": 0.9115384615384616,
+      "institutional": 0.30815018315018317,
+      "other": 0.6039651837524178
+    },
+    "auxiliary_recall": 0.88,
+    "auxiliary_precision": 0.6307565789473684,
+    "selective_use": {
+      "coverage": 0.668,
+      "accuracy_among_answered": 0.47016637980493403
+    }
+  },
+  {
+    "city": "cambridge",
+    "model": "DINO fine-tuned",
+    "runs": [
+      "dino_finetune_s42",
+      "dino_finetune_s43"
+    ],
+    "use": {
+      "accuracy": 0.482,
+      "macro_f1": 0.4675926333468237,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.8966666666666667,
+      "macro_f1": 0.8411554685650942,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.26,
+      "residential_multi": 0.88,
+      "commercial": 0.38,
+      "institutional": 0.32,
+      "other": 0.5700000000000001
+    },
+    "use_precision": {
+      "residential_small": 0.48106591865357645,
+      "residential_multi": 0.3782817109144543,
+      "commercial": 0.7648953301127215,
+      "institutional": 0.4621276595744681,
+      "other": 0.6266924564796905
+    },
+    "auxiliary_recall": 0.91,
+    "auxiliary_precision": 0.6357808857808858,
+    "selective_use": {
+      "coverage": 0.6719999999999999,
+      "accuracy_among_answered": 0.5545341614906832
+    }
+  },
+  {
+    "city": "cambridge",
+    "model": "Qwen zero-shot",
+    "runs": [
+      "qwen_nf4_zero"
+    ],
+    "use": {
+      "accuracy": 0.428,
+      "macro_f1": 0.3742927858566496,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.83,
+      "macro_f1": 0.47225000862336586,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.82,
+      "residential_multi": 0.04,
+      "commercial": 0.52,
+      "institutional": 0.16,
+      "other": 0.6
+    },
+    "use_precision": {
+      "residential_small": 0.36283185840707965,
+      "residential_multi": 1.0,
+      "commercial": 0.3333333333333333,
+      "institutional": 0.8,
+      "other": 0.6382978723404256
+    },
+    "auxiliary_recall": 0.02,
+    "auxiliary_precision": 0.3333333333333333,
+    "selective_use": null
+  },
+  {
+    "city": "cambridge",
+    "model": "Qwen QLoRA",
+    "runs": [
+      "qwen_qlora_s42",
+      "qwen_qlora_s43"
+    ],
+    "use": {
+      "accuracy": 0.438,
+      "macro_f1": 0.4280078957454082,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.9433333333333334,
+      "macro_f1": 0.9085319336620964,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.42,
+      "residential_multi": 0.19,
+      "commercial": 0.43,
+      "institutional": 0.51,
+      "other": 0.64
+    },
+    "use_precision": {
+      "residential_small": 0.4533898305084746,
+      "residential_multi": 0.2644444444444444,
+      "commercial": 0.44594594594594594,
+      "institutional": 0.3816666666666667,
+      "other": 0.6793650793650794
+    },
+    "auxiliary_recall": 0.97,
+    "auxiliary_precision": 0.7618521247850651,
+    "selective_use": null
+  },
+  {
+    "city": "seattle",
+    "model": "DINO frozen",
+    "runs": [
+      "dino_frozen_s42",
+      "dino_frozen_s43"
+    ],
+    "use": {
+      "accuracy": 0.39344262295081966,
+      "macro_f1": 0.34415739604074125,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.8913934426229508,
+      "macro_f1": 0.9422197172514208,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.02,
+      "residential_multi": 0.3,
+      "commercial": 0.12222222222222222,
+      "institutional": 0.75,
+      "other": 0.7551020408163265
+    },
+    "use_precision": {
+      "residential_small": 0.3333333333333333,
+      "residential_multi": 0.21253071253071254,
+      "commercial": 0.8452380952380952,
+      "institutional": 0.31381088425893666,
+      "other": 0.8049242424242424
+    },
+    "auxiliary_recall": null,
+    "auxiliary_precision": null,
+    "selective_use": {
+      "coverage": 0.8278688524590163,
+      "accuracy_among_answered": 0.42514529537261825
+    }
+  },
+  {
+    "city": "seattle",
+    "model": "DINO fine-tuned",
+    "runs": [
+      "dino_finetune_s42",
+      "dino_finetune_s43"
+    ],
+    "use": {
+      "accuracy": 0.4385245901639344,
+      "macro_f1": 0.4001696537128259,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.8790983606557377,
+      "macro_f1": 0.935557225906509,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.01,
+      "residential_multi": 0.41000000000000003,
+      "commercial": 0.3111111111111111,
+      "institutional": 0.73,
+      "other": 0.7244897959183674
+    },
+    "use_precision": {
+      "residential_small": 0.5,
+      "residential_multi": 0.2691774891774892,
+      "commercial": 0.6854395604395604,
+      "institutional": 0.35538169748696063,
+      "other": 0.8069767441860465
+    },
+    "auxiliary_recall": null,
+    "auxiliary_precision": null,
+    "selective_use": {
+      "coverage": 0.7213114754098361,
+      "accuracy_among_answered": 0.4725360090629551
+    }
+  },
+  {
+    "city": "seattle",
+    "model": "Qwen zero-shot",
+    "runs": [
+      "qwen_nf4_zero"
+    ],
+    "use": {
+      "accuracy": 0.5245901639344263,
+      "macro_f1": 0.43688139841128243,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.9918032786885246,
+      "macro_f1": 0.9958847736625515,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 1.0,
+      "residential_multi": 0.0,
+      "commercial": 0.6666666666666666,
+      "institutional": 0.16,
+      "other": 0.8163265306122449
+    },
+    "use_precision": {
+      "residential_small": 0.45454545454545453,
+      "residential_multi": 0.0,
+      "commercial": 0.43478260869565216,
+      "institutional": 0.8888888888888888,
+      "other": 0.7142857142857143
+    },
+    "auxiliary_recall": null,
+    "auxiliary_precision": null,
+    "selective_use": null
+  },
+  {
+    "city": "seattle",
+    "model": "Qwen QLoRA",
+    "runs": [
+      "qwen_qlora_s42",
+      "qwen_qlora_s43"
+    ],
+    "use": {
+      "accuracy": 0.5491803278688525,
+      "macro_f1": 0.5247145309799498,
+      "coverage": 1.0
+    },
+    "role": {
+      "accuracy": 0.9467213114754098,
+      "macro_f1": 0.9726133648906795,
+      "coverage": 1.0
+    },
+    "use_recall": {
+      "residential_small": 0.73,
+      "residential_multi": 0.13999999999999999,
+      "commercial": 0.6,
+      "institutional": 0.5800000000000001,
+      "other": 0.7040816326530612
+    },
+    "use_precision": {
+      "residential_small": 0.6921695402298851,
+      "residential_multi": 0.32539682539682535,
+      "commercial": 0.40222222222222226,
+      "institutional": 0.6039668700959023,
+      "other": 0.6613508442776735
+    },
+    "auxiliary_recall": null,
+    "auxiliary_precision": null,
+    "selective_use": null
+  }
+]

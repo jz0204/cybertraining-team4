@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "test_dataset_sha256": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5",
+  "archive_sha256": "3f99c61fb35bb3a249dbde5e9dcd1a84fd234c7699905a02ca91dd29bbd077c0",
+  "source_files": {
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution/DATASET.json": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution/PROTOCOL.json": "b9eea403e4700ecf34a073e33b227d280a848091f70422e050f353ca79bb788d",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution/LOWRISE_SAMPLING.json": "f5b793e0e3322209289710294129da0605b4d69749f97fe824c6eb2ab20bfaa3",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution/common.py": "627bce02e4cc2f0d7f7ca93571a026a8ef9c0799b2200b027abda08ba3fe333a",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution/train_la_adaptation.py": "ca82b70a07ad8d370450aa8ac8e36916e552a876e2aa86bd0573a294e717ec78"
+  },
+  "all_36858_external_images_verified": true,
+  "paired_checks": {
+    "42": {
+      "best_epoch": 3,
+      "sampling_draws_identical": true,
+      "initial_validation_identical": true,
+      "checkpoint_sha256": "3badfcba3cc112f40af2b5b19537625b63395be3fc01770f15f5565787d51fec"
+    },
+    "43": {
+      "best_epoch": 5,
+      "sampling_draws_identical": true,
+      "initial_validation_identical": true,
+      "checkpoint_sha256": "c8725a97e4ba56ae8715274eef88a501aba0aac70af36f68f85a6bb83a047831"
+    }
+  },
+  "original_services_health": {
+    "checked_utc": "2026-10-30T17:22:58.397168+00:00",
+    "watcher": {
+      "scaled_back": true,
+      "ready": true,
+      "deadline_suspended": false
+    },
+    "qwen3-14b": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "health_http": 200,
+      "ready_endpoints": [
+        "10.42.3.184"
+      ]
+    },
+    "ollama": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "model_list": "NAME          ID              SIZE      MODIFIED    \ngemma4:12b    4eb23ef187e2    7.6 GB    5 weeks ago    \nqwen3:8b      500a1f067a9f    5.2 GB    7 weeks ago    \n",
+      "ready_endpoints": [
+        "10.42.3.185"
+      ]
+    },
+    "node_conditions": {
+      "MemoryPressure": "False",
+      "DiskPressure": "False",
+      "PIDPressure": "False",
+      "Ready": "True"
+    }
+  },
+  "augmentation_test": {
+    "passed": true,
+    "distinct_views_in_64_draws": {
+      "old": 1,
+      "fixed": 8,
+      "canonical": 8
+    },
+    "seed_reproducible": true,
+    "rgb_mask_joint_transform": true,
+    "no_color_change": true,
+    "evaluation_unchanged": true
+  },
+  "candidates_not_added_to_training": true,
+  "archive_note": "Initial stdout-streamed results.tar was truncated; complete verified-results.tar.gz supersedes it."
+}

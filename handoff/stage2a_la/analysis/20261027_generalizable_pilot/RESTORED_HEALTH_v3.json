@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-10-27T05:40:28.420989+00:00",
+  "watcher": {
+    "scaled_back": true,
+    "ready": true,
+    "deadline_suspended": false
+  },
+  "qwen3-14b": {
+    "desired": 1,
+    "ready": 1,
+    "available": 1,
+    "health_http": 200,
+    "ready_endpoints": [
+      "10.42.3.88"
+    ]
+  },
+  "ollama": {
+    "desired": 1,
+    "ready": 1,
+    "available": 1,
+    "model_list": "NAME          ID              SIZE      MODIFIED    \ngemma4:12b    4eb23ef187e2    7.6 GB    5 weeks ago    \nqwen3:8b      500a1f067a9f    5.2 GB    6 weeks ago    \n",
+    "ready_endpoints": [
+      "10.42.3.89"
+    ]
+  },
+  "node_conditions": {
+    "MemoryPressure": "False",
+    "DiskPressure": "False",
+    "PIDPressure": "False",
+    "Ready": "True"
+  }
+}

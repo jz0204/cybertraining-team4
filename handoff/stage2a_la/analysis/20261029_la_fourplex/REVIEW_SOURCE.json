@@ -1,0 +1,192 @@
+{
+  "method": "AI-assisted visual screening of actual prefire near/context imagery plus official assessor and footprint records; not independent human ground truth.",
+  "common_admission_evidence": "For admitted parcels: official 2024 four units, one building record, 8 bedrooms/8 bathrooms and 3868 square feet; primary roof approximately 195-254 m2 and floor/roof ratio 1.41-1.84 are compatible with a two-storey residential block. Rear roof approximately 67-83 m2, markedly lower reported height and parking-lane association support garage/carport role. No claim that four entrances or interior units are visually resolved.",
+  "parcels": [
+    {
+      "index": 1,
+      "parcel": "2645013003",
+      "admit_primary": false,
+      "reason": "Exclude both: U-shaped/courtyard A has floor/roof ratio below one and unclear roof grouping; B is an extremely thin edge strip, possibly awning or footprint artifact. Four units cannot be securely assigned to this exact A outline."
+    },
+    {
+      "index": 2,
+      "parcel": "2617003052",
+      "admit_primary": false,
+      "reason": "Exclude both: A appears an attached long gable block; small B adjoins the roof end and could be an annex or dwelling. Imagery does not securely exclude residential use of B."
+    },
+    {
+      "index": 3,
+      "parcel": "2535006002",
+      "admit_primary": false,
+      "reason": "Exclude both: A roof and footprint have visible displacement/unclear extent; B overlays vegetation/yard and its 2020 ID is missing. Main-building unit allocation and current secondary structure are unresolved."
+    },
+    {
+      "index": 4,
+      "parcel": "2784022001",
+      "admit_primary": true,
+      "reason": "A is the street-front residential block; B is a low rear parking roof beside the drive. B lacks a matching 2020 ID although current imagery shows the roof; primary A has stable 2020 correspondence."
+    },
+    {
+      "index": 5,
+      "parcel": "2784022006",
+      "admit_primary": true,
+      "reason": "A is the street-front pitched-roof block; B is a shallow rear parking-roof module connected to the alley/drive."
+    },
+    {
+      "index": 6,
+      "parcel": "2784005056",
+      "admit_primary": true,
+      "reason": "A is the street-front gable block; B is a low flat rear roof directly beside parked cars and access paving."
+    },
+    {
+      "index": 7,
+      "parcel": "2784022010",
+      "admit_primary": true,
+      "reason": "A is the street-front residential block; B forms part of the repeating low rear garage/carport row."
+    },
+    {
+      "index": 8,
+      "parcel": "2784022008",
+      "admit_primary": true,
+      "reason": "A has the street-front residential roof and yard; B is the smaller rear parking roof along the drive."
+    },
+    {
+      "index": 9,
+      "parcel": "2784022018",
+      "admit_primary": true,
+      "reason": "A is the residential block; B is partly shadowed but its low roof, rear position and continuous parking access match the garage/carport row."
+    },
+    {
+      "index": 10,
+      "parcel": "2784005051",
+      "admit_primary": true,
+      "reason": "A is the pitched-roof street-front block; B is the rear low roof with paved access beside the repeated parking row."
+    },
+    {
+      "index": 11,
+      "parcel": "2784005055",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is the rear parking-roof module adjoining the alley/drive."
+    },
+    {
+      "index": 12,
+      "parcel": "2784022007",
+      "admit_primary": true,
+      "reason": "A is the street-front block; B is a short rear flat roof within the repeated garage/carport row."
+    },
+    {
+      "index": 13,
+      "parcel": "2784022017",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is partly obscured but its narrow low roof and access lane align with adjoining parking modules."
+    },
+    {
+      "index": 14,
+      "parcel": "2784022002",
+      "admit_primary": true,
+      "reason": "A is the residential street-front block; B is the shallow rear parking structure beside the paved access."
+    },
+    {
+      "index": 15,
+      "parcel": "2784022005",
+      "admit_primary": true,
+      "reason": "A is the pitched-roof residential block; B is a low rear roof aligned with garage/carport modules."
+    },
+    {
+      "index": 16,
+      "parcel": "2784022013",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is a short rear roof with paved access in the parking row."
+    },
+    {
+      "index": 17,
+      "parcel": "2784022009",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is partly shadowed but its rear parking-row position, low height and narrow roof support auxiliary use."
+    },
+    {
+      "index": 18,
+      "parcel": "2784022020",
+      "admit_primary": true,
+      "reason": "A is the residential block near the street; B is the rear shallow roof adjacent to cars and the shared drive."
+    },
+    {
+      "index": 19,
+      "parcel": "2784022012",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B has partial shadow/tree obstruction, with a visible low parking-row roof and paved access."
+    },
+    {
+      "index": 20,
+      "parcel": "2784022019",
+      "admit_primary": true,
+      "reason": "A is the street-front residential block; B is a partly shadowed low roof in the rear garage/carport row."
+    },
+    {
+      "index": 21,
+      "parcel": "2784022014",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is a short rear roof adjoining the parking lane."
+    },
+    {
+      "index": 22,
+      "parcel": "2784005052",
+      "admit_primary": true,
+      "reason": "A is the residential block beside the yard/pool; B is the rear low parking-roof module. Pool presence alone does not determine dwelling type."
+    },
+    {
+      "index": 23,
+      "parcel": "2784022011",
+      "admit_primary": true,
+      "reason": "A is the street-front block; B is partly shadowed but aligns with the low rear parking row and its access lane."
+    },
+    {
+      "index": 24,
+      "parcel": "2784005050",
+      "admit_primary": true,
+      "reason": "A is the residential street-front block; B is the rear low garage/carport roof beside paved access."
+    },
+    {
+      "index": 25,
+      "parcel": "2784005054",
+      "admit_primary": true,
+      "reason": "A is the front pitched-roof block; B is a low flat rear roof immediately beside cars and the driveway."
+    },
+    {
+      "index": 26,
+      "parcel": "2784022016",
+      "admit_primary": true,
+      "reason": "A is the front light-roof residential block; B is the low L-shaped rear roof surrounded by access paving and cars."
+    },
+    {
+      "index": 27,
+      "parcel": "2784022015",
+      "admit_primary": true,
+      "reason": "A is the front light-roof block; B is a short low rear roof beside parked cars and the access drive."
+    },
+    {
+      "index": 28,
+      "parcel": "2784005049",
+      "admit_primary": true,
+      "reason": "A is the elongated front residential block; B is the low narrow roof in the continuous rear parking row."
+    },
+    {
+      "index": 29,
+      "parcel": "2784005048",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is the shallow rear parking-roof module along the paved lane."
+    },
+    {
+      "index": 30,
+      "parcel": "2784005057",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is a short low roof along the rear parking lane, separate from the occupied main roof."
+    },
+    {
+      "index": 31,
+      "parcel": "2784005058",
+      "admit_primary": true,
+      "reason": "A is the front residential block; B is the shallow rear parking roof with paved access, beside the neighboring yard/pool."
+    }
+  ]
+}

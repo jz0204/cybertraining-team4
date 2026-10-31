@@ -538,7 +538,7 @@ class Stage2aDataset(Dataset):
     ) -> Tuple[Image.Image, Image.Image, Optional[Image.Image]]:
         if not self.train:
             return rgb, mask, ring
-        rng = random.Random((self.seed * 1_000_003) + local_idx)
+        rng = random.Random(int(torch.randint(0, 2**31 - 1, ()).item()))
         if rng.random() < self.aug_hflip:
             rgb = TF.hflip(rgb)
             mask = TF.hflip(mask)

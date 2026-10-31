@@ -1,0 +1,14 @@
+{
+  "train_fourplex_pool": 51,
+  "train_fourplex_after_single_outline": 4,
+  "countywide_2014_outline_counts": {
+    "2": 31,
+    "1": 4,
+    "0": 15,
+    "17": 1
+  },
+  "train_fourplex_final": 4,
+  "validation_fourplex_final": 10,
+  "unique_feature_key": "AIN + OBJECTID across cached queries",
+  "note": "Single-outline eligibility leaves4of51 candidate training fourplex parcels. Multi-outline parcels need building-level primary/auxiliary adjudication; do not assign parcel Units to every roof."
+}

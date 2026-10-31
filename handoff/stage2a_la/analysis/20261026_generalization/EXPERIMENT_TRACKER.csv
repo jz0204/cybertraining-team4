@@ -1,0 +1,6 @@
+block,status,evidence,next_action
+B0,partially_complete,current manuscript version; previous GSD/ACS/parcel audits; full-class diagnostics,resolve remaining building-role/unit-label ambiguity before new reference labels
+B1,diagnostic_complete,16-model all-class comparison; two cluster HGB controls; six real CNN geometry parity checks,freeze targeted data or context comparison with at least three paired seeds
+B2,diagnostic_complete,exposure_oof_20261026:16fits;test logMAE .212750->.153028;32weights/5heads backups verified;LLMs restored,report repaired-proxy gain with multi-family RMSE regression;independent population/city validation remains open
+B3,pending,LA Census inventory checked; required PPU groups absent,audit complete spatial support and population universe before choosing allocation validation units
+B4,diagnostic_complete,13806-building278-area association and crossed member sensitivity; type review-error curves,refresh model version and evaluate against independent reference; do not call scenario range a confidence interval

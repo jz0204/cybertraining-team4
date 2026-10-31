@@ -1,0 +1,43 @@
+{
+  "n": 21888,
+  "baseline_reproduction_max_absolute_error": 2.842170943040401e-14,
+  "area_multiplier_diagnostic": 22.237019124818694,
+  "baseline_population_quantiles": {
+    "min": 0.0,
+    "p10": 0.0,
+    "p50": 2.3439835575692944,
+    "p90": 7.2946527585082555,
+    "max": 396.3420254331167
+  },
+  "inflated_area_population_quantiles": {
+    "min": 3.2878078806767452,
+    "p10": 19.745843242373546,
+    "p50": 98.35767163787796,
+    "p90": 274.7729384420503,
+    "max": 8965.643534096878
+  },
+  "baseline_population_sum": 75591.02519638017,
+  "inflated_area_population_sum": 2965824.419320437,
+  "note": "Type probabilities held fixed; inflated area is an intentional sensitivity intervention, not a deployment correction or population ground truth.",
+  "type_forced_residential_small_quantiles": {
+    "min": 0.0,
+    "p10": 0.0,
+    "p50": 2.1608384642308467,
+    "p90": 4.024350441250496,
+    "max": 195.40465477589217
+  },
+  "type_forced_residential_multi_quantiles": {
+    "min": 0.0,
+    "p10": 0.0,
+    "p50": 1.971683391474118,
+    "p90": 3.7236766219380297,
+    "max": 147.23690065643981
+  },
+  "type_forced_commercial_quantiles": {
+    "min": 0.0,
+    "p10": 0.0,
+    "p50": 2.111820681742351,
+    "p90": 6.410761355535114,
+    "max": 396.3627058437123
+  }
+}

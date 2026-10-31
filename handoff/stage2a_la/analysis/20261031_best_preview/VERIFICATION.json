@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "full_reference_classes_unchanged": true,
+  "max_reference_probability_error": 1.817941665649414e-06,
+  "all_crop_and_mask_links_checked": 22024,
+  "scene_hit_test_with_hole_passed": true,
+  "javascript_syntax_passed": true,
+  "dom_targets_passed": true,
+  "static_preview_visually_inspected": true,
+  "browser_interactions_checked": true,
+  "browser_permission_requested": true,
+  "original_source_and_models_preserved": true,
+  "temporary_staging_pod_deleted": true,
+  "gpu_services_remained_ready": true,
+  "browser_permission_received": true,
+  "browser": "Codex in-app browser",
+  "browser_checks": [
+    "three scene tabs",
+    "enlarged-image polygon selection",
+    "dialog Close and Escape",
+    "crop and probability navigation",
+    "all-off and individual use filters",
+    "damage filters",
+    "map-point selection",
+    "14 reference thumbnails loaded",
+    "recognized and missed reference selection",
+    "CSV download matches source"
+  ],
+  "observed_layout_widths": [
+    450,
+    1280
+  ],
+  "browser_console_warnings_or_errors": [],
+  "map_centroid_repairs": 136,
+  "unchanged_map_centroids": 21888,
+  "map_coordinate_roundtrip_passed": true,
+  "all_damage_votes_unchanged": true,
+  "region_counts": {
+    "palisades": 2870,
+    "eaton": 19154
+  },
+  "csv_download_sha256": "bf909c2e05cb9842839d1483d5743da534c91e0f5452ef7290bf26ecc948b101",
+  "not_checked": [
+    "exhaustive browser/device matrix",
+    "population or exposure recomputation"
+  ]
+}

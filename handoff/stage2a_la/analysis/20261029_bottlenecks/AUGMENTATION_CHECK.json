@@ -1,0 +1,15 @@
+{
+  "actual_dataset_calls": 20,
+  "unique_augmented_input_tensors": 1,
+  "sample_id": "la_fourplex_2784022001_394696905805",
+  "dataset_seed": 42,
+  "domain_augmentation": false,
+  "scale_view_probability": 0.0,
+  "feature_forward_shape": [
+    1,
+    768,
+    7,
+    7
+  ],
+  "mechanism": "_augment RNG depends on fixed dataset seed and local_idx; not epoch or repeated draw."
+}

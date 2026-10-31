@@ -1,0 +1,71 @@
+{
+  "reference": "Official 2022 ACS 5-year bulk tables; metadata from Census API",
+  "cbgs": 2830,
+  "archived_ratio_reproduction": {
+    "ppu_single_family_detached": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    "ppu_mobile_home": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    "ppu_duplex": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    "ppu_triplex": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 0.0
+    },
+    "ppu_multi_family": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    "ppu_small_multi_family": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    "ppu_large_multi_family": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 0.0
+    },
+    "ppu_unknown": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    "occupancy_rate": {
+      "n": 21140,
+      "match_n": 21140,
+      "max_absolute_difference": 1.1102230246251565e-16
+    }
+  },
+  "population_scenarios": {
+    "estimated_population": {
+      "sum": 6664678.199999999,
+      "median": 215.8
+    },
+    "counterfactual_population": {
+      "sum": 183175.2,
+      "median": 2.8
+    },
+    "population_corrected_acs_only": {
+      "sum": 6678503.600000001,
+      "median": 215.8
+    },
+    "population_corrected_area_and_acs": {
+      "sum": 180599.0,
+      "median": 2.6
+    }
+  },
+  "limits": "Counterfactual exposure proxies only. B25033 supports 1-unit, 2-4-unit, and 5+-unit groups; cannot separately estimate detached vs attached or duplex vs triplex or 5-9 vs 10+. Existing density assumptions, caps and fallbacks retained; no observed occupancy validation.",
+  "all_population_rows_changed_from_original_n": 22704
+}

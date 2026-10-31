@@ -1,0 +1,116 @@
+{
+  "n": 22024,
+  "cells": 126,
+  "use_counts": {
+    "residential_small": 20993,
+    "residential_multi": 187,
+    "commercial": 844
+  },
+  "damage_counts": {
+    "0": 14486,
+    "3": 5748,
+    "-1": 1298,
+    "2": 370,
+    "1": 122
+  },
+  "reference_n": 3332,
+  "reference_confusion": [
+    [
+      3242,
+      15,
+      19
+    ],
+    [
+      10,
+      3,
+      1
+    ],
+    [
+      12,
+      0,
+      30
+    ]
+  ],
+  "max_reference_probability_error": 1.817941665649414e-06,
+  "original_html_sha256": "191af3ce4847fbc58f1285db34988ee50d4dd4390322c03960c2c41a97e52b54",
+  "input_dataset_sha256": "f2f9c84e39a35ff90043d3cb123e93d10b183733eb39d12f58774a9496147cb9",
+  "inference": {
+    "42": {
+      "result": {
+        "seed": 42,
+        "n": 22024,
+        "seconds": 790.4620989051182,
+        "class_counts": [
+          20992,
+          129,
+          903
+        ],
+        "dataset_sha256": "f2f9c84e39a35ff90043d3cb123e93d10b183733eb39d12f58774a9496147cb9",
+        "checkpoint_sha256": "faf583335401e88d0e4359066a63854b1db325d4f4f37dd918e07044565f187f",
+        "predictions_sha256": "91637e57aa7ae48bf113270c5879cdd5d39af0c437c13290a5aeda5b42ce5134",
+        "old_recovered_sha256": "018fe8f85c1acc54ca99f2b0a6f079661f1754ebc9c5fa6e6dd4e3bcf9bff093"
+      },
+      "witness": {
+        "seed": 42,
+        "n": 36,
+        "old_max_probability_error": 3.725290298461914e-07,
+        "new_max_probability_error": 2.3245811462402344e-06,
+        "torch_version": "2.13.0+cu130",
+        "device": "cpu",
+        "threads": 8,
+        "verified_image_files": 44048,
+        "seconds": 20.102886079112068
+      }
+    },
+    "43": {
+      "result": {
+        "seed": 43,
+        "n": 22024,
+        "seconds": 790.0307409570087,
+        "class_counts": [
+          20935,
+          292,
+          797
+        ],
+        "dataset_sha256": "f2f9c84e39a35ff90043d3cb123e93d10b183733eb39d12f58774a9496147cb9",
+        "checkpoint_sha256": "9780be14c633f67c255ccf25978e38dcb7ffc9864d1ad14377403a370f42e7b9",
+        "predictions_sha256": "86bb74227c9450483870fdfbcbb9169230a247b73e2f76c5f4799a1a2a3be251",
+        "old_recovered_sha256": "023ce1e8ad4348d4342501725f53b6143c44a1a30120ff363eede6ad5eb9730b"
+      },
+      "witness": {
+        "seed": 43,
+        "n": 36,
+        "old_max_probability_error": 1.6987323760986328e-06,
+        "new_max_probability_error": 5.438923835754395e-07,
+        "torch_version": "2.13.0+cu130",
+        "device": "cpu",
+        "threads": 8,
+        "verified_image_files": 44048,
+        "seconds": 20.04473390104249
+      }
+    }
+  },
+  "damage_source": "Unchanged v3 M2b product, matched to downloaded HTML on every record",
+  "exposure_reestimated": true,
+  "exposure": {
+    "method": "Frozen B_semantics_mean3 OOF exposure head with current C ensemble probabilities",
+    "head_sha256": "29c66aee57b73d6737ff8b5436502c12f4d231ba3128cbc27f24f859ed3adaac",
+    "helper_sha256": "5dad7588d6197cbc48a84e88a3bd9a31658a7b84d0317b7faa87a39592e246c6",
+    "saved_test_max_log_error": 0.0,
+    "limitation": "Area/parcel-use/ACS population proxy; not observed occupants. Transfer to C probabilities and LA is unvalidated. Damage-associated exposure is not casualties or displacement.",
+    "total": 69023.95545051547,
+    "damaged_total": 17522.956611005407
+  },
+  "examples": [
+    "cell_00365",
+    "cell_00471",
+    "cell_00507"
+  ],
+  "geometry_repairs": 136,
+  "map_centroid_repairs": 136,
+  "map_coordinates_checked": 22024,
+  "source_sha256": {
+    "build_la_best_preview.py": "5f538f2f9cae616a07102435fb6de48303b7b8662087be0489623ed08a04bb50",
+    "la_best_preview.html": "f0fb18d022d16752fba315885a1a8f66604fe2855b1388b52824ef1732b2d9a4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/FEMAFloodzoneAdopted/MapServer/15/query",
+  "params": {
+    "f": "geojson",
+    "where": "AIN IN ('5841031021','5841031022','5841031023','5841032022','5843020011','5843029036','5844023013','5845005006','5845005031','5845016023','5847004015','5847013019','5853007003','5853008003','5853021003','5860038001')",
+    "outFields": "OBJECTID,BLD_ID,AIN,HEIGHT,AREA,DATE_,STATUS",
+    "returnGeometry": "true",
+    "outSR": 4326
+  },
+  "retrieved_utc": "2026-10-30T06:27:38.700932+00:00",
+  "sha256": "624e874af7d8f911a36047b2bda424589329f0b2f8fe7b84a6d2e9446c781a66"
+}

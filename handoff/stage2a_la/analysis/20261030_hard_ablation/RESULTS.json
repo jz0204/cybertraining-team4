@@ -1,0 +1,1133 @@
+{
+  "metrics": {
+    "A": {
+      "n": 3332,
+      "accuracy": 0.9810924369747899,
+      "macro_f1": 0.5909065948074668,
+      "balanced_accuracy": 0.6231176231176231,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9810924369747899,
+      "prediction_counts": {
+        "residential_small": 3261,
+        "commercial": 49,
+        "residential_multi": 22
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929469487887151,
+          "recall": 0.9884004884004884,
+          "f1": 0.9906685023711183
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.13636363636363635,
+          "recall": 0.21428571428571427,
+          "f1": 0.16666666666666666
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1": 0.6153846153846154
+        }
+      },
+      "confusion": [
+        [
+          3238,
+          18,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          28,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "A_s42": {
+      "n": 3332,
+      "accuracy": 0.9810924369747899,
+      "macro_f1": 0.5986818743306579,
+      "balanced_accuracy": 0.6309523809523809,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9810924369747899,
+      "prediction_counts": {
+        "residential_small": 3260,
+        "commercial": 47,
+        "residential_multi": 25
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929447852760737,
+          "recall": 0.9880952380952381,
+          "f1": 0.9905140758873929
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.12,
+          "recall": 0.21428571428571427,
+          "f1": 0.15384615384615385
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.6170212765957447,
+          "recall": 0.6904761904761905,
+          "f1": 0.651685393258427
+        }
+      },
+      "confusion": [
+        [
+          3237,
+          22,
+          17,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "A_s43": {
+      "n": 3332,
+      "accuracy": 0.9771908763505402,
+      "macro_f1": 0.555379960186125,
+      "balanced_accuracy": 0.5982905982905983,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9771908763505402,
+      "prediction_counts": {
+        "residential_small": 3252,
+        "commercial": 51,
+        "residential_multi": 29
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.992619926199262,
+          "recall": 0.9853479853479854,
+          "f1": 0.9889705882352942
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.10344827586206896,
+          "recall": 0.21428571428571427,
+          "f1": 0.13953488372093023
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.49019607843137253,
+          "recall": 0.5952380952380952,
+          "f1": 0.5376344086021505
+        }
+      },
+      "confusion": [
+        [
+          3228,
+          23,
+          25,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          3,
+          25,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "B_s42": {
+      "n": 3332,
+      "accuracy": 0.9795918367346939,
+      "macro_f1": 0.586869554852041,
+      "balanced_accuracy": 0.6304436304436304,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9795918367346939,
+      "prediction_counts": {
+        "residential_small": 3255,
+        "commercial": 52,
+        "residential_multi": 25
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929339477726574,
+          "recall": 0.9865689865689866,
+          "f1": 0.9897412341142244
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.12,
+          "recall": 0.21428571428571427,
+          "f1": 0.15384615384615385
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5576923076923077,
+          "recall": 0.6904761904761905,
+          "f1": 0.6170212765957447
+        }
+      },
+      "confusion": [
+        [
+          3232,
+          22,
+          22,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "B_s43": {
+      "n": 3332,
+      "accuracy": 0.978391356542617,
+      "macro_f1": 0.5744412845813693,
+      "balanced_accuracy": 0.6141636141636142,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.978391356542617,
+      "prediction_counts": {
+        "residential_small": 3250,
+        "commercial": 51,
+        "residential_multi": 31
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9932307692307693,
+          "recall": 0.9853479853479854,
+          "f1": 0.9892736745326387
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.06451612903225806,
+          "recall": 0.14285714285714285,
+          "f1": 0.08888888888888889
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5882352941176471,
+          "recall": 0.7142857142857143,
+          "f1": 0.6451612903225806
+        }
+      },
+      "confusion": [
+        [
+          3228,
+          29,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "B": {
+      "n": 3332,
+      "accuracy": 0.9810924369747899,
+      "macro_f1": 0.5958718417209184,
+      "balanced_accuracy": 0.6309523809523809,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9810924369747899,
+      "prediction_counts": {
+        "residential_small": 3260,
+        "commercial": 50,
+        "residential_multi": 22
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9929447852760737,
+          "recall": 0.9880952380952381,
+          "f1": 0.9905140758873929
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.13636363636363635,
+          "recall": 0.21428571428571427,
+          "f1": 0.16666666666666666
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.58,
+          "recall": 0.6904761904761905,
+          "f1": 0.6304347826086957
+        }
+      },
+      "confusion": [
+        [
+          3237,
+          19,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "C_s42": {
+      "n": 3332,
+      "accuracy": 0.9804921968787516,
+      "macro_f1": 0.5706922981480814,
+      "balanced_accuracy": 0.6148758648758649,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9804921968787516,
+      "prediction_counts": {
+        "residential_small": 3256,
+        "commercial": 60,
+        "residential_multi": 16
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9935503685503686,
+          "recall": 0.9874847374847375,
+          "f1": 0.9905082669932639
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.125,
+          "recall": 0.14285714285714285,
+          "f1": 0.13333333333333333
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5,
+          "recall": 0.7142857142857143,
+          "f1": 0.5882352941176471
+        }
+      },
+      "confusion": [
+        [
+          3235,
+          13,
+          28,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          1,
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "C_s43": {
+      "n": 3332,
+      "accuracy": 0.9789915966386554,
+      "macro_f1": 0.5680488390993603,
+      "balanced_accuracy": 0.5989010989010989,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9789915966386554,
+      "prediction_counts": {
+        "residential_small": 3258,
+        "commercial": 45,
+        "residential_multi": 29
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.992633517495396,
+          "recall": 0.9871794871794872,
+          "f1": 0.98989898989899
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.10344827586206896,
+          "recall": 0.21428571428571427,
+          "f1": 0.13953488372093023
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.5555555555555556,
+          "recall": 0.5952380952380952,
+          "f1": 0.5747126436781609
+        }
+      },
+      "confusion": [
+        [
+          3234,
+          23,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          3,
+          25,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    },
+    "C": {
+      "n": 3332,
+      "accuracy": 0.9828931572629052,
+      "macro_f1": 0.6103704073039933,
+      "balanced_accuracy": 0.6393976393976394,
+      "five_use_coverage": 1.0,
+      "selective_accuracy": 0.9828931572629052,
+      "prediction_counts": {
+        "residential_small": 3264,
+        "commercial": 50,
+        "residential_multi": 18
+      },
+      "per_class": {
+        "residential_small": {
+          "n": 3276,
+          "precision": 0.9932598039215687,
+          "recall": 0.9896214896214897,
+          "f1": 0.9914373088685016
+        },
+        "residential_multi": {
+          "n": 14,
+          "precision": 0.16666666666666666,
+          "recall": 0.21428571428571427,
+          "f1": 0.1875
+        },
+        "commercial": {
+          "n": 42,
+          "precision": 0.6,
+          "recall": 0.7142857142857143,
+          "f1": 0.6521739130434783
+        }
+      },
+      "confusion": [
+        [
+          3242,
+          15,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rows": [
+        "residential_small",
+        "residential_multi",
+        "commercial"
+      ],
+      "columns": [
+        "residential_small",
+        "residential_multi",
+        "commercial",
+        "institutional",
+        "other",
+        "unknown",
+        "invalid"
+      ]
+    }
+  },
+  "paired_cell_bootstrap": {
+    "B-A": {
+      "delta_macro_f1": 0.004965246913451682,
+      "ci95": [
+        -0.007195294836160815,
+        0.023605338362639876
+      ],
+      "cells": 92,
+      "draws": 1000
+    },
+    "C-A": {
+      "delta_macro_f1": 0.01946381249652651,
+      "ci95": [
+        0.0001977022566942683,
+        0.04611120938081393
+      ],
+      "cells": 92,
+      "draws": 1000
+    },
+    "C-B": {
+      "delta_macro_f1": 0.01449856558307483,
+      "ci95": [
+        0.00038432131085343606,
+        0.03328541256676495
+      ],
+      "cells": 92,
+      "draws": 1000
+    }
+  },
+  "checks": {
+    "B": {
+      "42": {
+        "best_epoch": 3,
+        "validation": {
+          "type_accuracy": 0.91324200913242,
+          "type_macro_f1": 0.9004565561942611,
+          "type_per_class_f1": {
+            "residential_small": 0.948051948051948,
+            "residential_multi": 0.8571428571428571,
+            "commercial": 0.8961748633879781
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              19,
+              99,
+              9
+            ],
+            [
+              4,
+              5,
+              82
+            ]
+          ],
+          "type_nll": 0.5840000651256406,
+          "type_ece": 0.0756995558194374,
+          "sampling_weighted_macro_f1": 0.8880464489544652,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              19.0,
+              99.0,
+              9.0
+            ],
+            [
+              4.0,
+              5.0,
+              82.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "6c977ce78288865682bcbc38da5cdc9754cfec0e063ef1cb884ff1554e4dbd27"
+      },
+      "43": {
+        "best_epoch": 6,
+        "validation": {
+          "type_accuracy": 0.9041095890410958,
+          "type_macro_f1": 0.8864494086505732,
+          "type_per_class_f1": {
+            "residential_small": 0.9501084598698482,
+            "residential_multi": 0.8355555555555556,
+            "commercial": 0.8736842105263158
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              18,
+              94,
+              15
+            ],
+            [
+              4,
+              4,
+              83
+            ]
+          ],
+          "type_nll": 0.8842138766309209,
+          "type_ece": 0.09152734905617418,
+          "sampling_weighted_macro_f1": 0.8750140953176149,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              18.0,
+              94.0,
+              15.0
+            ],
+            [
+              4.0,
+              4.0,
+              83.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "397c9540416d7eca2f2f180e508aac01df89f3f6d0e883516921e435afb9cd43"
+      }
+    },
+    "C": {
+      "42": {
+        "best_epoch": 4,
+        "validation": {
+          "type_accuracy": 0.8995433789954338,
+          "type_macro_f1": 0.8808408086758602,
+          "type_per_class_f1": {
+            "residential_small": 0.948051948051948,
+            "residential_multi": 0.8181818181818182,
+            "commercial": 0.8762886597938144
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              20,
+              90,
+              17
+            ],
+            [
+              3,
+              3,
+              85
+            ]
+          ],
+          "type_nll": 0.6871004966648168,
+          "type_ece": 0.09191815616333322,
+          "sampling_weighted_macro_f1": 0.8704730618370814,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              20.0,
+              90.0,
+              17.0
+            ],
+            [
+              3.0,
+              3.0,
+              85.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "faf583335401e88d0e4359066a63854b1db325d4f4f37dd918e07044565f187f"
+      },
+      "43": {
+        "best_epoch": 6,
+        "validation": {
+          "type_accuracy": 0.9178082191780822,
+          "type_macro_f1": 0.9041806975863375,
+          "type_per_class_f1": {
+            "residential_small": 0.9544468546637744,
+            "residential_multi": 0.8666666666666667,
+            "commercial": 0.8914285714285715
+          },
+          "confusion_matrix": [
+            [
+              220,
+              0,
+              0
+            ],
+            [
+              17,
+              104,
+              6
+            ],
+            [
+              4,
+              9,
+              78
+            ]
+          ],
+          "type_nll": 0.7294497296988973,
+          "type_ece": 0.07663812131097868,
+          "sampling_weighted_macro_f1": 0.9185715185443107,
+          "sampling_weighted_confusion": [
+            [
+              4400.0,
+              0.0,
+              0.0
+            ],
+            [
+              17.0,
+              104.0,
+              6.0
+            ],
+            [
+              4.0,
+              9.0,
+              78.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "9780be14c633f67c255ccf25978e38dcb7ffc9864d1ad14377403a370f42e7b9"
+      }
+    }
+  },
+  "multifamily_cases": {
+    "A": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00183_0a84e703-6e78-40d9-85f5-35e35b03349b",
+        "la_cell_00183_22e001a0-210f-40b7-9332-7bb77a7b3f7e",
+        "la_cell_00183_6ccff10a-62ee-4ac1-92b5-03f5e761cfeb",
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_e2bcb603-05c8-479a-b418-fb9d39d5aaf6",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00364_3e7fff94-50e1-4690-926f-f954506352ac",
+        "la_cell_00369_bd35f933-7c87-4a85-88bd-2c30babc14d3",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00385_d91a5091-5381-4137-8cea-46032f7b3d94"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    },
+    "B": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00183_0a84e703-6e78-40d9-85f5-35e35b03349b",
+        "la_cell_00183_22e001a0-210f-40b7-9332-7bb77a7b3f7e",
+        "la_cell_00183_6ccff10a-62ee-4ac1-92b5-03f5e761cfeb",
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_bdee26dc-270b-4aac-8b5e-95966d53a89d",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00218_d3dca404-784b-4f7c-9d91-10637c2e4bbf",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00484_c193c5a5-0676-4ee2-9d9b-7b69eaef1236"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    },
+    "C": {
+      "tp": [
+        "la_cell_00366_90fd39c7-8842-4f08-98a0-1439337bc333",
+        "la_cell_00366_d41ea241-ee4c-42b6-9bef-54db950fb573",
+        "la_cell_00366_e2321792-3cd7-4c0a-b9dc-4a1699442192"
+      ],
+      "fp": [
+        "la_cell_00183_b0f20426-af19-4d69-8495-9e6bcb0fd4d9",
+        "la_cell_00183_dbde89c5-475a-4353-809c-ed607f8b2673",
+        "la_cell_00183_e4bff655-fc6d-491e-820b-e881353bbd32",
+        "la_cell_00185_ee82d5bc-009d-4668-8e8c-55061cd1143f",
+        "la_cell_00200_034fa012-85c3-40b6-86fa-fea2f18d3472",
+        "la_cell_00200_ed7dd8c5-22c2-4b87-8534-c84dd3e54c5d",
+        "la_cell_00218_23815a02-fa9e-4fbe-9707-03b3cedb92dd",
+        "la_cell_00218_34bb37c5-753e-4502-a838-e34ab370c588",
+        "la_cell_00218_7c9235c3-fc88-4d92-946c-a579981d87c2",
+        "la_cell_00218_a20c984b-bba3-4a9f-88a1-ab8229f17656",
+        "la_cell_00218_c92ffc3c-3c6e-4dd4-ad15-dac2bc023c62",
+        "la_cell_00218_d3dca404-784b-4f7c-9d91-10637c2e4bbf",
+        "la_cell_00373_7344d4fa-6854-45ba-8d40-001df5736d9d",
+        "la_cell_00385_282d10ac-d383-476f-8201-dc4e3d1f2385",
+        "la_cell_00484_c193c5a5-0676-4ee2-9d9b-7b69eaef1236"
+      ],
+      "fn": [
+        "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+        "la_cell_00365_1394cdd8-8d5a-42a4-9d2e-b51a9957ed26",
+        "la_cell_00365_55a82578-7cc5-4b90-bf2a-30249ab337b9",
+        "la_cell_00366_ce73cfe4-8e27-46fa-8185-1e87b2bdb848",
+        "la_cell_00374_2c9f8948-9c09-4e52-860e-3bce7af770cb",
+        "la_cell_00415_2e997cd0-48a6-4b17-92aa-9fb73ae56cf1",
+        "la_cell_00415_58f63d06-c4e1-4640-a68f-4428965fa90b",
+        "la_cell_00415_5abec3e8-5a7b-4ee3-996c-84cf3b2d7370",
+        "la_cell_00415_b10e5f0d-211f-42f8-82ac-5b7723de6f87",
+        "la_cell_00415_dca60dd6-3792-4c94-8b3d-ac4a7519618f",
+        "la_cell_00416_719f8947-e18c-48a8-be6f-49a3adacc6ab"
+      ]
+    }
+  },
+  "data": {
+    "positive_count": 45,
+    "negative_count": 6,
+    "positives": [
+      "la_expand_8035018003",
+      "la_expand_8564015018",
+      "la_expand_2558024019",
+      "la_expand_8432006013",
+      "la_expand_8761003019",
+      "la_expand_8505011004",
+      "la_expand_2653001032",
+      "la_expand_8619013058",
+      "la_expand_8432006014",
+      "la_expand_8253020006",
+      "la_expand_8508005039",
+      "la_expand_8415009030",
+      "la_expand_8035018007",
+      "la_expand_2568016048",
+      "la_expand_8542019022",
+      "la_expand_8203018007",
+      "la_expand_2639001015",
+      "la_expand_8035018011",
+      "la_expand_2568013028",
+      "la_expand_8432006021",
+      "la_expand_8761003006",
+      "la_expand_8415016008",
+      "la_expand_8543028005",
+      "la_expand_8203018014",
+      "la_expand_8487008086",
+      "la_expand_8035016036",
+      "la_expand_2558032002",
+      "la_expand_8519023005",
+      "la_expand_8543020028",
+      "la_expand_8487008078",
+      "la_expand_2653001031",
+      "la_expand_2565012033",
+      "la_expand_8544016030",
+      "la_expand_2653001008",
+      "la_expand_2568013008",
+      "la_expand_8516002019",
+      "la_expand_8035018005",
+      "la_expand_2558002037",
+      "la_expand_8437003014",
+      "la_expand_8487008119",
+      "la_expand_8035016039",
+      "la_expand_2558025019",
+      "la_expand_8253020004",
+      "la_expand_8035018012",
+      "la_expand_8505002003"
+    ],
+    "negatives": [
+      "la_expand_8269061004",
+      "la_expand_8289031025",
+      "la_expand_8740009058",
+      "la_expand_2545021006",
+      "la_expand_8268014050",
+      "la_expand_2701019027"
+    ],
+    "positive_grids": {
+      "204_1876": 7,
+      "204_1884": 1,
+      "190_1895": 8,
+      "208_1886": 3,
+      "208_1880": 4,
+      "203_1889": 5,
+      "183_1894": 4,
+      "207_1887": 1,
+      "205_1886": 7,
+      "205_1883": 2,
+      "207_1884": 3
+    },
+    "negative_grids": {
+      "208_1879": 1,
+      "204_1880": 1,
+      "207_1883": 1,
+      "188_1894": 1,
+      "208_1880": 1,
+      "178_1898": 1
+    },
+    "original_test_dataset_sha256": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5",
+    "original_dataset_sha256": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+    "unchanged_validation_n": 438,
+    "unchanged_test_n": 3332,
+    "zero_test_and_val_context_overlap": true,
+    "no_new_gold": true,
+    "baseline_reused": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_augmentation_20261030/execution",
+    "trainer_change": "Allow existing class-mass normalization and lowrise factors together",
+    "source_change": "New NAIP2022 additions have 0.6m native detail; original Maxar inputs unchanged."
+  }
+}

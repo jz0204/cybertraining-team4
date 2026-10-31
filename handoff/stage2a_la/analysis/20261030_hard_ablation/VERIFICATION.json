@@ -1,0 +1,277 @@
+{
+  "passed": true,
+  "archives": {
+    "B-results.tar.gz": "94d09f7e13c4e23ae0180d8b4828d042373a1f9c22d17a95044840dfe412ef09",
+    "C-results.tar.gz": "a6452bee5bd150402be40a1337c318631bf4af9f0b91b94f8cf4719e9d687112"
+  },
+  "staged": {
+    "passed": true,
+    "rows": {
+      "B_positive": 18474,
+      "C_positive_negative": 18480
+    },
+    "new_images": 102,
+    "external_images": 36858,
+    "free_gib": 11.706466674804688,
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.0"
+  },
+  "original_services_health": {
+    "checked_utc": "2026-10-30T22:59:57.766709+00:00",
+    "watcher": {
+      "scaled_back": true,
+      "ready": true,
+      "deadline_suspended": false
+    },
+    "qwen3-14b": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "health_http": 200,
+      "ready_endpoints": [
+        "10.42.3.188"
+      ]
+    },
+    "ollama": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "model_list": "NAME          ID              SIZE      MODIFIED    \ngemma4:12b    4eb23ef187e2    7.6 GB    5 weeks ago    \nqwen3:8b      500a1f067a9f    5.2 GB    7 weeks ago    \n",
+      "ready_endpoints": [
+        "10.42.3.189"
+      ]
+    },
+    "node_conditions": {
+      "MemoryPressure": "False",
+      "DiskPressure": "False",
+      "PIDPressure": "False",
+      "Ready": "True"
+    }
+  },
+  "dataset_sha256": {
+    "B_positive": "c188d2b2bc1479f0328e185041e221aea3bd126688b481a50206b894b2ace768",
+    "C_positive_negative": "5093ef0b4f3296bff6c0d3e0ec7608b2ea6d0fc0e444ca83d081c1d42e3fe1f3"
+  },
+  "original_test_sha256": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5",
+  "review_sha256": "5c67800fedc502d52892f8a21b60c52882a6a0bd6b8aae7a3b0c0653cb95dec7",
+  "checks": {
+    "B": {
+      "42": {
+        "best_epoch": 3,
+        "validation": {
+          "type_accuracy": 0.91324200913242,
+          "type_macro_f1": 0.9004565561942611,
+          "type_per_class_f1": {
+            "residential_small": 0.948051948051948,
+            "residential_multi": 0.8571428571428571,
+            "commercial": 0.8961748633879781
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              19,
+              99,
+              9
+            ],
+            [
+              4,
+              5,
+              82
+            ]
+          ],
+          "type_nll": 0.5840000651256406,
+          "type_ece": 0.0756995558194374,
+          "sampling_weighted_macro_f1": 0.8880464489544652,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              19.0,
+              99.0,
+              9.0
+            ],
+            [
+              4.0,
+              5.0,
+              82.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "6c977ce78288865682bcbc38da5cdc9754cfec0e063ef1cb884ff1554e4dbd27"
+      },
+      "43": {
+        "best_epoch": 6,
+        "validation": {
+          "type_accuracy": 0.9041095890410958,
+          "type_macro_f1": 0.8864494086505732,
+          "type_per_class_f1": {
+            "residential_small": 0.9501084598698482,
+            "residential_multi": 0.8355555555555556,
+            "commercial": 0.8736842105263158
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              18,
+              94,
+              15
+            ],
+            [
+              4,
+              4,
+              83
+            ]
+          ],
+          "type_nll": 0.8842138766309209,
+          "type_ece": 0.09152734905617418,
+          "sampling_weighted_macro_f1": 0.8750140953176149,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              18.0,
+              94.0,
+              15.0
+            ],
+            [
+              4.0,
+              4.0,
+              83.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "397c9540416d7eca2f2f180e508aac01df89f3f6d0e883516921e435afb9cd43"
+      }
+    },
+    "C": {
+      "42": {
+        "best_epoch": 4,
+        "validation": {
+          "type_accuracy": 0.8995433789954338,
+          "type_macro_f1": 0.8808408086758602,
+          "type_per_class_f1": {
+            "residential_small": 0.948051948051948,
+            "residential_multi": 0.8181818181818182,
+            "commercial": 0.8762886597938144
+          },
+          "confusion_matrix": [
+            [
+              219,
+              0,
+              1
+            ],
+            [
+              20,
+              90,
+              17
+            ],
+            [
+              3,
+              3,
+              85
+            ]
+          ],
+          "type_nll": 0.6871004966648168,
+          "type_ece": 0.09191815616333322,
+          "sampling_weighted_macro_f1": 0.8704730618370814,
+          "sampling_weighted_confusion": [
+            [
+              4380.0,
+              0.0,
+              20.0
+            ],
+            [
+              20.0,
+              90.0,
+              17.0
+            ],
+            [
+              3.0,
+              3.0,
+              85.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "faf583335401e88d0e4359066a63854b1db325d4f4f37dd918e07044565f187f"
+      },
+      "43": {
+        "best_epoch": 6,
+        "validation": {
+          "type_accuracy": 0.9178082191780822,
+          "type_macro_f1": 0.9041806975863375,
+          "type_per_class_f1": {
+            "residential_small": 0.9544468546637744,
+            "residential_multi": 0.8666666666666667,
+            "commercial": 0.8914285714285715
+          },
+          "confusion_matrix": [
+            [
+              220,
+              0,
+              0
+            ],
+            [
+              17,
+              104,
+              6
+            ],
+            [
+              4,
+              9,
+              78
+            ]
+          ],
+          "type_nll": 0.7294497296988973,
+          "type_ece": 0.07663812131097868,
+          "sampling_weighted_macro_f1": 0.9185715185443107,
+          "sampling_weighted_confusion": [
+            [
+              4400.0,
+              0.0,
+              0.0
+            ],
+            [
+              17.0,
+              104.0,
+              6.0
+            ],
+            [
+              4.0,
+              9.0,
+              78.0
+            ]
+          ]
+        },
+        "checkpoint_sha256": "9780be14c633f67c255ccf25978e38dcb7ffc9864d1ad14377403a370f42e7b9"
+      }
+    }
+  },
+  "result_sha256": "363884b66b7215ba7e37441f4e03b8ee050e3f94f386ec33fe23024bc2b097e9",
+  "predictions_sha256": "de77b1d3aa84297befb65a1222ef4cc619308a0fca31910c28928afddb4bb9c9",
+  "no_original_label_changes": true,
+  "original_input_hashes_preserved": 36858,
+  "new_input_files_verified": 102,
+  "helper_removed": true,
+  "job_complete": true,
+  "limits": [
+    "AI-corrobated official references, not independent human gold",
+    "New NAIP imagery differs from original source",
+    "Same eleven multifamily false negatives remain",
+    "Individual-seed effects are inconsistent",
+    "No untouched city/generalization evaluation this round"
+  ]
+}

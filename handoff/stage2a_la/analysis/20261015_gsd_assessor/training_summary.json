@@ -1,0 +1,98 @@
+{
+  "n": 23014,
+  "tiles": 300,
+  "raw_uid_geometry_checks": "all_match",
+  "area_scale_ratio": {
+    "min": 16.602027167486874,
+    "p10": 22.188030035431733,
+    "p50": 22.237019124818694,
+    "p90": 22.25387629420354,
+    "max": 22.287416586498523
+  },
+  "metadata_gsd_m": {
+    "min": 1.902296,
+    "p10": 2.2015352000000004,
+    "p50": 2.2015352000000004,
+    "p90": 2.2015352000000004,
+    "max": 2.2015352000000004
+  },
+  "effective_gsd_m": {
+    "min": 0.46633207285576195,
+    "p10": 0.4666799235628868,
+    "p50": 0.4668586948002492,
+    "p90": 0.4668729299185516,
+    "max": 0.4673901334441961
+  },
+  "stored_area_formula_max_relative_error": 6.661338147750939e-16,
+  "equal_area_geodesic_max_relative_difference": 1.4540268481688656e-05,
+  "original_class_counts": {
+    "commercial": 17392,
+    "residential_multi": 3687,
+    "other": 954,
+    "institutional": 632,
+    "residential_small": 349
+  },
+  "classification_sources": {
+    "area_heuristic": 18460,
+    "parcel_code": 4554
+  },
+  "baseline_rule_reproduction": "all_23014_type_units_population_match_using_archived_source_family",
+  "counterfactual_definition": "Correct polygon area only; keep archived parcel-derived use family and ACS ratios; reconstruct equivalent codes, not a new raw parcel join; synthetic diagnostic, not ground truth",
+  "counterfactual_class_counts": {
+    "residential_small": 17447,
+    "residential_multi": 2648,
+    "commercial": 1333,
+    "other": 954,
+    "institutional": 632
+  },
+  "type_changed_n": 18280,
+  "population_old_sum": 6664678.199999999,
+  "population_counterfactual_sum": 183175.2,
+  "population_area_only_fixed_type_sum": 442209.60000000003,
+  "units_old_sum": 86122,
+  "units_counterfactual_sum": 35443,
+  "population_old_median": 215.8,
+  "population_counterfactual_median": 2.8,
+  "per_old_class": {
+    "commercial": {
+      "n": 17392,
+      "old_area_median": 6210.802604077581,
+      "physical_area_median": 282.39500670313316,
+      "old_population_median": 248.4,
+      "counterfactual_population_median": 2.8,
+      "type_changed_n": 16059
+    },
+    "institutional": {
+      "n": 632,
+      "old_area_median": 4823.168204023078,
+      "physical_area_median": 232.2556685956724,
+      "old_population_median": 289.4,
+      "counterfactual_population_median": 13.95,
+      "type_changed_n": 0
+    },
+    "other": {
+      "n": 954,
+      "old_area_median": 5823.702307932282,
+      "physical_area_median": 272.0934904429912,
+      "old_population_median": 34.95,
+      "counterfactual_population_median": 1.6,
+      "type_changed_n": 0
+    },
+    "residential_multi": {
+      "n": 3687,
+      "old_area_median": 1683.3179694678845,
+      "physical_area_median": 77.73115275145904,
+      "old_population_median": 32.8,
+      "counterfactual_population_median": 2.6,
+      "type_changed_n": 2221
+    },
+    "residential_small": {
+      "n": 349,
+      "old_area_median": 357.47020728683657,
+      "physical_area_median": 16.49483763389199,
+      "old_population_median": 2.6,
+      "counterfactual_population_median": 2.2,
+      "type_changed_n": 0
+    }
+  }
+}

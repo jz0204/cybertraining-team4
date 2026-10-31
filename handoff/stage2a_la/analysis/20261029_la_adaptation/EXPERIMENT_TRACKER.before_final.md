@@ -1,0 +1,11 @@
+# 执行记录
+
+| 步骤 | 状态 | 证据 |
+|---|---|---|
+| LA 56 少数类＋1冲突属性与近/宽影像检查 | 完成；原标签未改 | LABEL_AUDIT.csv、contact_sheets、COUNTYWIDE_OUTLINE_AUDIT.json |
+| 公共用途与县域轮廓获取、空间隔离 | 完成初筛 | 外置盘 POOL_AUDIT.json、FOOTPRINT_AUDIT.json、MODERN_AUDIT.json |
+| 1,186 候选的火前影像获取和 QA | 完成1,186/1,186，0影像QA失败 | image_metadata/ |
+| 冻结训练/验证数据与运行输入 | 完成；18,429总记录，训练/验证/测试空间自检通过 | PROTOCOL.json、DATASET.json、INPUT_SHA256.json |
+| CNN 基线复现与适配42/43 | 两种子完成，原预测复现通过；完整测试集成macro-F1 .571612 | CNN_PRELIMINARY.json；全部权重和结果SHA已核验 |
+| DINO 同数据42/43 | DINO已通过真实GPU见证，运行中 | 同数据和固定更新预算 |
+| 完整 LA 与固定子集配对比较 | 待执行 | 使用原参考版本 |

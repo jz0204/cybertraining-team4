@@ -1,0 +1,3632 @@
+{
+  "results": {
+    "full3332": {
+      "CNN_old": {
+        "n": 3332,
+        "accuracy": 0.9582833133253301,
+        "macro_f1": 0.48327922264838336,
+        "balanced_accuracy": 0.6151811151811152,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9582833133253301,
+        "prediction_counts": {
+          "residential_small": 3181,
+          "commercial": 124,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9933983024206224,
+            "recall": 0.9645909645909646,
+            "f1": 0.9787827164317795
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.07407407407407407,
+            "recall": 0.14285714285714285,
+            "f1": 0.0975609756097561
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.25,
+            "recall": 0.7380952380952381,
+            "f1": 0.37349397590361444
+          }
+        },
+        "confusion": [
+          [
+            3160,
+            25,
+            91,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3160,
+          "residential_multi": 2,
+          "commercial": 31
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 25,
+          "commercial": 93
+        }
+      },
+      "CNN_old_s42": {
+        "n": 3332,
+        "accuracy": 0.9531812725090036,
+        "macro_f1": 0.4736008012254036,
+        "balanced_accuracy": 0.6134513634513635,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9531812725090036,
+        "prediction_counts": {
+          "residential_small": 3164,
+          "commercial": 122,
+          "residential_multi": 46
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9933628318584071,
+            "recall": 0.9594017094017094,
+            "f1": 0.9760869565217392
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.043478260869565216,
+            "recall": 0.14285714285714285,
+            "f1": 0.06666666666666667
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.2540983606557377,
+            "recall": 0.7380952380952381,
+            "f1": 0.3780487804878049
+          }
+        },
+        "confusion": [
+          [
+            3143,
+            44,
+            89,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3143,
+          "residential_multi": 2,
+          "commercial": 31
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 44,
+          "commercial": 91
+        }
+      },
+      "CNN_old_s43": {
+        "n": 3332,
+        "accuracy": 0.9513805522208884,
+        "macro_f1": 0.45957572802487007,
+        "balanced_accuracy": 0.5893365893365893,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9513805522208884,
+        "prediction_counts": {
+          "residential_small": 3164,
+          "commercial": 141,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9924146649810367,
+            "recall": 0.9584859584859585,
+            "f1": 0.9751552795031055
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.07407407407407407,
+            "recall": 0.14285714285714285,
+            "f1": 0.0975609756097561
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.19858156028368795,
+            "recall": 0.6666666666666666,
+            "f1": 0.30601092896174864
+          }
+        },
+        "confusion": [
+          [
+            3140,
+            25,
+            111,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3140,
+          "residential_multi": 2,
+          "commercial": 28
+        },
+        "false_positives": {
+          "residential_small": 24,
+          "residential_multi": 25,
+          "commercial": 113
+        }
+      },
+      "cnn_s42": {
+        "n": 3332,
+        "accuracy": 0.9765906362545018,
+        "macro_f1": 0.5642584700159284,
+        "balanced_accuracy": 0.6059218559218559,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9765906362545018,
+        "prediction_counts": {
+          "residential_small": 3249,
+          "commercial": 47,
+          "residential_multi": 36
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9926131117266851,
+            "recall": 0.9844322344322345,
+            "f1": 0.9885057471264368
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08333333333333333,
+            "recall": 0.21428571428571427,
+            "f1": 0.12
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5531914893617021,
+            "recall": 0.6190476190476191,
+            "f1": 0.5842696629213483
+          }
+        },
+        "confusion": [
+          [
+            3225,
+            31,
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            2,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3225,
+          "residential_multi": 3,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 24,
+          "residential_multi": 33,
+          "commercial": 21
+        }
+      },
+      "cnn_s43": {
+        "n": 3332,
+        "accuracy": 0.9744897959183674,
+        "macro_f1": 0.5475958490719578,
+        "balanced_accuracy": 0.6132478632478632,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9744897959183674,
+        "prediction_counts": {
+          "residential_small": 3242,
+          "commercial": 57,
+          "residential_multi": 33
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9929056138186305,
+            "recall": 0.9826007326007326,
+            "f1": 0.9877262964099417
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.12121212121212122,
+            "recall": 0.2857142857142857,
+            "f1": 0.1702127659574468
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.42105263157894735,
+            "recall": 0.5714285714285714,
+            "f1": 0.48484848484848486
+          }
+        },
+        "confusion": [
+          [
+            3219,
+            25,
+            32,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            4,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3219,
+          "residential_multi": 4,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 29,
+          "commercial": 33
+        }
+      },
+      "cnn_ensemble": {
+        "n": 3332,
+        "accuracy": 0.9771908763505402,
+        "macro_f1": 0.5716122429803531,
+        "balanced_accuracy": 0.6217948717948718,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9771908763505402,
+        "prediction_counts": {
+          "residential_small": 3248,
+          "commercial": 52,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9929187192118226,
+            "recall": 0.9844322344322345,
+            "f1": 0.9886572654812998
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.09375,
+            "recall": 0.21428571428571427,
+            "f1": 0.13043478260869565
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5384615384615384,
+            "recall": 0.6666666666666666,
+            "f1": 0.5957446808510638
+          }
+        },
+        "confusion": [
+          [
+            3225,
+            28,
+            23,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3225,
+          "residential_multi": 3,
+          "commercial": 28
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 29,
+          "commercial": 24
+        }
+      },
+      "dino_s42": {
+        "n": 3332,
+        "accuracy": 0.9762905162064826,
+        "macro_f1": 0.5883270732535438,
+        "balanced_accuracy": 0.5901505901505901,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9762905162064826,
+        "prediction_counts": {
+          "residential_small": 3252,
+          "residential_multi": 52,
+          "commercial": 28
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9920049200492005,
+            "recall": 0.9847374847374848,
+            "f1": 0.9883578431372549
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.057692307692307696,
+            "recall": 0.21428571428571427,
+            "f1": 0.09090909090909091
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8571428571428571,
+            "recall": 0.5714285714285714,
+            "f1": 0.6857142857142857
+          }
+        },
+        "confusion": [
+          [
+            3226,
+            47,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3226,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 26,
+          "residential_multi": 49,
+          "commercial": 4
+        }
+      },
+      "dino_s43": {
+        "n": 3332,
+        "accuracy": 0.9765906362545018,
+        "macro_f1": 0.5765488436947441,
+        "balanced_accuracy": 0.6294261294261294,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9765906362545018,
+        "prediction_counts": {
+          "residential_small": 3244,
+          "commercial": 51,
+          "residential_multi": 37
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9932182490752158,
+            "recall": 0.9835164835164835,
+            "f1": 0.9883435582822085
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08108108108108109,
+            "recall": 0.21428571428571427,
+            "f1": 0.11764705882352941
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5686274509803921,
+            "recall": 0.6904761904761905,
+            "f1": 0.6236559139784946
+          }
+        },
+        "confusion": [
+          [
+            3222,
+            33,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3222,
+          "residential_multi": 3,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 34,
+          "commercial": 22
+        }
+      },
+      "dino_ensemble": {
+        "n": 3332,
+        "accuracy": 0.976890756302521,
+        "macro_f1": 0.5724358229556908,
+        "balanced_accuracy": 0.5903540903540904,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.976890756302521,
+        "prediction_counts": {
+          "residential_small": 3254,
+          "residential_multi": 43,
+          "commercial": 35
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9920098340503996,
+            "recall": 0.9853479853479854,
+            "f1": 0.9886676875957121
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.06976744186046512,
+            "recall": 0.21428571428571427,
+            "f1": 0.10526315789473684
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6857142857142857,
+            "recall": 0.5714285714285714,
+            "f1": 0.6233766233766234
+          }
+        },
+        "confusion": [
+          [
+            3228,
+            38,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3228,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 26,
+          "residential_multi": 40,
+          "commercial": 11
+        }
+      }
+    },
+    "common3157": {
+      "CNN_old": {
+        "n": 3157,
+        "accuracy": 0.9635730123535001,
+        "macro_f1": 0.5048061466609792,
+        "balanced_accuracy": 0.6170948439571464,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9635730123535001,
+        "prediction_counts": {
+          "residential_small": 3030,
+          "commercial": 103,
+          "residential_multi": 24
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9930693069306931,
+            "recall": 0.9703321509190583,
+            "f1": 0.981569075191649
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08333333333333333,
+            "recall": 0.14285714285714285,
+            "f1": 0.10526315789473684
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.30097087378640774,
+            "recall": 0.7380952380952381,
+            "f1": 0.42758620689655175
+          }
+        },
+        "confusion": [
+          [
+            3009,
+            22,
+            70,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3009,
+          "residential_multi": 2,
+          "commercial": 31
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 22,
+          "commercial": 72
+        }
+      },
+      "CNN_old_s42": {
+        "n": 3157,
+        "accuracy": 0.9591384225530567,
+        "macro_f1": 0.4967943573799594,
+        "balanced_accuracy": 0.6155899530617364,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9591384225530567,
+        "prediction_counts": {
+          "residential_small": 3016,
+          "commercial": 99,
+          "residential_multi": 42
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9930371352785146,
+            "recall": 0.9658174782328282,
+            "f1": 0.9792381886545692
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.047619047619047616,
+            "recall": 0.14285714285714285,
+            "f1": 0.07142857142857142
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.31313131313131315,
+            "recall": 0.7380952380952381,
+            "f1": 0.4397163120567376
+          }
+        },
+        "confusion": [
+          [
+            2995,
+            40,
+            66,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 2995,
+          "residential_multi": 2,
+          "commercial": 31
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 40,
+          "commercial": 68
+        }
+      },
+      "CNN_old_s43": {
+        "n": 3157,
+        "accuracy": 0.9556541019955654,
+        "macro_f1": 0.4745146169137593,
+        "balanced_accuracy": 0.5909204915976924,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9556541019955654,
+        "prediction_counts": {
+          "residential_small": 3011,
+          "commercial": 121,
+          "residential_multi": 25
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9920292261707074,
+            "recall": 0.963237665269268,
+            "f1": 0.9774214659685864
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08,
+            "recall": 0.14285714285714285,
+            "f1": 0.10256410256410256
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.23140495867768596,
+            "recall": 0.6666666666666666,
+            "f1": 0.34355828220858897
+          }
+        },
+        "confusion": [
+          [
+            2987,
+            23,
+            91,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 2987,
+          "residential_multi": 2,
+          "commercial": 28
+        },
+        "false_positives": {
+          "residential_small": 24,
+          "residential_multi": 23,
+          "commercial": 93
+        }
+      },
+      "cnn_s42": {
+        "n": 3157,
+        "accuracy": 0.9800443458980045,
+        "macro_f1": 0.5877181447330755,
+        "balanced_accuracy": 0.607241391665771,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9800443458980045,
+        "prediction_counts": {
+          "residential_small": 3089,
+          "commercial": 41,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9922304953059242,
+            "recall": 0.9883908416639794,
+            "f1": 0.9903069466882067
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.1111111111111111,
+            "recall": 0.21428571428571427,
+            "f1": 0.14634146341463414
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6341463414634146,
+            "recall": 0.6190476190476191,
+            "f1": 0.6265060240963856
+          }
+        },
+        "confusion": [
+          [
+            3065,
+            22,
+            14,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            2,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3065,
+          "residential_multi": 3,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 24,
+          "residential_multi": 24,
+          "commercial": 15
+        }
+      },
+      "cnn_s43": {
+        "n": 3157,
+        "accuracy": 0.9775102945834653,
+        "macro_f1": 0.5701936936008799,
+        "balanced_accuracy": 0.6144254541545738,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9775102945834653,
+        "prediction_counts": {
+          "residential_small": 3081,
+          "commercial": 51,
+          "residential_multi": 25
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925348912690685,
+            "recall": 0.9861335053208642,
+            "f1": 0.9893238434163701
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.16,
+            "recall": 0.2857142857142857,
+            "f1": 0.20512820512820512
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.47058823529411764,
+            "recall": 0.5714285714285714,
+            "f1": 0.5161290322580645
+          }
+        },
+        "confusion": [
+          [
+            3058,
+            17,
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            4,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3058,
+          "residential_multi": 4,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 21,
+          "commercial": 27
+        }
+      },
+      "cnn_ensemble": {
+        "n": 3157,
+        "accuracy": 0.9803611023123219,
+        "macro_f1": 0.5948540623463224,
+        "balanced_accuracy": 0.6230069153319717,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9803611023123219,
+        "prediction_counts": {
+          "residential_small": 3087,
+          "commercial": 46,
+          "residential_multi": 24
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925494007126661,
+            "recall": 0.9880683650435343,
+            "f1": 0.9903038138332256
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.125,
+            "recall": 0.21428571428571427,
+            "f1": 0.15789473684210525
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6086956521739131,
+            "recall": 0.6666666666666666,
+            "f1": 0.6363636363636364
+          }
+        },
+        "confusion": [
+          [
+            3064,
+            20,
+            17,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3064,
+          "residential_multi": 3,
+          "commercial": 28
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 21,
+          "commercial": 18
+        }
+      },
+      "dino_s42": {
+        "n": 3157,
+        "accuracy": 0.9781438074121,
+        "macro_f1": 0.594063779357897,
+        "balanced_accuracy": 0.5909384069654949,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9781438074121,
+        "prediction_counts": {
+          "residential_small": 3087,
+          "residential_multi": 42,
+          "commercial": 28
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9915775834143181,
+            "recall": 0.9871009351821993,
+            "f1": 0.9893341952165482
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.07142857142857142,
+            "recall": 0.21428571428571427,
+            "f1": 0.10714285714285714
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.8571428571428571,
+            "recall": 0.5714285714285714,
+            "f1": 0.6857142857142857
+          }
+        },
+        "confusion": [
+          [
+            3061,
+            37,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3061,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 26,
+          "residential_multi": 39,
+          "commercial": 4
+        }
+      },
+      "dino_s43": {
+        "n": 3157,
+        "accuracy": 0.9778270509977827,
+        "macro_f1": 0.5865630574597878,
+        "balanced_accuracy": 0.6299759934071446,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9778270509977827,
+        "prediction_counts": {
+          "residential_small": 3077,
+          "commercial": 49,
+          "residential_multi": 31
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9928501787455314,
+            "recall": 0.9851660754595292,
+            "f1": 0.9889932016833927
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.0967741935483871,
+            "recall": 0.21428571428571427,
+            "f1": 0.13333333333333333
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5918367346938775,
+            "recall": 0.6904761904761905,
+            "f1": 0.6373626373626373
+          }
+        },
+        "confusion": [
+          [
+            3055,
+            27,
+            19,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3055,
+          "residential_multi": 3,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 28,
+          "commercial": 20
+        }
+      },
+      "dino_ensemble": {
+        "n": 3157,
+        "accuracy": 0.9781438074121,
+        "macro_f1": 0.5783865993950027,
+        "balanced_accuracy": 0.5909384069654949,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9781438074121,
+        "prediction_counts": {
+          "residential_small": 3087,
+          "residential_multi": 35,
+          "commercial": 35
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9915775834143181,
+            "recall": 0.9871009351821993,
+            "f1": 0.9893341952165482
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08571428571428572,
+            "recall": 0.21428571428571427,
+            "f1": 0.12244897959183673
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6857142857142857,
+            "recall": 0.5714285714285714,
+            "f1": 0.6233766233766234
+          }
+        },
+        "confusion": [
+          [
+            3061,
+            30,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3061,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 26,
+          "residential_multi": 32,
+          "commercial": 11
+        }
+      }
+    },
+    "strict_single_assessor": {
+      "CNN_old": {
+        "n": 3315,
+        "accuracy": 0.9586726998491705,
+        "macro_f1": 0.47974994903721396,
+        "balanced_accuracy": 0.6145305695734881,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9586726998491705,
+        "prediction_counts": {
+          "residential_small": 3167,
+          "commercial": 121,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9936848752762867,
+            "recall": 0.9647455548743102,
+            "f1": 0.9790013999066729
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.07407407407407407,
+            "recall": 0.15384615384615385,
+            "f1": 0.1
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.2396694214876033,
+            "recall": 0.725,
+            "f1": 0.36024844720496896
+          }
+        },
+        "confusion": [
+          [
+            3147,
+            25,
+            90,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3147,
+          "residential_multi": 2,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 20,
+          "residential_multi": 25,
+          "commercial": 92
+        }
+      },
+      "CNN_old_s42": {
+        "n": 3315,
+        "accuracy": 0.9535444947209654,
+        "macro_f1": 0.4696236440978321,
+        "balanced_accuracy": 0.61279339401657,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9535444947209654,
+        "prediction_counts": {
+          "residential_small": 3150,
+          "commercial": 119,
+          "residential_multi": 46
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9936507936507937,
+            "recall": 0.9595340282035562,
+            "f1": 0.9762944479101684
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.043478260869565216,
+            "recall": 0.15384615384615385,
+            "f1": 0.06779661016949153
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.24369747899159663,
+            "recall": 0.725,
+            "f1": 0.36477987421383645
+          }
+        },
+        "confusion": [
+          [
+            3130,
+            44,
+            88,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3130,
+          "residential_multi": 2,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 20,
+          "residential_multi": 44,
+          "commercial": 90
+        }
+      },
+      "CNN_old_s43": {
+        "n": 3315,
+        "accuracy": 0.951734539969834,
+        "macro_f1": 0.4558311779645375,
+        "balanced_accuracy": 0.5874868336241726,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.951734539969834,
+        "prediction_counts": {
+          "residential_small": 3150,
+          "commercial": 138,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9926984126984127,
+            "recall": 0.9586143470263642,
+            "f1": 0.9753587024329382
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.07407407407407407,
+            "recall": 0.15384615384615385,
+            "f1": 0.1
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.18840579710144928,
+            "recall": 0.65,
+            "f1": 0.29213483146067415
+          }
+        },
+        "confusion": [
+          [
+            3127,
+            25,
+            110,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3127,
+          "residential_multi": 2,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 25,
+          "commercial": 112
+        }
+      },
+      "cnn_s42": {
+        "n": 3315,
+        "accuracy": 0.9770739064856712,
+        "macro_f1": 0.5594899757655871,
+        "balanced_accuracy": 0.605147070383122,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9770739064856712,
+        "prediction_counts": {
+          "residential_small": 3235,
+          "commercial": 45,
+          "residential_multi": 35
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9928902627511592,
+            "recall": 0.9846719803801349,
+            "f1": 0.9887640449438202
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.08571428571428572,
+            "recall": 0.23076923076923078,
+            "f1": 0.125
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.5333333333333333,
+            "recall": 0.6,
+            "f1": 0.5647058823529412
+          }
+        },
+        "confusion": [
+          [
+            3212,
+            30,
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3212,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 32,
+          "commercial": 21
+        }
+      },
+      "cnn_s43": {
+        "n": 3315,
+        "accuracy": 0.97526395173454,
+        "macro_f1": 0.5499899380363252,
+        "balanced_accuracy": 0.6218416419060195,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.97526395173454,
+        "prediction_counts": {
+          "residential_small": 3228,
+          "commercial": 55,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.993184634448575,
+            "recall": 0.9828326180257511,
+            "f1": 0.9879815100154083
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.125,
+            "recall": 0.3076923076923077,
+            "f1": 0.17777777777777778
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.41818181818181815,
+            "recall": 0.575,
+            "f1": 0.4842105263157895
+          }
+        },
+        "confusion": [
+          [
+            3206,
+            25,
+            31,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            3,
+            23,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3206,
+          "residential_multi": 4,
+          "commercial": 23
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 28,
+          "commercial": 32
+        }
+      },
+      "cnn_ensemble": {
+        "n": 3315,
+        "accuracy": 0.9776772247360482,
+        "macro_f1": 0.5688397508041056,
+        "balanced_accuracy": 0.6218137370497886,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9776772247360482,
+        "prediction_counts": {
+          "residential_small": 3234,
+          "commercial": 49,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9931972789115646,
+            "recall": 0.9846719803801349,
+            "f1": 0.9889162561576355
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.09375,
+            "recall": 0.23076923076923078,
+            "f1": 0.13333333333333333
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.5306122448979592,
+            "recall": 0.65,
+            "f1": 0.5842696629213483
+          }
+        },
+        "confusion": [
+          [
+            3212,
+            28,
+            22,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3212,
+          "residential_multi": 3,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 29,
+          "commercial": 23
+        }
+      },
+      "dino_s42": {
+        "n": 3315,
+        "accuracy": 0.9767722473604826,
+        "macro_f1": 0.5830106837606838,
+        "balanced_accuracy": 0.588582590513921,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9767722473604826,
+        "prediction_counts": {
+          "residential_small": 3238,
+          "residential_multi": 51,
+          "commercial": 26
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9922791846819025,
+            "recall": 0.9849785407725322,
+            "f1": 0.9886153846153846
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.058823529411764705,
+            "recall": 0.23076923076923078,
+            "f1": 0.09375
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.8461538461538461,
+            "recall": 0.55,
+            "f1": 0.6666666666666666
+          }
+        },
+        "confusion": [
+          [
+            3213,
+            46,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3213,
+          "residential_multi": 3,
+          "commercial": 22
+        },
+        "false_positives": {
+          "residential_small": 25,
+          "residential_multi": 48,
+          "commercial": 4
+        }
+      },
+      "dino_s43": {
+        "n": 3315,
+        "accuracy": 0.9770739064856712,
+        "macro_f1": 0.5725973027133414,
+        "balanced_accuracy": 0.6298405099907246,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9770739064856712,
+        "prediction_counts": {
+          "residential_small": 3230,
+          "commercial": 49,
+          "residential_multi": 36
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9934984520123838,
+            "recall": 0.9837522992029429,
+            "f1": 0.9886013555144794
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.08333333333333333,
+            "recall": 0.23076923076923078,
+            "f1": 0.12244897959183673
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.5510204081632653,
+            "recall": 0.675,
+            "f1": 0.6067415730337079
+          }
+        },
+        "confusion": [
+          [
+            3209,
+            32,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            27,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3209,
+          "residential_multi": 3,
+          "commercial": 27
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 33,
+          "commercial": 22
+        }
+      },
+      "dino_ensemble": {
+        "n": 3315,
+        "accuracy": 0.9773755656108597,
+        "macro_f1": 0.5669190397590089,
+        "balanced_accuracy": 0.5887869641088526,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9773755656108597,
+        "prediction_counts": {
+          "residential_small": 3240,
+          "residential_multi": 42,
+          "commercial": 33
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3262,
+            "precision": 0.9922839506172839,
+            "recall": 0.9855916615573268,
+            "f1": 0.9889264841587204
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.07142857142857142,
+            "recall": 0.23076923076923078,
+            "f1": 0.10909090909090909
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.6666666666666666,
+            "recall": 0.55,
+            "f1": 0.6027397260273972
+          }
+        },
+        "confusion": [
+          [
+            3215,
+            37,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3215,
+          "residential_multi": 3,
+          "commercial": 22
+        },
+        "false_positives": {
+          "residential_small": 25,
+          "residential_multi": 39,
+          "commercial": 11
+        }
+      }
+    },
+    "without_four_attribute_uncertainties": {
+      "CNN_old": {
+        "n": 3328,
+        "accuracy": 0.9585336538461539,
+        "macro_f1": 0.47898416269108,
+        "balanced_accuracy": 0.61447543550597,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9585336538461539,
+        "prediction_counts": {
+          "residential_small": 3179,
+          "commercial": 122,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9937087134318968,
+            "recall": 0.9645801526717557,
+            "f1": 0.9789277967152153
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.07407407407407407,
+            "recall": 0.15384615384615385,
+            "f1": 0.1
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.23770491803278687,
+            "recall": 0.725,
+            "f1": 0.35802469135802467
+          }
+        },
+        "confusion": [
+          [
+            3159,
+            25,
+            91,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3159,
+          "residential_multi": 2,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 20,
+          "residential_multi": 25,
+          "commercial": 93
+        }
+      },
+      "CNN_old_s42": {
+        "n": 3328,
+        "accuracy": 0.9534254807692307,
+        "macro_f1": 0.46884259125167094,
+        "balanced_accuracy": 0.612745155607751,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9534254807692307,
+        "prediction_counts": {
+          "residential_small": 3162,
+          "commercial": 120,
+          "residential_multi": 46
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9936748893105629,
+            "recall": 0.9593893129770993,
+            "f1": 0.9762311635855212
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.043478260869565216,
+            "recall": 0.15384615384615385,
+            "f1": 0.06779661016949153
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.24166666666666667,
+            "recall": 0.725,
+            "f1": 0.3625
+          }
+        },
+        "confusion": [
+          [
+            3142,
+            44,
+            89,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3142,
+          "residential_multi": 2,
+          "commercial": 29
+        },
+        "false_positives": {
+          "residential_small": 20,
+          "residential_multi": 44,
+          "commercial": 91
+        }
+      },
+      "CNN_old_s43": {
+        "n": 3328,
+        "accuracy": 0.9516225961538461,
+        "macro_f1": 0.45526728188322335,
+        "balanced_accuracy": 0.5874398120963007,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9516225961538461,
+        "prediction_counts": {
+          "residential_small": 3162,
+          "commercial": 139,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9927261227071473,
+            "recall": 0.9584732824427481,
+            "f1": 0.9752990523535808
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.07407407407407407,
+            "recall": 0.15384615384615385,
+            "f1": 0.1
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.18705035971223022,
+            "recall": 0.65,
+            "f1": 0.2905027932960894
+          }
+        },
+        "confusion": [
+          [
+            3139,
+            25,
+            111,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3139,
+          "residential_multi": 2,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 25,
+          "commercial": 113
+        }
+      },
+      "cnn_s42": {
+        "n": 3328,
+        "accuracy": 0.9768629807692307,
+        "macro_f1": 0.558602883042208,
+        "balanced_accuracy": 0.6050655705617537,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9768629807692307,
+        "prediction_counts": {
+          "residential_small": 3247,
+          "commercial": 45,
+          "residential_multi": 36
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9929165383430859,
+            "recall": 0.9844274809160305,
+            "f1": 0.988653787181846
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.08333333333333333,
+            "recall": 0.23076923076923078,
+            "f1": 0.12244897959183673
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.5333333333333333,
+            "recall": 0.6,
+            "f1": 0.5647058823529412
+          }
+        },
+        "confusion": [
+          [
+            3224,
+            31,
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3224,
+          "residential_multi": 3,
+          "commercial": 24
+        },
+        "false_positives": {
+          "residential_small": 23,
+          "residential_multi": 33,
+          "commercial": 21
+        }
+      },
+      "cnn_s43": {
+        "n": 3328,
+        "accuracy": 0.9750600961538461,
+        "macro_f1": 0.5482728603507575,
+        "balanced_accuracy": 0.6217625758465453,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9750600961538461,
+        "prediction_counts": {
+          "residential_small": 3240,
+          "commercial": 56,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9932098765432099,
+            "recall": 0.9825954198473282,
+            "f1": 0.9878741366078281
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.125,
+            "recall": 0.3076923076923077,
+            "f1": 0.17777777777777778
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.4107142857142857,
+            "recall": 0.575,
+            "f1": 0.4791666666666667
+          }
+        },
+        "confusion": [
+          [
+            3218,
+            25,
+            32,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            3,
+            23,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3218,
+          "residential_multi": 4,
+          "commercial": 23
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 28,
+          "commercial": 33
+        }
+      },
+      "cnn_ensemble": {
+        "n": 3328,
+        "accuracy": 0.9774639423076923,
+        "macro_f1": 0.5666388363520706,
+        "balanced_accuracy": 0.6217322372284205,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9774639423076923,
+        "prediction_counts": {
+          "residential_small": 3246,
+          "commercial": 50,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9932224276032039,
+            "recall": 0.9844274809160305,
+            "f1": 0.9888053979451005
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.09375,
+            "recall": 0.23076923076923078,
+            "f1": 0.13333333333333333
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.52,
+            "recall": 0.65,
+            "f1": 0.5777777777777777
+          }
+        },
+        "confusion": [
+          [
+            3224,
+            28,
+            23,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3224,
+          "residential_multi": 3,
+          "commercial": 26
+        },
+        "false_positives": {
+          "residential_small": 22,
+          "residential_multi": 29,
+          "commercial": 24
+        }
+      },
+      "dino_s42": {
+        "n": 3328,
+        "accuracy": 0.9765625,
+        "macro_f1": 0.5824933687002652,
+        "balanced_accuracy": 0.5885006850655706,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9765625,
+        "prediction_counts": {
+          "residential_small": 3250,
+          "residential_multi": 52,
+          "commercial": 26
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9923076923076923,
+            "recall": 0.9847328244274809,
+            "f1": 0.9885057471264368
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.057692307692307696,
+            "recall": 0.23076923076923078,
+            "f1": 0.09230769230769231
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.8461538461538461,
+            "recall": 0.55,
+            "f1": 0.6666666666666666
+          }
+        },
+        "confusion": [
+          [
+            3225,
+            47,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3225,
+          "residential_multi": 3,
+          "commercial": 22
+        },
+        "false_positives": {
+          "residential_small": 25,
+          "residential_multi": 49,
+          "commercial": 4
+        }
+      },
+      "dino_s43": {
+        "n": 3328,
+        "accuracy": 0.9768629807692307,
+        "macro_f1": 0.5717444034300381,
+        "balanced_accuracy": 0.6297602270503034,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9768629807692307,
+        "prediction_counts": {
+          "residential_small": 3242,
+          "commercial": 49,
+          "residential_multi": 37
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9935225169648365,
+            "recall": 0.9835114503816794,
+            "f1": 0.9884916372564063
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.08108108108108109,
+            "recall": 0.23076923076923078,
+            "f1": 0.12
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.5510204081632653,
+            "recall": 0.675,
+            "f1": 0.6067415730337079
+          }
+        },
+        "confusion": [
+          [
+            3221,
+            33,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            27,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3221,
+          "residential_multi": 3,
+          "commercial": 27
+        },
+        "false_positives": {
+          "residential_small": 21,
+          "residential_multi": 34,
+          "commercial": 22
+        }
+      },
+      "dino_ensemble": {
+        "n": 3328,
+        "accuracy": 0.9771634615384616,
+        "macro_f1": 0.5662327572826847,
+        "balanced_accuracy": 0.5887042474065375,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9771634615384616,
+        "prediction_counts": {
+          "residential_small": 3252,
+          "residential_multi": 43,
+          "commercial": 33
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3275,
+            "precision": 0.9923124231242313,
+            "recall": 0.9853435114503817,
+            "f1": 0.9888156886777999
+          },
+          "residential_multi": {
+            "n": 13,
+            "precision": 0.06976744186046512,
+            "recall": 0.23076923076923078,
+            "f1": 0.10714285714285714
+          },
+          "commercial": {
+            "n": 40,
+            "precision": 0.6666666666666666,
+            "recall": 0.55,
+            "f1": 0.6027397260273972
+          }
+        },
+        "confusion": [
+          [
+            3227,
+            38,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ],
+        "true_positives": {
+          "residential_small": 3227,
+          "residential_multi": 3,
+          "commercial": 22
+        },
+        "false_positives": {
+          "residential_small": 25,
+          "residential_multi": 40,
+          "commercial": 11
+        }
+      }
+    }
+  },
+  "paired_cell_bootstrap": {
+    "full3332:cnn_ensemble-CNN_old": {
+      "delta_macro_f1": 0.08833302033196971,
+      "ci95": [
+        0.037173072020261495,
+        0.125128277471745
+      ],
+      "cells": 92,
+      "draws": 1000
+    },
+    "full3332:dino_ensemble-CNN_old": {
+      "delta_macro_f1": 0.08915660030730749,
+      "ci95": [
+        0.010117712329998902,
+        0.1610786378413219
+      ],
+      "cells": 92,
+      "draws": 1000
+    },
+    "full3332:dino_ensemble-cnn_ensemble": {
+      "delta_macro_f1": 0.0008235799753377737,
+      "ci95": [
+        -0.049994629641686404,
+        0.0787832525482486
+      ],
+      "cells": 92,
+      "draws": 1000
+    },
+    "common3157:cnn_ensemble-CNN_old": {
+      "delta_macro_f1": 0.0900479156853432,
+      "ci95": [
+        0.03664292009479445,
+        0.13211394106222402
+      ],
+      "cells": 91,
+      "draws": 1000
+    },
+    "common3157:dino_ensemble-CNN_old": {
+      "delta_macro_f1": 0.07358045273402347,
+      "ci95": [
+        -0.00013049080400099846,
+        0.1469334712720408
+      ],
+      "cells": 91,
+      "draws": 1000
+    },
+    "common3157:dino_ensemble-cnn_ensemble": {
+      "delta_macro_f1": -0.016467462951319733,
+      "ci95": [
+        -0.06509242576938341,
+        0.0615093837247307
+      ],
+      "cells": 91,
+      "draws": 1000
+    }
+  },
+  "fits": {
+    "cnn_s42": {
+      "best_epoch": 3,
+      "validation": {
+        "type_accuracy": 0.9223744292237442,
+        "type_macro_f1": 0.9120554600289309,
+        "type_per_class_f1": {
+          "residential_small": 0.9521739130434783,
+          "residential_multi": 0.8728813559322034,
+          "commercial": 0.9111111111111111
+        },
+        "confusion_matrix": [
+          [
+            219,
+            1,
+            0
+          ],
+          [
+            17,
+            103,
+            7
+          ],
+          [
+            4,
+            5,
+            82
+          ]
+        ],
+        "type_nll": 0.5640547673175186,
+        "type_ece": 0.06825460078509435,
+        "sampling_weighted_macro_f1": 0.9047652289463045,
+        "sampling_weighted_confusion": [
+          [
+            4380.0,
+            20.0,
+            0.0
+          ],
+          [
+            17.0,
+            103.0,
+            7.0
+          ],
+          [
+            4.0,
+            5.0,
+            82.0
+          ]
+        ]
+      },
+      "initial_validation": {
+        "type_accuracy": 0.728310502283105,
+        "type_macro_f1": 0.61878380538134,
+        "type_per_class_f1": {
+          "residential_small": 0.9274725274725275,
+          "residential_multi": 0.2894736842105263,
+          "commercial": 0.6394052044609665
+        },
+        "confusion_matrix": [
+          [
+            211,
+            2,
+            7
+          ],
+          [
+            20,
+            22,
+            85
+          ],
+          [
+            4,
+            1,
+            86
+          ]
+        ],
+        "type_nll": 1.1665866814301686,
+        "type_ece": 0.2273729514994033,
+        "sampling_weighted_macro_f1": 0.5452798195954477,
+        "sampling_weighted_confusion": [
+          [
+            4220.0,
+            40.0,
+            140.0
+          ],
+          [
+            20.0,
+            22.0,
+            85.0
+          ],
+          [
+            4.0,
+            1.0,
+            86.0
+          ]
+        ]
+      },
+      "seconds": 179.09198298095725,
+      "peak_reserved_gib": 2.517578125,
+      "draw_hashes": [
+        "b1aeec77d38c39878e40c0fe74938a09a110b0384ac8ba09125bf14df413a69d",
+        "0d1f305ee58739bb5ea1210d621709cffa0b8ddf037045cb6e46bee22ba1cf21",
+        "c4493a4ea63fbc94085ee5fb03839db2d9a39570918b8835b76c96c9818443c8",
+        "2428f475aed4d2fb170d402dbc228638ce1744481c557de0688a8c050d23886f",
+        "7ac24de1fa499e1d742a724f9e1bdd7eb8d40c595895c4f7b01eb739c2b27c92",
+        "3383d4d8ee23c224bc032bb2a46a50a37d36693d5c6fa9859dcf035e7f797dc0"
+      ]
+    },
+    "cnn_s43": {
+      "best_epoch": 5,
+      "validation": {
+        "type_accuracy": 0.91324200913242,
+        "type_macro_f1": 0.8999872676343265,
+        "type_per_class_f1": {
+          "residential_small": 0.948051948051948,
+          "residential_multi": 0.865546218487395,
+          "commercial": 0.8863636363636364
+        },
+        "confusion_matrix": [
+          [
+            219,
+            0,
+            1
+          ],
+          [
+            18,
+            103,
+            6
+          ],
+          [
+            5,
+            8,
+            78
+          ]
+        ],
+        "type_nll": 0.7716564067877252,
+        "type_ece": 0.08358137602131115,
+        "sampling_weighted_macro_f1": 0.8868871733630406,
+        "sampling_weighted_confusion": [
+          [
+            4380.0,
+            0.0,
+            20.0
+          ],
+          [
+            18.0,
+            103.0,
+            6.0
+          ],
+          [
+            5.0,
+            8.0,
+            78.0
+          ]
+        ]
+      },
+      "initial_validation": {
+        "type_accuracy": 0.728310502283105,
+        "type_macro_f1": 0.6052437052437053,
+        "type_per_class_f1": {
+          "residential_small": 0.9358974358974359,
+          "residential_multi": 0.25675675675675674,
+          "commercial": 0.6230769230769231
+        },
+        "confusion_matrix": [
+          [
+            219,
+            0,
+            1
+          ],
+          [
+            21,
+            19,
+            87
+          ],
+          [
+            8,
+            2,
+            81
+          ]
+        ],
+        "type_nll": 1.5275911644499955,
+        "type_ece": 0.23436412664308937,
+        "sampling_weighted_macro_f1": 0.6106131417140319,
+        "sampling_weighted_confusion": [
+          [
+            4380.0,
+            0.0,
+            20.0
+          ],
+          [
+            21.0,
+            19.0,
+            87.0
+          ],
+          [
+            8.0,
+            2.0,
+            81.0
+          ]
+        ]
+      },
+      "seconds": 176.72738892096095,
+      "peak_reserved_gib": 2.517578125,
+      "draw_hashes": [
+        "cc13b17143899f1d89f8bec9b637188684147ebb716f4d160043e2da37054780",
+        "2a9b023c526ce6b94f2412524c8f3f17ebf9885f80b656949d2ceff4f7f96f18",
+        "12d090a347912d4b6efba21a50ad957fd165397e8721dbbcdc7d7c6b849fb09e",
+        "eb1279547f077bea9f467cc1ff3eff3c8e9b81ab5e30f39bfda6f5eeffaedbb3",
+        "62ac793f345c712a05fa8c2c5375d11f21bb2d446de1e884d502ca0c523a053c",
+        "9898ee4cea989f1749bed37c3fbc3a6d58163ca8a724534ebec6dfa7be762da2"
+      ]
+    },
+    "dino_s42": {
+      "best_epoch": 2,
+      "validation": {
+        "type_accuracy": 0.91324200913242,
+        "type_macro_f1": 0.8985344525039153,
+        "type_per_class_f1": {
+          "residential_small": 0.9503239740820735,
+          "residential_multi": 0.8666666666666667,
+          "commercial": 0.8786127167630058
+        },
+        "confusion_matrix": [
+          [
+            220,
+            0,
+            0
+          ],
+          [
+            17,
+            104,
+            6
+          ],
+          [
+            6,
+            9,
+            76
+          ]
+        ],
+        "type_nll": 0.5728913046628533,
+        "type_ece": 0.08093107175337128,
+        "sampling_weighted_macro_f1": 0.9142241867845403,
+        "sampling_weighted_confusion": [
+          [
+            4400.0,
+            0.0,
+            0.0
+          ],
+          [
+            17.0,
+            104.0,
+            6.0
+          ],
+          [
+            6.0,
+            9.0,
+            76.0
+          ]
+        ]
+      },
+      "initial_validation": {
+        "type_accuracy": 0.20776255707762556,
+        "type_macro_f1": 0.11468178954001261,
+        "type_per_class_f1": {
+          "residential_small": 0.0,
+          "residential_multi": 0.0,
+          "commercial": 0.3440453686200378
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            220
+          ],
+          [
+            0,
+            0,
+            127
+          ],
+          [
+            0,
+            0,
+            91
+          ]
+        ],
+        "type_nll": 1.1664569436707894,
+        "type_ece": 0.17631112658269874,
+        "sampling_weighted_macro_f1": 0.012883131591986974,
+        "sampling_weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            4400.0
+          ],
+          [
+            0.0,
+            0.0,
+            127.0
+          ],
+          [
+            0.0,
+            0.0,
+            91.0
+          ]
+        ]
+      },
+      "seconds": 189.0829695169814,
+      "peak_reserved_gib": 1.123046875,
+      "draw_hashes": [
+        "b1aeec77d38c39878e40c0fe74938a09a110b0384ac8ba09125bf14df413a69d",
+        "0d1f305ee58739bb5ea1210d621709cffa0b8ddf037045cb6e46bee22ba1cf21",
+        "c4493a4ea63fbc94085ee5fb03839db2d9a39570918b8835b76c96c9818443c8",
+        "2428f475aed4d2fb170d402dbc228638ce1744481c557de0688a8c050d23886f",
+        "7ac24de1fa499e1d742a724f9e1bdd7eb8d40c595895c4f7b01eb739c2b27c92",
+        "3383d4d8ee23c224bc032bb2a46a50a37d36693d5c6fa9859dcf035e7f797dc0"
+      ]
+    },
+    "dino_s43": {
+      "best_epoch": 2,
+      "validation": {
+        "type_accuracy": 0.9200913242009132,
+        "type_macro_f1": 0.908402671550638,
+        "type_per_class_f1": {
+          "residential_small": 0.9540481400437637,
+          "residential_multi": 0.8620689655172413,
+          "commercial": 0.9090909090909091
+        },
+        "confusion_matrix": [
+          [
+            218,
+            2,
+            0
+          ],
+          [
+            16,
+            100,
+            11
+          ],
+          [
+            3,
+            3,
+            85
+          ]
+        ],
+        "type_nll": 0.39563300784289446,
+        "type_ece": 0.05820874754152336,
+        "sampling_weighted_macro_f1": 0.8810370222072391,
+        "sampling_weighted_confusion": [
+          [
+            4360.0,
+            40.0,
+            0.0
+          ],
+          [
+            16.0,
+            100.0,
+            11.0
+          ],
+          [
+            3.0,
+            3.0,
+            85.0
+          ]
+        ]
+      },
+      "initial_validation": {
+        "type_accuracy": 0.2054794520547945,
+        "type_macro_f1": 0.11363636363636363,
+        "type_per_class_f1": {
+          "residential_small": 0.0,
+          "residential_multi": 0.0,
+          "commercial": 0.3409090909090909
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            220
+          ],
+          [
+            0,
+            0,
+            127
+          ],
+          [
+            0,
+            1,
+            90
+          ]
+        ],
+        "type_nll": 1.1043078898994287,
+        "type_ece": 0.14388422021582792,
+        "sampling_weighted_macro_f1": 0.012744265080713678,
+        "sampling_weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            4400.0
+          ],
+          [
+            0.0,
+            0.0,
+            127.0
+          ],
+          [
+            0.0,
+            1.0,
+            90.0
+          ]
+        ]
+      },
+      "seconds": 189.4743809911888,
+      "peak_reserved_gib": 1.123046875,
+      "draw_hashes": [
+        "cc13b17143899f1d89f8bec9b637188684147ebb716f4d160043e2da37054780",
+        "2a9b023c526ce6b94f2412524c8f3f17ebf9885f80b656949d2ceff4f7f96f18",
+        "12d090a347912d4b6efba21a50ad957fd165397e8721dbbcdc7d7c6b849fb09e",
+        "eb1279547f077bea9f467cc1ff3eff3c8e9b81ab5e30f39bfda6f5eeffaedbb3",
+        "62ac793f345c712a05fa8c2c5375d11f21bb2d446de1e884d502ca0c523a053c",
+        "9898ee4cea989f1749bed37c3fbc3a6d58163ca8a724534ebec6dfa7be762da2"
+      ]
+    }
+  },
+  "prediction_sha256": {
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/cnn_s42/validation_predictions.json": "a5ed13b2d11077a07e3808a2531271332c8f12f59025fdcccd309bcb6373960a",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/cnn_s42/test_predictions.json": "77a3fa610d9f607fd886edb54c508d13822c3724e92dff5cdfb7fa888d8348d7",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/cnn_s43/validation_predictions.json": "02c2e2fc17ceae4a0eb41299b8e449bc376dd25a6fa122658a5c781f177c57cb",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/cnn_s43/test_predictions.json": "263d02ee0a032b74174e91013500b8acc1f94e67bfdcbf08eb05b63951dc2319",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/dino_s42/validation_predictions.json": "8c5ffa6e4834f3516e97f0b71807614f50ea57c51964aed0ae3d0cd53c193592",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/dino_s42/test_predictions.json": "be6f7c31b10f5951369eb8d6151acb68e9e4fb8c2da78ff490e3e970d7c3ea0a",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/dino_s43/validation_predictions.json": "ce8c19d19629156969a2529b4b743f74b9b371a7f38e605e5f69357a28164a60",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_adaptation_20261029/execution/collected/runs/dino_s43/test_predictions.json": "9591eb5c25329dfa32b44f30ba64e7bc212c4530a59c3832d19a9f1261f6f15f"
+  },
+  "validation_multifamily_strata": {
+    "cnn": {
+      "4-4_units": {
+        "n": 10,
+        "correct": 3
+      },
+      "5-8_units": {
+        "n": 17,
+        "correct": 9
+      },
+      "9-10000_units": {
+        "n": 100,
+        "correct": 90
+      }
+    },
+    "dino": {
+      "4-4_units": {
+        "n": 10,
+        "correct": 4
+      },
+      "5-8_units": {
+        "n": 17,
+        "correct": 7
+      },
+      "9-10000_units": {
+        "n": 100,
+        "correct": 92
+      }
+    }
+  },
+  "dataset_sha256": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+  "limits": [
+    "Historical official labels are not independent human gold.",
+    "Old LA test is development regression evidence; reserved LA cells remain unevaluated.",
+    "Legacy fixed256 crops can clip large roofs, matching the prior CNN input contract."
+  ]
+}

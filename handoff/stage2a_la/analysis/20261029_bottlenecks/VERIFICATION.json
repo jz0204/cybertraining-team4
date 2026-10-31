@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "scope": "Saved-score diagnosis, real CPU feature forward and Dataset augmentation check; no new training",
+  "passed": [
+    "script_syntax",
+    "full3332_score_id_label_probability_checks",
+    "dataset_and_prediction_hash_checks",
+    "unchanged_test_and_validation_records",
+    "known_confusion_counts",
+    "actual_mask_area_projection",
+    "reference_attribute_join3332",
+    "all_visual_note_ids_resolve",
+    "local_document_links",
+    "actual_dataset_repeated_calls_and_feature_forward"
+  ],
+  "local_links_checked": 20,
+  "visual_cases_reviewed": 35,
+  "training_or_inference_code_changed": false,
+  "test_labels_changed": false,
+  "test_thresholds_swept": false,
+  "gpu_training_run": false,
+  "limits": [
+    "14 multifamily references",
+    "AI visual review is not independent building gold",
+    "Historical LA development evidence, not untouched geographic generalization",
+    "Saved RGB zero fractions reused; no independent footprint correction or causal ablation"
+  ],
+  "sha256": {
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/diagnose_la_bottlenecks.py": "3c74812863011962d23f3bb1a32af32b5898dbecc1c9bbf6cbebde2fd48c8f5c",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/REPORT.md": "fb4cf4e755870a16e0ee2bc48d7797412d3162dc92a26c6812c8406980a2b63a",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/VISUAL_REVIEW.md": "a71711139692fad484a05cd9bfc37c6f7f59bccc98bade8b9d56e63d3145fabc",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/literature-review/STAGE2A_RECOGNITION_DESIGN_20261029.md": "b53fd377b6b7f13b1ddd5cc53e754751e2d81362dd315b9467bf3e3298da524e",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/DIAGNOSIS.json": "1087a4f746f329d7187c9ff8a74cd314789ccd95f116e9715de0996daf9a93fe",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/AUGMENTATION_CHECK.json": "84a5e0235fd7344967d237a0d2c611809aaaa3218b3d892dae7cf4dcab08f5c7",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/IMAGE_DIAGNOSTICS.json": "b7be6c927ef3dff4cd0e2a920f2171513162da99bb029a9b21423a1f1d5014aa",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261029_bottlenecks/VISUAL_REVIEW_CASES.json": "09c9b220d27f26ab6a5f9588959c1ca246aa3f6eef7fdf1870464e822745efff",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/common.py": "c0b8540aafd310653155942f4e40a2af9f2239ee82d962a5932c14b815cfd135",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/PROTOCOL.json": "4b18ab1f9ee38cede085dce5008b195d2d4a0a6de598e01254b11c2c6f1f7fee"
+  }
+}

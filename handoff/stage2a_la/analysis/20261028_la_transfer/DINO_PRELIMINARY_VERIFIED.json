@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "all_eight_file_hashes_match": true,
+  "remote_context_matches_local": true,
+  "ordered_ids_and_input_flags_match": true,
+  "dino_probability_argmax_matches": true,
+  "missing_inputs_remain_unknown": true,
+  "four_remote_evaluations_reproduced": true,
+  "cnn_historical_full_and_common_reproduced": true,
+  "bootstrap_point_deltas_match": true,
+  "outputs_sha256": {
+    "DINO_PRELIMINARY_RESULTS.json": "9f06ad19b7c2c7dbed1d6f2c1c1fde29bbae0c72efc6231613e6e49af201e3bb",
+    "DINO_PRELIMINARY_SUMMARY.csv": "82fb4f7629bf5c0f19b0a2d831debf56dbfe09dccb8d41b0cea6f1c18f8fcd51",
+    "DINO_PRELIMINARY_REPORT.md": "cf5539e38e9f7315e2e5f53b4857251225799c5bf54aa763fa3c27697ad67614"
+  }
+}

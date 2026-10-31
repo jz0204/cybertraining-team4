@@ -1,0 +1,163 @@
+{
+  "old": {
+    "n": 3332,
+    "accuracy": 0.9582833133253301,
+    "macro_f1": 0.48327922264838336,
+    "balanced_accuracy": 0.6151811151811152,
+    "five_use_coverage": 1.0,
+    "selective_accuracy": 0.9582833133253301,
+    "prediction_counts": {
+      "residential_small": 3181,
+      "commercial": 124,
+      "residential_multi": 27
+    },
+    "per_class": {
+      "residential_small": {
+        "n": 3276,
+        "precision": 0.9933983024206224,
+        "recall": 0.9645909645909646,
+        "f1": 0.9787827164317795
+      },
+      "residential_multi": {
+        "n": 14,
+        "precision": 0.07407407407407407,
+        "recall": 0.14285714285714285,
+        "f1": 0.0975609756097561
+      },
+      "commercial": {
+        "n": 42,
+        "precision": 0.25,
+        "recall": 0.7380952380952381,
+        "f1": 0.37349397590361444
+      }
+    },
+    "confusion": [
+      [
+        3160,
+        25,
+        91,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        0,
+        31,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "rows": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "columns": [
+      "residential_small",
+      "residential_multi",
+      "commercial",
+      "institutional",
+      "other",
+      "unknown",
+      "invalid"
+    ]
+  },
+  "new": {
+    "n": 3332,
+    "accuracy": 0.9771908763505402,
+    "macro_f1": 0.5716122429803531,
+    "balanced_accuracy": 0.6217948717948718,
+    "five_use_coverage": 1.0,
+    "selective_accuracy": 0.9771908763505402,
+    "prediction_counts": {
+      "residential_small": 3248,
+      "commercial": 52,
+      "residential_multi": 32
+    },
+    "per_class": {
+      "residential_small": {
+        "n": 3276,
+        "precision": 0.9929187192118226,
+        "recall": 0.9844322344322345,
+        "f1": 0.9886572654812998
+      },
+      "residential_multi": {
+        "n": 14,
+        "precision": 0.09375,
+        "recall": 0.21428571428571427,
+        "f1": 0.13043478260869565
+      },
+      "commercial": {
+        "n": 42,
+        "precision": 0.5384615384615384,
+        "recall": 0.6666666666666666,
+        "f1": 0.5957446808510638
+      }
+    },
+    "confusion": [
+      [
+        3225,
+        28,
+        23,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        13,
+        1,
+        28,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "rows": [
+      "residential_small",
+      "residential_multi",
+      "commercial"
+    ],
+    "columns": [
+      "residential_small",
+      "residential_multi",
+      "commercial",
+      "institutional",
+      "other",
+      "unknown",
+      "invalid"
+    ]
+  },
+  "bootstrap": {
+    "delta_macro_f1": 0.08833302033196971,
+    "ci95": [
+      0.037173072020261495,
+      0.125128277471745
+    ],
+    "cells": 92,
+    "draws": 1000
+  }
+}

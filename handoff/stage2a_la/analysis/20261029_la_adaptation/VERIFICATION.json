@@ -1,0 +1,53 @@
+{
+  "dataset_sha256": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+  "fits": 6,
+  "epochs_each": 6,
+  "updates_each": 1536,
+  "input_files_verified": 36858,
+  "seed_matched_draw_sequences_cnn_dino": true,
+  "original_test_references_unchanged": true,
+  "original_test_rows": 3332,
+  "common_rows": 3157,
+  "all_models_real_gpu_backward_passed": true,
+  "all_checkpoints_and_prediction_hashes_verified": true,
+  "final_service_health": {
+    "checked_utc": "2026-10-29T23:26:20.868142+00:00",
+    "watcher": {
+      "scaled_back": true,
+      "ready": true,
+      "deadline_suspended": false
+    },
+    "qwen3-14b": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "health_http": 200,
+      "ready_endpoints": [
+        "10.42.3.171"
+      ]
+    },
+    "ollama": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "model_list": "NAME          ID              SIZE      MODIFIED    \ngemma4:12b    4eb23ef187e2    7.6 GB    5 weeks ago    \nqwen3:8b      500a1f067a9f    5.2 GB    6 weeks ago    \n",
+      "ready_endpoints": [
+        "10.42.3.172"
+      ]
+    },
+    "node_conditions": {
+      "MemoryPressure": "False",
+      "DiskPressure": "False",
+      "PIDPressure": "False",
+      "Ready": "True"
+    }
+  },
+  "root_available_gib": 13.306678771972656,
+  "untested": [
+    "new city",
+    "reserved LA grids",
+    "detector AP",
+    "five-class/auxiliary labels",
+    "population estimation"
+  ]
+}

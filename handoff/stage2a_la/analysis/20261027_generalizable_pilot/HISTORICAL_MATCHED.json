@@ -1,0 +1,1374 @@
+{
+  "scores": {
+    "N1_seed42_original153m": {
+      "shared_three": {
+        "n": 74,
+        "correct": 56,
+        "accuracy": 0.7567567567567568,
+        "macro_f1": 0.5591787439613527,
+        "balanced_accuracy": 0.6214177978883861,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7567567567567568,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.9142857142857143,
+            "recall": 0.9411764705882353,
+            "f1": 0.927536231884058
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.631578947368421,
+            "recall": 0.9230769230769231,
+            "f1": 0.75
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "N1_seed43_original153m": {
+      "shared_three": {
+        "n": 74,
+        "correct": 57,
+        "accuracy": 0.7702702702702703,
+        "macro_f1": 0.5653357531760436,
+        "balanced_accuracy": 0.6312217194570136,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7702702702702703,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.7857142857142857,
+            "recall": 0.9705882352941176,
+            "f1": 0.868421052631579
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.75,
+            "recall": 0.9230769230769231,
+            "f1": 0.8275862068965517
+          }
+        },
+        "confusion": [
+          [
+            33,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "N1_mean2_original153m": {
+      "shared_three": {
+        "n": 74,
+        "correct": 56,
+        "accuracy": 0.7567567567567568,
+        "macro_f1": 0.5543608124253285,
+        "balanced_accuracy": 0.6214177978883861,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7567567567567568,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8421052631578947,
+            "recall": 0.9411764705882353,
+            "f1": 0.8888888888888888
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.6666666666666666,
+            "recall": 0.9230769230769231,
+            "f1": 0.7741935483870968
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "N1_seed42_new_near": {
+      "shared_three": {
+        "n": 74,
+        "correct": 33,
+        "accuracy": 0.44594594594594594,
+        "macro_f1": 0.3511816578483245,
+        "balanced_accuracy": 0.4099332040508511,
+        "coverage": 1.0,
+        "selective_accuracy": 0.44594594594594594,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 1.0,
+            "recall": 0.23529411764705882,
+            "f1": 0.38095238095238093
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.09090909090909091,
+            "recall": 0.07142857142857142,
+            "f1": 0.08
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.43636363636363634,
+            "recall": 0.9230769230769231,
+            "f1": 0.5925925925925926
+          }
+        },
+        "confusion": [
+          [
+            8,
+            8,
+            18,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            13,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "N1_seed43_new_near": {
+      "shared_three": {
+        "n": 74,
+        "correct": 33,
+        "accuracy": 0.44594594594594594,
+        "macro_f1": 0.3551440329218107,
+        "balanced_accuracy": 0.4269553975436329,
+        "coverage": 1.0,
+        "selective_accuracy": 0.44594594594594594,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 1.0,
+            "recall": 0.17647058823529413,
+            "f1": 0.3
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.15384615384615385,
+            "recall": 0.14285714285714285,
+            "f1": 0.14814814814814814
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.45454545454545453,
+            "recall": 0.9615384615384616,
+            "f1": 0.6172839506172839
+          }
+        },
+        "confusion": [
+          [
+            6,
+            10,
+            18,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            25,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "N1_mean2_new_near": {
+      "shared_three": {
+        "n": 74,
+        "correct": 34,
+        "accuracy": 0.4594594594594595,
+        "macro_f1": 0.35801393728222997,
+        "balanced_accuracy": 0.4227537168713639,
+        "coverage": 1.0,
+        "selective_accuracy": 0.4594594594594595,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 1.0,
+            "recall": 0.23529411764705882,
+            "f1": 0.38095238095238093
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.1,
+            "recall": 0.07142857142857142,
+            "f1": 0.08333333333333333
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.44642857142857145,
+            "recall": 0.9615384615384616,
+            "f1": 0.6097560975609756
+          }
+        },
+        "confusion": [
+          [
+            8,
+            8,
+            18,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            13,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            25,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "Qwen_A_three_near": {
+      "shared_three": {
+        "n": 74,
+        "correct": 50,
+        "accuracy": 0.6756756756756757,
+        "macro_f1": 0.4994047619047619,
+        "balanced_accuracy": 0.5625942684766214,
+        "coverage": 1.0,
+        "selective_accuracy": 0.6756756756756757,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8666666666666667,
+            "recall": 0.7647058823529411,
+            "f1": 0.8125
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.5454545454545454,
+            "recall": 0.9230769230769231,
+            "f1": 0.6857142857142857
+          }
+        },
+        "confusion": [
+          [
+            26,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "five": {
+        "n": 101,
+        "correct": 50,
+        "accuracy": 0.49504950495049505,
+        "macro_f1": 0.2584496870486278,
+        "balanced_accuracy": 0.3375565610859729,
+        "coverage": 1.0,
+        "selective_accuracy": 0.49504950495049505,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.7878787878787878,
+            "recall": 0.7647058823529411,
+            "f1": 0.7761194029850746
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.3582089552238806,
+            "recall": 0.9230769230769231,
+            "f1": 0.5161290322580645
+          },
+          "institutional": {
+            "support": 17,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "other": {
+            "support": 10,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            26,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            13,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "Qwen_B_five_near": {
+      "shared_three": {
+        "n": 74,
+        "correct": 40,
+        "accuracy": 0.5405405405405406,
+        "macro_f1": 0.5270529264337314,
+        "balanced_accuracy": 0.4744667097608274,
+        "coverage": 1.0,
+        "selective_accuracy": 0.5405405405405406,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.9090909090909091,
+            "recall": 0.5882352941176471,
+            "f1": 0.7142857142857143
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.6666666666666666,
+            "recall": 0.14285714285714285,
+            "f1": 0.23529411764705882
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.5806451612903226,
+            "recall": 0.6923076923076923,
+            "f1": 0.631578947368421
+          }
+        },
+        "confusion": [
+          [
+            20,
+            1,
+            6,
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            7,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            18,
+            0,
+            6,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "five": {
+        "n": 101,
+        "correct": 45,
+        "accuracy": 0.44554455445544555,
+        "macro_f1": 0.3482585198628756,
+        "balanced_accuracy": 0.3764447317388494,
+        "coverage": 1.0,
+        "selective_accuracy": 0.44554455445544555,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8333333333333334,
+            "recall": 0.5882352941176471,
+            "f1": 0.6896551724137931
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0.4,
+            "recall": 0.14285714285714285,
+            "f1": 0.21052631578947367
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.3673469387755102,
+            "recall": 0.6923076923076923,
+            "f1": 0.48
+          },
+          "institutional": {
+            "support": 17,
+            "precision": 1.0,
+            "recall": 0.058823529411764705,
+            "f1": 0.1111111111111111
+          },
+          "other": {
+            "support": 10,
+            "precision": 0.18181818181818182,
+            "recall": 0.4,
+            "f1": 0.25
+          }
+        },
+        "confusion": [
+          [
+            20,
+            1,
+            6,
+            0,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            7,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            18,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            12,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "Qwen_C_three_dual": {
+      "shared_three": {
+        "n": 74,
+        "correct": 58,
+        "accuracy": 0.7837837837837838,
+        "macro_f1": 0.5763904483868553,
+        "balanced_accuracy": 0.6470588235294118,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7837837837837838,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8205128205128205,
+            "recall": 0.9411764705882353,
+            "f1": 0.8767123287671232
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.7428571428571429,
+            "recall": 1.0,
+            "f1": 0.8524590163934426
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "five": {
+        "n": 101,
+        "correct": 58,
+        "accuracy": 0.5742574257425742,
+        "macro_f1": 0.29251320285803045,
+        "balanced_accuracy": 0.38823529411764707,
+        "coverage": 1.0,
+        "selective_accuracy": 0.5742574257425742,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8,
+            "recall": 0.9411764705882353,
+            "f1": 0.8648648648648649
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.4262295081967213,
+            "recall": 1.0,
+            "f1": 0.5977011494252874
+          },
+          "institutional": {
+            "support": 17,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "other": {
+            "support": 10,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "Qwen_D_five_dual": {
+      "shared_three": {
+        "n": 74,
+        "correct": 53,
+        "accuracy": 0.7162162162162162,
+        "macro_f1": 0.5497420781134856,
+        "balanced_accuracy": 0.5889894419306184,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7162162162162162,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8571428571428571,
+            "recall": 0.8823529411764706,
+            "f1": 0.8695652173913043
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.696969696969697,
+            "recall": 0.8846153846153846,
+            "f1": 0.7796610169491526
+          }
+        },
+        "confusion": [
+          [
+            30,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            6,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            23,
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "five": {
+        "n": 101,
+        "correct": 63,
+        "accuracy": 0.6237623762376238,
+        "macro_f1": 0.4676327484308425,
+        "balanced_accuracy": 0.5286877828054298,
+        "coverage": 1.0,
+        "selective_accuracy": 0.6237623762376238,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8571428571428571,
+            "recall": 0.8823529411764706,
+            "f1": 0.8695652173913043
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.48936170212765956,
+            "recall": 0.8846153846153846,
+            "f1": 0.6301369863013698
+          },
+          "institutional": {
+            "support": 17,
+            "precision": 1.0,
+            "recall": 0.17647058823529413,
+            "f1": 0.3
+          },
+          "other": {
+            "support": 10,
+            "precision": 0.4375,
+            "recall": 0.7,
+            "f1": 0.5384615384615384
+          }
+        },
+        "confusion": [
+          [
+            30,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            6,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            23,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            7,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "Qwen_E_three_forced_dual": {
+      "shared_three": {
+        "n": 74,
+        "correct": 58,
+        "accuracy": 0.7837837837837838,
+        "macro_f1": 0.5756017587003502,
+        "balanced_accuracy": 0.6470588235294118,
+        "coverage": 1.0,
+        "selective_accuracy": 0.7837837837837838,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8648648648648649,
+            "recall": 0.9411764705882353,
+            "f1": 0.9014084507042254
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.7027027027027027,
+            "recall": 1.0,
+            "f1": 0.8253968253968254
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "five": {
+        "n": 101,
+        "correct": 58,
+        "accuracy": 0.5742574257425742,
+        "macro_f1": 0.29463171036204744,
+        "balanced_accuracy": 0.38823529411764707,
+        "coverage": 1.0,
+        "selective_accuracy": 0.5742574257425742,
+        "unknown": 0,
+        "invalid": 0,
+        "per_class": {
+          "residential_small": {
+            "support": 34,
+            "precision": 0.8421052631578947,
+            "recall": 0.9411764705882353,
+            "f1": 0.8888888888888888
+          },
+          "residential_multi": {
+            "support": 14,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "commercial": {
+            "support": 26,
+            "precision": 0.4126984126984127,
+            "recall": 1.0,
+            "f1": 0.5842696629213483
+          },
+          "institutional": {
+            "support": 17,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "other": {
+            "support": 10,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            32,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    }
+  },
+  "current_sd_reference_ids_and_labels_verified": true,
+  "independent_sklearn_verified": true,
+  "excluded_prior_sd_unlabeled": 14,
+  "scope": "Historical trained N1 and prior Qwen zero-shot; not matched training data or model budget. N1 original153m uses legacy crops; new_near also changes resampling/compression. Qwen uses annotated images and larger model input resolution."
+}

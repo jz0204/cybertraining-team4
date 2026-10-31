@@ -1,0 +1,161 @@
+{
+  "checked_at": "2026-10-23T10:48:02.477780-05:00",
+  "status": "waiting_for_authenticated_dataset_download",
+  "download": {
+    "folder": "2026-10_handoff",
+    "files_requested": [
+      "la_v3_prefire_inputs.tar",
+      "la_census.tar.gz",
+      "README.md"
+    ],
+    "landing_page": "requires sign-in as the shared-link recipient",
+    "dataset_files_downloaded": false,
+    "browser_authorization_requested": true
+  },
+  "candidate": {
+    "directory": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/poolfix_20261015",
+    "seeds": [
+      42,
+      123,
+      2025,
+      3407,
+      7777
+    ],
+    "mask_downsample_mode": "area",
+    "checkpoint_configs_inspected": 5,
+    "sha256_verified_against_export": {
+      "runs/seed42/stage2a_best_model.pt": "6e365f5c6da05f0ccf3b2eebe91e98cd34c39cc2c96537b2272aad0aeb4b926e",
+      "runs/seed123/stage2a_best_model.pt": "26129626372832e171fe57e257bd08cb24d3971f886745b8839a9e41903b45ec",
+      "runs/seed2025/stage2a_best_model.pt": "ff2faa9ee6108ab7b7aeb231c86265ff1ec2e791f8a4203094ea06f1d26cffb7",
+      "runs/seed3407/stage2a_best_model.pt": "1c64da3af372e76a8a5b8eac3f5579408deb1290437963261f74a577d8edcbde",
+      "runs/seed7777/stage2a_best_model.pt": "fea7c6dc3079480b91938239079e96b1a670e4ded811222d072001b922f3ff15",
+      "models/population_logfootprint_soft_type_residual_hgb.pkl": "38853e5d452aa23919e0fda8ec26d9d02a5d5d7f983331cec2ef190de9084f3a",
+      "II_package/scripts/stage2a/common.py": "7ad2463bcd7bf060f59c90a5dbd1ac3ff68102d105f83b3c2786b8a764558ec6",
+      "II_package/scripts/stage2a/infer/infer_stage2a_native3_ensemble.py": "47cd59dc8dadd8f050ccd5fa9a2fc37bac54355fdd0c0dde59175b6a9e40ef31"
+    }
+  },
+  "baseline": {
+    "prediction_count": 21888,
+    "reference": "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261015_gsd_assessor/la_assessor_matched.csv",
+    "predictions": "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/results/la_v3_full/stage2a_predictions.csv",
+    "cohorts": {
+      "broad_parcel_labels": {
+        "n": 9036,
+        "accuracy": 0.30754758742806554,
+        "macro_f1": 0.16999433292671726,
+        "confusion_rows_truth_columns_prediction": [
+          [
+            2715,
+            1697,
+            4360
+          ],
+          [
+            101,
+            23,
+            78
+          ],
+          [
+            12,
+            9,
+            41
+          ]
+        ],
+        "truth_counts": {
+          "residential_small": 8772,
+          "commercial": 62,
+          "residential_multi": 202
+        }
+      },
+      "iou50": {
+        "n": 7601,
+        "accuracy": 0.2760163136429417,
+        "macro_f1": 0.15752537398678282,
+        "confusion_rows_truth_columns_prediction": [
+          [
+            2039,
+            1461,
+            3873
+          ],
+          [
+            80,
+            20,
+            71
+          ],
+          [
+            10,
+            8,
+            39
+          ]
+        ],
+        "truth_counts": {
+          "residential_small": 7373,
+          "commercial": 57,
+          "residential_multi": 171
+        }
+      },
+      "primary_single_outline_iou50": {
+        "n": 3332,
+        "accuracy": 0.0702280912364946,
+        "macro_f1": 0.048370021974041034,
+        "confusion_rows_truth_columns_prediction": [
+          [
+            202,
+            847,
+            2227
+          ],
+          [
+            1,
+            1,
+            12
+          ],
+          [
+            4,
+            7,
+            31
+          ]
+        ],
+        "truth_counts": {
+          "residential_small": 3276,
+          "commercial": 42,
+          "residential_multi": 14
+        }
+      },
+      "strict_single_assessor_building": {
+        "n": 3315,
+        "accuracy": 0.06907993966817497,
+        "macro_f1": 0.047459527444719596,
+        "confusion_rows_truth_columns_prediction": [
+          [
+            199,
+            845,
+            2218
+          ],
+          [
+            1,
+            1,
+            11
+          ],
+          [
+            4,
+            7,
+            29
+          ]
+        ],
+        "truth_counts": {
+          "residential_small": 3262,
+          "commercial": 40,
+          "residential_multi": 13
+        }
+      }
+    },
+    "verification": "Recomputed from returned predictions and frozen cohort flags; exact confusion matrices and metrics agree with prior assessor_evaluation.json"
+  },
+  "sha256": {
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261015_gsd_assessor/la_assessor_matched.csv": "c081d5a02fc5a77217487100bd5ea77849ace1dde1c3d9ecc0a2bb3a82d2a92a",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/results/la_v3_full/stage2a_predictions.csv": "f8396bb8a9238c7b134665c7439574c5c286853cfcef681a0843818e29339abf",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261015_gsd_assessor/assessor_evaluation.json": "78cde2175662d4a91cfee1da8b1a30dfe9eba6071089e8eeb7b24c3974992030",
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/results/final_product/building_damage_all_cells.csv": "7c525076c924a7354538d0e5be6fbfd62f3089aa6a032ba1264723f05a755806"
+  },
+  "new_la_inference_completed": false,
+  "interpretation": "No measured LA improvement yet. Harris performance is not an LA result. Assessor use is a parcel-use reference; Census totals are not per-building occupancy truth."
+}

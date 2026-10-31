@@ -1,0 +1,80 @@
+{
+  "n": 57,
+  "minority_n": 56,
+  "status_counts": {
+    "requires_resolution": 4,
+    "consistent_official_parcel_reference": 53
+  },
+  "flagged": [
+    {
+      "review_index": 1,
+      "sample_id": "la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531",
+      "reference_use": "residential_multi",
+      "AIN": "5839009039",
+      "UseCode": "0400",
+      "Units": 4.0,
+      "description": "Four Units  (Any Combination) | 4 Stories or Less | ",
+      "assessor_building_records": "2.0",
+      "coregistered_iou": "0.7803916734716073",
+      "outline_count_in_reference_region": "1",
+      "issues": "multiple_assessor_building_records",
+      "evidence_status": "requires_resolution",
+      "near": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531_near_marked.jpg",
+      "wide": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00356_0f7c76cc-07d9-4cda-b839-83ac5e23f531_wide_marked.jpg"
+    },
+    {
+      "review_index": 31,
+      "sample_id": "la_cell_00365_7251866c-c633-4236-bd81-ee0332bc9b7d",
+      "reference_use": "commercial",
+      "AIN": "5845021035",
+      "UseCode": "1700",
+      "Units": 0.0,
+      "description": "Office Building |  | One Story",
+      "assessor_building_records": "2.0",
+      "coregistered_iou": "0.7776463599831621",
+      "outline_count_in_reference_region": "1",
+      "issues": "multiple_assessor_building_records",
+      "evidence_status": "requires_resolution",
+      "near": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00365_7251866c-c633-4236-bd81-ee0332bc9b7d_near_marked.jpg",
+      "wide": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00365_7251866c-c633-4236-bd81-ee0332bc9b7d_wide_marked.jpg"
+    },
+    {
+      "review_index": 44,
+      "sample_id": "la_cell_00366_a07b3802-21e2-4824-868f-e41544d2dba5",
+      "reference_use": "commercial",
+      "AIN": "5841032023",
+      "UseCode": "1400",
+      "Units": 1.0,
+      "description": "Supermarket | Supermarket - 12,000 SF or More | One Story",
+      "assessor_building_records": "4.0",
+      "coregistered_iou": "0.7470594390209037",
+      "outline_count_in_reference_region": "1",
+      "issues": "multiple_assessor_building_records",
+      "evidence_status": "requires_resolution",
+      "near": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00366_a07b3802-21e2-4824-868f-e41544d2dba5_near_marked.jpg",
+      "wide": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00366_a07b3802-21e2-4824-868f-e41544d2dba5_wide_marked.jpg"
+    },
+    {
+      "review_index": 57,
+      "sample_id": "la_cell_00456_b5669b59-e639-430f-b565-7ef792c54ef5",
+      "reference_use": "residential_small",
+      "AIN": "5759009008",
+      "UseCode": "0101",
+      "Units": 4.0,
+      "description": "Single Family Residence |  | Pool",
+      "assessor_building_records": "1.0",
+      "coregistered_iou": "0.8302825383050543",
+      "outline_count_in_reference_region": "1",
+      "issues": "use_code_units_conflict",
+      "evidence_status": "requires_resolution",
+      "near": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00456_b5669b59-e639-430f-b565-7ef792c54ef5_near_marked.jpg",
+      "wide": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/images/la_cell_00456_b5669b59-e639-430f-b565-7ef792c54ef5_wide_marked.jpg"
+    }
+  ],
+  "original_labels_changed": 0,
+  "source_sha256": {
+    "/Users/zhou/Documents/GitHub/cybertraining-team4/handoff/stage2a_la/analysis/20261015_gsd_assessor/la_assessor_matched.csv": "c081d5a02fc5a77217487100bd5ea77849ace1dde1c3d9ecc0a2bb3a82d2a92a",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_transfer_20261027/dataset.json": "e5cf8f803873897875c84418d15cfbb1343e9be22f5a45c77d1157d220712ad5"
+  },
+  "limitation": "Consistent parcel attributes and existing outline matches are not independently adjudicated building-use or role truth; parcel outline count is within the old reference region."
+}

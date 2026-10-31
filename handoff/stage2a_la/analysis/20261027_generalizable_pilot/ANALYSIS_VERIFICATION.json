@@ -1,0 +1,10 @@
+{
+  "expected_runs": 48,
+  "completed_runs": 48,
+  "independent_sklearn_verified": true,
+  "no_role_gold": true,
+  "all_role_predictions": "unknown",
+  "primary_city_scope": "NYC current corroborated; Harris/SD source references",
+  "final_independent_city": false,
+  "ensemble_selective_metrics": "not reported; individual-seed thresholds are not ensemble calibration"
+}

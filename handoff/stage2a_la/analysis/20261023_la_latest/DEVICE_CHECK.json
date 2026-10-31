@@ -1,0 +1,21 @@
+{
+  "purpose": "Hardware and serialization check only; eight Harris examples, not an LA accuracy evaluation",
+  "n": 8,
+  "ids": [
+    "cce55ccd-efa8-4c01-8e17-0aa2b219a778",
+    "682330e9-f635-44c6-a19a-f0414ee014aa",
+    "20ea7794-338e-4b7b-a11e-9b8994994760",
+    "06f0f46b-1c0d-441a-a61c-225dfb6d4f5d",
+    "a401c777-f155-41b7-bab9-5ff7724cff02",
+    "99b0a6ca-c91b-47f2-964f-00da4d96ad3a",
+    "51a58063-ad0d-4a7c-91b5-d7f80add980d",
+    "463d9304-ba7b-4b9f-857f-e12a3359cddc"
+  ],
+  "torch": "2.0.0",
+  "cpu_seconds": 3.401101167080924,
+  "mps_seconds": 6.987896458012983,
+  "max_probability_difference": 1.7171259969472885e-09,
+  "same_decisions": true,
+  "population_model_load_and_predict": "pass",
+  "probabilities_allclose": true
+}

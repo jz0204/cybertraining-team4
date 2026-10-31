@@ -1,0 +1,2 @@
+{"event": "review_trace", "skill": "experiment-audit", "purpose": "integrity-review", "agent_id": "/root/integrity_review", "trace_path": ".aris/traces/experiment-audit/2026-10-15_run01", "status": "ok"}
+{"event": "review_trace", "skill": "novelty-check", "purpose": "stage2a-image-inference-novelty", "agent_id": "01a18f5b-63be-76e0-86b5-1be051f891f5", "trace_path": ".aris/traces/novelty-check/2026-10-30_run01/", "status": "ok"}

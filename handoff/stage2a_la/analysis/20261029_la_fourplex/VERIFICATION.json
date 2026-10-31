@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "reviewed_parcels": 31,
+  "reviewed_buildings": 62,
+  "new_primary_train": 28,
+  "unchanged_val": 438,
+  "unchanged_test": 3332,
+  "unchanged_image_hashes": 36858,
+  "new_image_hashes": 56,
+  "checked_collected_files": 22,
+  "data_sha256": "94f95e68cd56968e3a2a5de9d5f6ed99c1c256631eb0096b54a33d98e894d0b8",
+  "checks": [
+    "original dataset prefix byte-equivalent after JSON parse",
+    "test/validation records and labels unchanged",
+    "full2km test exclusion and validation context/grid/parcel separation",
+    "old image bytes match prior experiment",
+    "two original checkpoint hashes and runtime code checked",
+    "new-image GPU forward/backward and all trainable gradients",
+    "old36-case prediction parity",
+    "same initialization validation scores",
+    "selected epochs equal maximal original weighted-val F1 including0",
+    "saved predictions match metric/F1, class probabilities, reference order",
+    "old baseline confusion matrices reproduced",
+    "paired spatial bootstrap actual function self-check passed",
+    "both model weights match remote SHA256",
+    "two original services independently healthy",
+    "owned CPU stage pod absent"
+  ],
+  "source_sha256": "9783c398eddd36e4a2b85bed271a56cb29dc951789d1e413f7b7f99f9b6a4e1f",
+  "results_sha256": "4e9e0aff98cf9b5407badc49ee6c5de59fda2774a86f21eda4eb633e524e2359",
+  "service_lifecycle": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/SERVICE_LIFECYCLE.json",
+  "limits": [
+    "AI-assisted review, not independent human gold",
+    "28 additions in one tract",
+    "only14 multifamily test cases",
+    "reserved LA/new-city confirmation not run",
+    "no detector AP, role-head or population evaluation"
+  ]
+}

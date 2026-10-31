@@ -1,0 +1,27 @@
+{
+  "reviewed_parcels": 31,
+  "reviewed_buildings": 62,
+  "admitted_primary": 28,
+  "roles": {
+    "unknown": 6,
+    "primary": 28,
+    "auxiliary": 28
+  },
+  "added_grids": {
+    "178_1894": 28
+  },
+  "unchanged_cohort_sha256": {
+    "val": "09c7f7a2df9455ef726d6d3c16df3fe61f389ca0cdfc198121fc111a4e61d18d",
+    "test": "98f14e3157807faf3be5c9c516e774a9a36b8ef93a844ac9d6c12c9cac88541a"
+  },
+  "parent_dataset_sha256": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+  "review_source_sha256": "b05dd331197ddbc97e54c0138464d045f2c4e21d0b01cec2845b7e15bbdc80df",
+  "zero_overlaps": [
+    "old_test_2km_buffer",
+    "original_val_contexts",
+    "train_val_parcels",
+    "train_val_grids"
+  ],
+  "added_legacy_retention_min": 1.0,
+  "review_limit": "AI-assisted visual screening of actual prefire near/context imagery plus official assessor and footprint records; not independent human ground truth."
+}

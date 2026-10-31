@@ -1,0 +1,74 @@
+{
+  "checked_at_utc": "2026-10-27T04:31:01.017272+00:00",
+  "scope": "Existing local datasets only; source labels are not independently verified actual-use gold. No label changes or training.",
+  "datasets": {
+    "harris_clean": {
+      "path": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_explore_20261023/data/labels_explore.csv",
+      "sha256": "b5d9e92b45fda5ed432ed181673ffb7241f91f2824f4782a266290af85322f68",
+      "n_rows": 18012,
+      "by_split": {
+        "test": {
+          "residential_small": 2410,
+          "commercial": 132,
+          "residential_multi": 111
+        },
+        "train": {
+          "residential_small": 11363,
+          "commercial": 873,
+          "residential_multi": 1097
+        },
+        "val": {
+          "residential_small": 1824,
+          "residential_multi": 75,
+          "commercial": 127
+        }
+      }
+    },
+    "nyc_prepared": {
+      "path": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_data_20261024/data/nyc_training.csv",
+      "sha256": "a07033560a02890e17559d4cc65586f179c0ecfd8c8b6eb493a32fa2fb9b3cf0",
+      "n_rows": 578,
+      "by_split": {
+        "train": {
+          "residential_small": 445,
+          "commercial": 90,
+          "residential_multi": 43
+        }
+      }
+    },
+    "nyc_candidate_index": {
+      "path": "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_explore_20261023/external/buildingsense/index.csv",
+      "sha256": "48539978114c5278d8a05eb0d46066930e92c3808df42948c7d79e0708ea91ff",
+      "n_rows": 1000,
+      "by_split": {
+        "candidate": {
+          "Office_mix": 30,
+          "Religion_mix": 26,
+          "Residential": 508,
+          "Commercial building": 33,
+          "Public service:for poor": 26,
+          "Religion": 33,
+          "Commercial building_mix": 43,
+          "Office": 15,
+          "Warehouse": 17,
+          "Garages": 17,
+          "Profession service": 31,
+          "Public service": 22,
+          "Origanize": 13,
+          "Factory": 31,
+          "Residential_mix": 50,
+          "Education": 27,
+          "Medicine": 22,
+          "Entertament": 7,
+          "Hotels": 15,
+          "Commercial building:bank": 13,
+          "Commercial building:shopping center": 12,
+          "Parking lot": 3,
+          "Sport": 3,
+          "Art": 2,
+          "Entertament_mix": 1
+        }
+      }
+    }
+  }
+}

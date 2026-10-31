@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "all_product_ids": 22024,
+  "missing_predictions": 0,
+  "duplicate_predictions": 0,
+  "all_original_input_files_verified_in_each_cpu_run": true,
+  "unchanged_test_labels": true,
+  "all_original_source_hashes_unchanged": true,
+  "full3332_prediction_parity": {
+    "old_n2": {
+      "n": 3332,
+      "maximum_probability_difference": 0.0,
+      "predicted_classes_identical": true
+    },
+    "best_cnn": {
+      "n": 3332,
+      "maximum_probability_difference": 2.816319465637207e-06,
+      "predicted_classes_identical": true
+    }
+  },
+  "source_protocol_sha256": "6a06b012dafa7fa04199cefcd547f23aa29f28c056130e133386002a03391b3a",
+  "output_sha256": {
+    "PREDICTION_COMPARISON.csv": "ac18720cd13461d2c9dd80f5eb2966b09476d0c832d0a5fe633cd2958b36fcbd",
+    "CHANGED_PREDICTIONS.csv": "764dcf6d89354a75bcb13c41f8c5ee7bccc5a9e0c5bf0241955c1899088a8716",
+    "METRICS.csv": "91afe6f44149f4d7951f5746206e819c34ec481a22c9157977373074e1e3ce00",
+    "RESULTS.json": "19e48c9bfe1982d3af0116f6f9e2090af04e2b1b8049975ace1b147e09661522"
+  }
+}

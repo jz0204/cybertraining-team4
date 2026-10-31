@@ -1,0 +1,21 @@
+{
+  "n": 51,
+  "strata": {
+    "small_multifamily": 24,
+    "area_matched_single_family": 24,
+    "unresolved_roof_attribution": 3
+  },
+  "classifier_training_overlap": 24,
+  "verified_building_unit_references": 0,
+  "independent_test_references": 0,
+  "selection_uses_model_outputs": false,
+  "reserved_la_used": false,
+  "source_sha256": {
+    "STABLE_CANDIDATES.json": "5baafc9443859743993d8a5da2635023263072fb89fdec4bf3e7a945a4b05722",
+    "REVIEW_SOURCE.json": "5c67800fedc502d52892f8a21b60c52882a6a0bd6b8aae7a3b0c0653cb95dec7"
+  },
+  "missing_strata": [
+    "Independently documented inhabited accessory buildings",
+    "Independently documented nonresidential accessory buildings"
+  ]
+}

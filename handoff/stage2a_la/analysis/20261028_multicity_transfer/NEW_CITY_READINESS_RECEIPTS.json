@@ -1,0 +1,519 @@
+{
+  "verified_on": "2026-10-28",
+  "provenance": "Transcribed from successful read-only public API responses in the preceding conversation turn. These are response snippets/aggregate receipts, not complete byte-for-byte HTTP captures. No fresh web requests were made to save this document. Requests encode the recorded filters; harmless whitespace/URL encoding may differ.",
+  "scope": "Feasibility only; candidate counts are not selected evaluation cases, actual-building truth, human gold, or exact-date ground truth.",
+  "class_order": [
+    "residential_small",
+    "residential_multi",
+    "commercial",
+    "institutional",
+    "other"
+  ],
+  "denver_filters": {
+    "residential_small": "((d_class in ('112','113','114','115','116','117','118','119') AND tot_units=1) OR (d_class in ('122','123','124') AND tot_units=2) OR (d_class in ('132','133','134') AND tot_units=3)) AND res_above_grade_area>0 AND res_orig_year_built>0",
+    "residential_multi": "d_class_cn in ('RESIDENTIAL-4 TO 8 UNITS','RESIDENTIAL-APARTMENT','RESIDENTIAL-MULTI UNIT APTS') AND tot_units>=4 AND (res_above_grade_area>0 OR com_gross_area>0) AND (res_orig_year_built>0 OR com_orig_year_built>0)",
+    "commercial": "d_class_cn in ('COMMERCIAL-RETAIL','COMMERCIAL-OFFICE') AND com_gross_area>0 AND com_orig_year_built>0",
+    "institutional": "d_class in ('309','331','332','333','394','395') AND com_gross_area>0 AND com_orig_year_built>0",
+    "other": "d_class_cn in ('INDUSTRIAL-WAREHOUSE','INDUSTRIAL-FACTORY','INDUSTRIAL-PRINTING PLANT','INDUSTRIAL-MEAT PACKING','INDUSTRIAL-FOOD PROCESSING','INDUSTRIAL-BRICK PLANT') AND com_gross_area>0 AND com_orig_year_built>0"
+  },
+  "sf_filters": {
+    "residential_small": "((property_class_code in ('D','DBM') AND number_of_units=1) OR (property_class_code in ('F','A','AG') AND number_of_units in (1,2,3)))",
+    "residential_multi": "((property_class_code in ('A','AG') AND number_of_units=4) OR (property_class_code in ('A5','A5G','F5') AND number_of_units between 5 and 14) OR (property_class_code in ('A15','A15G','F15') AND number_of_units>=15))",
+    "commercial": "property_class_code in ('B','C','C1','C1G','CD','CG','O','OAH','OAL','OAM','OAT','OBH','OBL','OBM','OCH','OCL','OCM','OG')",
+    "institutional": "property_class_code in ('E','EG','W','WG','N1','N1G','N2','N2G','FIRG','POLG','LIBG')",
+    "other": "property_class_code in ('I','IG','IW','IDC')"
+  },
+  "queries": [
+    {
+      "id": "denver_residential_small",
+      "method": "GET",
+      "endpoint": "https://data.colorado.gov/resource/tsdg-z9uy.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct schednum) as distinct_parcels",
+        "$where": "((d_class in ('112','113','114','115','116','117','118','119') AND tot_units=1) OR (d_class in ('122','123','124') AND tot_units=2) OR (d_class in ('132','133','134') AND tot_units=3)) AND res_above_grade_area>0 AND res_orig_year_built>0",
+        "$limit": 1
+      },
+      "url": "https://data.colorado.gov/resource/tsdg-z9uy.json?%24select=count(*)%20as%20n%2Ccount(distinct%20schednum)%20as%20distinct_parcels&%24where=((d_class%20in%20('112'%2C'113'%2C'114'%2C'115'%2C'116'%2C'117'%2C'118'%2C'119')%20AND%20tot_units%3D1)%20OR%20(d_class%20in%20('122'%2C'123'%2C'124')%20AND%20tot_units%3D2)%20OR%20(d_class%20in%20('132'%2C'133'%2C'134')%20AND%20tot_units%3D3))%20AND%20res_above_grade_area%3E0%20AND%20res_orig_year_built%3E0&%24limit=1",
+      "observed_response": [
+        {
+          "n": "132389",
+          "distinct_parcels": "132389"
+        }
+      ]
+    },
+    {
+      "id": "denver_residential_multi",
+      "method": "GET",
+      "endpoint": "https://data.colorado.gov/resource/tsdg-z9uy.json",
+      "parameters": {
+        "$select": "count(distinct schednum) as n",
+        "$where": "d_class_cn in ('RESIDENTIAL-4 TO 8 UNITS','RESIDENTIAL-APARTMENT','RESIDENTIAL-MULTI UNIT APTS') AND tot_units>=4 AND (res_above_grade_area>0 OR com_gross_area>0) AND (res_orig_year_built>0 OR com_orig_year_built>0)",
+        "$limit": 1
+      },
+      "url": "https://data.colorado.gov/resource/tsdg-z9uy.json?%24select=count(distinct%20schednum)%20as%20n&%24where=d_class_cn%20in%20('RESIDENTIAL-4%20TO%208%20UNITS'%2C'RESIDENTIAL-APARTMENT'%2C'RESIDENTIAL-MULTI%20UNIT%20APTS')%20AND%20tot_units%3E%3D4%20AND%20(res_above_grade_area%3E0%20OR%20com_gross_area%3E0)%20AND%20(res_orig_year_built%3E0%20OR%20com_orig_year_built%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "3049"
+        }
+      ]
+    },
+    {
+      "id": "denver_commercial",
+      "method": "GET",
+      "endpoint": "https://data.colorado.gov/resource/tsdg-z9uy.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct schednum) as distinct_parcels",
+        "$where": "d_class_cn in ('COMMERCIAL-RETAIL','COMMERCIAL-OFFICE') AND com_gross_area>0 AND com_orig_year_built>0",
+        "$limit": 1
+      },
+      "url": "https://data.colorado.gov/resource/tsdg-z9uy.json?%24select=count(*)%20as%20n%2Ccount(distinct%20schednum)%20as%20distinct_parcels&%24where=d_class_cn%20in%20('COMMERCIAL-RETAIL'%2C'COMMERCIAL-OFFICE')%20AND%20com_gross_area%3E0%20AND%20com_orig_year_built%3E0&%24limit=1",
+      "observed_response": [
+        {
+          "n": "3172",
+          "distinct_parcels": "3172"
+        }
+      ]
+    },
+    {
+      "id": "denver_institutional",
+      "method": "GET",
+      "endpoint": "https://data.colorado.gov/resource/tsdg-z9uy.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct schednum) as distinct_parcels",
+        "$where": "d_class in ('309','331','332','333','394','395') AND com_gross_area>0 AND com_orig_year_built>0",
+        "$limit": 1
+      },
+      "url": "https://data.colorado.gov/resource/tsdg-z9uy.json?%24select=count(*)%20as%20n%2Ccount(distinct%20schednum)%20as%20distinct_parcels&%24where=d_class%20in%20('309'%2C'331'%2C'332'%2C'333'%2C'394'%2C'395')%20AND%20com_gross_area%3E0%20AND%20com_orig_year_built%3E0&%24limit=1",
+      "observed_response": [
+        {
+          "n": "717",
+          "distinct_parcels": "717"
+        }
+      ]
+    },
+    {
+      "id": "denver_other",
+      "method": "GET",
+      "endpoint": "https://data.colorado.gov/resource/tsdg-z9uy.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct schednum) as distinct_parcels",
+        "$where": "d_class_cn in ('INDUSTRIAL-WAREHOUSE','INDUSTRIAL-FACTORY','INDUSTRIAL-PRINTING PLANT','INDUSTRIAL-MEAT PACKING','INDUSTRIAL-FOOD PROCESSING','INDUSTRIAL-BRICK PLANT') AND com_gross_area>0 AND com_orig_year_built>0",
+        "$limit": 1
+      },
+      "url": "https://data.colorado.gov/resource/tsdg-z9uy.json?%24select=count(*)%20as%20n%2Ccount(distinct%20schednum)%20as%20distinct_parcels&%24where=d_class_cn%20in%20('INDUSTRIAL-WAREHOUSE'%2C'INDUSTRIAL-FACTORY'%2C'INDUSTRIAL-PRINTING%20PLANT'%2C'INDUSTRIAL-MEAT%20PACKING'%2C'INDUSTRIAL-FOOD%20PROCESSING'%2C'INDUSTRIAL-BRICK%20PLANT')%20AND%20com_gross_area%3E0%20AND%20com_orig_year_built%3E0&%24limit=1",
+      "observed_response": [
+        {
+          "n": "2466",
+          "distinct_parcels": "2466"
+        }
+      ]
+    },
+    {
+      "id": "sf_parcels_residential_small",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct parcel_number) as distinct_parcels",
+        "$where": "closed_roll_year=2025 AND (((property_class_code in ('D','DBM') AND number_of_units=1) OR (property_class_code in ('F','A','AG') AND number_of_units in (1,2,3))) AND property_area>0)",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24select=count(*)%20as%20n%2Ccount(distinct%20parcel_number)%20as%20distinct_parcels&%24where=closed_roll_year%3D2025%20AND%20(((property_class_code%20in%20('D'%2C'DBM')%20AND%20number_of_units%3D1)%20OR%20(property_class_code%20in%20('F'%2C'A'%2C'AG')%20AND%20number_of_units%20in%20(1%2C2%2C3)))%20AND%20property_area%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "111493",
+          "distinct_parcels": "111493"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_residential_small",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (((property_class_code in ('D','DBM') AND number_of_units=1) OR (property_class_code in ('F','A','AG') AND number_of_units in (1,2,3)))) |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(((property_class_code%20in%20('D'%2C'DBM')%20AND%20number_of_units%3D1)%20OR%20(property_class_code%20in%20('F'%2C'A'%2C'AG')%20AND%20number_of_units%20in%20(1%2C2%2C3))))%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "98850"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_residential_small_built_by_2010",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (((property_class_code in ('D','DBM') AND number_of_units=1) OR (property_class_code in ('F','A','AG') AND number_of_units in (1,2,3)))) AND year_property_built between '1700' and '2010' AND length(year_property_built)=4 |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(((property_class_code%20in%20('D'%2C'DBM')%20AND%20number_of_units%3D1)%20OR%20(property_class_code%20in%20('F'%2C'A'%2C'AG')%20AND%20number_of_units%20in%20(1%2C2%2C3))))%20AND%20year_property_built%20between%20'1700'%20and%20'2010'%20AND%20length(year_property_built)%3D4%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "98671"
+        }
+      ]
+    },
+    {
+      "id": "sf_parcels_residential_multi",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct parcel_number) as distinct_parcels",
+        "$where": "closed_roll_year=2025 AND (((property_class_code in ('A','AG') AND number_of_units=4) OR (property_class_code in ('A5','A5G','F5') AND number_of_units between 5 and 14) OR (property_class_code in ('A15','A15G','F15') AND number_of_units>=15)) AND property_area>0)",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24select=count(*)%20as%20n%2Ccount(distinct%20parcel_number)%20as%20distinct_parcels&%24where=closed_roll_year%3D2025%20AND%20(((property_class_code%20in%20('A'%2C'AG')%20AND%20number_of_units%3D4)%20OR%20(property_class_code%20in%20('A5'%2C'A5G'%2C'F5')%20AND%20number_of_units%20between%205%20and%2014)%20OR%20(property_class_code%20in%20('A15'%2C'A15G'%2C'F15')%20AND%20number_of_units%3E%3D15))%20AND%20property_area%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "10681",
+          "distinct_parcels": "10681"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_residential_multi",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (((property_class_code in ('A','AG') AND number_of_units=4) OR (property_class_code in ('A5','A5G','F5') AND number_of_units between 5 and 14) OR (property_class_code in ('A15','A15G','F15') AND number_of_units>=15))) |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(((property_class_code%20in%20('A'%2C'AG')%20AND%20number_of_units%3D4)%20OR%20(property_class_code%20in%20('A5'%2C'A5G'%2C'F5')%20AND%20number_of_units%20between%205%20and%2014)%20OR%20(property_class_code%20in%20('A15'%2C'A15G'%2C'F15')%20AND%20number_of_units%3E%3D15)))%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "9397"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_residential_multi_built_by_2010",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (((property_class_code in ('A','AG') AND number_of_units=4) OR (property_class_code in ('A5','A5G','F5') AND number_of_units between 5 and 14) OR (property_class_code in ('A15','A15G','F15') AND number_of_units>=15))) AND year_property_built between '1700' and '2010' AND length(year_property_built)=4 |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(((property_class_code%20in%20('A'%2C'AG')%20AND%20number_of_units%3D4)%20OR%20(property_class_code%20in%20('A5'%2C'A5G'%2C'F5')%20AND%20number_of_units%20between%205%20and%2014)%20OR%20(property_class_code%20in%20('A15'%2C'A15G'%2C'F15')%20AND%20number_of_units%3E%3D15)))%20AND%20year_property_built%20between%20'1700'%20and%20'2010'%20AND%20length(year_property_built)%3D4%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "9334"
+        }
+      ]
+    },
+    {
+      "id": "sf_parcels_commercial",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct parcel_number) as distinct_parcels",
+        "$where": "closed_roll_year=2025 AND (property_class_code in ('B','C','C1','C1G','CD','CG','O','OAH','OAL','OAM','OAT','OBH','OBL','OBM','OCH','OCL','OCM','OG') AND property_area>0)",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24select=count(*)%20as%20n%2Ccount(distinct%20parcel_number)%20as%20distinct_parcels&%24where=closed_roll_year%3D2025%20AND%20(property_class_code%20in%20('B'%2C'C'%2C'C1'%2C'C1G'%2C'CD'%2C'CG'%2C'O'%2C'OAH'%2C'OAL'%2C'OAM'%2C'OAT'%2C'OBH'%2C'OBL'%2C'OBM'%2C'OCH'%2C'OCL'%2C'OCM'%2C'OG')%20AND%20property_area%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "3640",
+          "distinct_parcels": "3640"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_commercial",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('B','C','C1','C1G','CD','CG','O','OAH','OAL','OAM','OAT','OBH','OBL','OBM','OCH','OCL','OCM','OG')) |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('B'%2C'C'%2C'C1'%2C'C1G'%2C'CD'%2C'CG'%2C'O'%2C'OAH'%2C'OAL'%2C'OAM'%2C'OAT'%2C'OBH'%2C'OBL'%2C'OBM'%2C'OCH'%2C'OCL'%2C'OCM'%2C'OG'))%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "3062"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_commercial_built_by_2010",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('B','C','C1','C1G','CD','CG','O','OAH','OAL','OAM','OAT','OBH','OBL','OBM','OCH','OCL','OCM','OG')) AND year_property_built between '1700' and '2010' AND length(year_property_built)=4 |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('B'%2C'C'%2C'C1'%2C'C1G'%2C'CD'%2C'CG'%2C'O'%2C'OAH'%2C'OAL'%2C'OAM'%2C'OAT'%2C'OBH'%2C'OBL'%2C'OBM'%2C'OCH'%2C'OCL'%2C'OCM'%2C'OG'))%20AND%20year_property_built%20between%20'1700'%20and%20'2010'%20AND%20length(year_property_built)%3D4%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "3035"
+        }
+      ]
+    },
+    {
+      "id": "sf_parcels_institutional",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct parcel_number) as distinct_parcels",
+        "$where": "closed_roll_year=2025 AND (property_class_code in ('E','EG','W','WG','N1','N1G','N2','N2G','FIRG','POLG','LIBG') AND property_area>0)",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24select=count(*)%20as%20n%2Ccount(distinct%20parcel_number)%20as%20distinct_parcels&%24where=closed_roll_year%3D2025%20AND%20(property_class_code%20in%20('E'%2C'EG'%2C'W'%2C'WG'%2C'N1'%2C'N1G'%2C'N2'%2C'N2G'%2C'FIRG'%2C'POLG'%2C'LIBG')%20AND%20property_area%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "569",
+          "distinct_parcels": "569"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_institutional",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('E','EG','W','WG','N1','N1G','N2','N2G','FIRG','POLG','LIBG')) |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('E'%2C'EG'%2C'W'%2C'WG'%2C'N1'%2C'N1G'%2C'N2'%2C'N2G'%2C'FIRG'%2C'POLG'%2C'LIBG'))%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "391"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_institutional_built_by_2010",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('E','EG','W','WG','N1','N1G','N2','N2G','FIRG','POLG','LIBG')) AND year_property_built between '1700' and '2010' AND length(year_property_built)=4 |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('E'%2C'EG'%2C'W'%2C'WG'%2C'N1'%2C'N1G'%2C'N2'%2C'N2G'%2C'FIRG'%2C'POLG'%2C'LIBG'))%20AND%20year_property_built%20between%20'1700'%20and%20'2010'%20AND%20length(year_property_built)%3D4%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "379"
+        }
+      ]
+    },
+    {
+      "id": "sf_parcels_other",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct parcel_number) as distinct_parcels",
+        "$where": "closed_roll_year=2025 AND (property_class_code in ('I','IG','IW','IDC') AND property_area>0)",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24select=count(*)%20as%20n%2Ccount(distinct%20parcel_number)%20as%20distinct_parcels&%24where=closed_roll_year%3D2025%20AND%20(property_class_code%20in%20('I'%2C'IG'%2C'IW'%2C'IDC')%20AND%20property_area%3E0)&%24limit=1",
+      "observed_response": [
+        {
+          "n": "1588",
+          "distinct_parcels": "1588"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_other",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('I','IG','IW','IDC')) |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('I'%2C'IG'%2C'IW'%2C'IDC'))%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "1301"
+        }
+      ]
+    },
+    {
+      "id": "sf_single_footprint_other_built_by_2010",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/wv5m-vpq2.json",
+      "parameters": {
+        "$query": "SELECT parcel_number WHERE closed_roll_year=2025 AND property_area>0 AND (property_class_code in ('I','IG','IW','IDC')) AND year_property_built between '1700' and '2010' AND length(year_property_built)=4 |> SELECT parcel_number,count(*) AS n JOIN @ynuv-fyni AS f ON ('SF' || parcel_number)=@f.mblr GROUP BY parcel_number HAVING count(*)=1 |> SELECT count(*) AS one_footprint_parcels"
+      },
+      "url": "https://data.sf.gov/resource/wv5m-vpq2.json?%24query=SELECT%20parcel_number%20WHERE%20closed_roll_year%3D2025%20AND%20property_area%3E0%20AND%20(property_class_code%20in%20('I'%2C'IG'%2C'IW'%2C'IDC'))%20AND%20year_property_built%20between%20'1700'%20and%20'2010'%20AND%20length(year_property_built)%3D4%20%7C%3E%20SELECT%20parcel_number%2Ccount(*)%20AS%20n%20JOIN%20%40ynuv-fyni%20AS%20f%20ON%20('SF'%20%7C%7C%20parcel_number)%3D%40f.mblr%20GROUP%20BY%20parcel_number%20HAVING%20count(*)%3D1%20%7C%3E%20SELECT%20count(*)%20AS%20one_footprint_parcels",
+      "observed_response": [
+        {
+          "one_footprint_parcels": "1289"
+        }
+      ]
+    },
+    {
+      "id": "sf_footprint_summary",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/ynuv-fyni.json",
+      "parameters": {
+        "$select": "count(*) as n,count(distinct sf16_bldgid) as ids,count(distinct mblr) as property_keys,count(mblr) as keys_present,min(data_as_of) as min_as_of,max(data_as_of) as max_as_of",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/ynuv-fyni.json?%24select=count(*)%20as%20n%2Ccount(distinct%20sf16_bldgid)%20as%20ids%2Ccount(distinct%20mblr)%20as%20property_keys%2Ccount(mblr)%20as%20keys_present%2Cmin(data_as_of)%20as%20min_as_of%2Cmax(data_as_of)%20as%20max_as_of&%24limit=1",
+      "observed_response": [
+        {
+          "n": "177023",
+          "ids": "177023",
+          "property_keys": "149714",
+          "keys_present": "177023",
+          "min_as_of": "2023-09-11T12:00:00.000",
+          "max_as_of": "2023-09-11T12:00:00.000"
+        }
+      ]
+    },
+    {
+      "id": "sf_completed_detached_garage_text",
+      "method": "GET",
+      "endpoint": "https://data.sf.gov/resource/i98e-djp9.json",
+      "parameters": {
+        "$select": "count(*) as rows,count(distinct permit_number) as permits",
+        "$where": "completed_date <= '2022-05-18T00:00:00' AND upper(description) like '%DETACHED GARAGE%'",
+        "$limit": 1
+      },
+      "url": "https://data.sf.gov/resource/i98e-djp9.json?%24select=count(*)%20as%20rows%2Ccount(distinct%20permit_number)%20as%20permits&%24where=completed_date%20%3C%3D%20'2022-05-18T00%3A00%3A00'%20AND%20upper(description)%20like%20'%25DETACHED%20GARAGE%25'&%24limit=1",
+      "observed_response": [
+        {
+          "rows": "116",
+          "permits": "103"
+        }
+      ]
+    }
+  ],
+  "denver_geometry": {
+    "service": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_BUILDINGOUTLINES_A/FeatureServer/111",
+    "metadata_url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_BUILDINGOUTLINES_A/FeatureServer/111?f=pjson",
+    "owner": "The_City_and_County_of_Denver",
+    "geometry_epoch": 2022,
+    "fields": [
+      "OBJECTID",
+      "BUILDING_I",
+      "BLDG_TYPE",
+      "SOURCE",
+      "BLDG_HEIGH",
+      "GROUND_ELE",
+      "CREATEDATE",
+      "UPDATE_STA"
+    ],
+    "relationships": [],
+    "source_groups": [
+      {
+        "SOURCE": "Visual",
+        "n": 390104
+      }
+    ],
+    "whole_service_unique_building_ids": 379481,
+    "whole_service_garage_shed_ids": 161857,
+    "scope_warning": "Whole service extends beyond Denver. Roof polygons can share BUILDING_I; merge before building counts."
+  },
+  "denver_aux_within_boundary": {
+    "boundary_request": {
+      "method": "GET",
+      "endpoint": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_ENG_SRVCCDBOUNDARY_A/FeatureServer/40/query",
+      "parameters": {
+        "f": "json",
+        "where": "COUNTY='Denver'",
+        "outFields": "COUNTY",
+        "returnGeometry": "true",
+        "outSR": 2877,
+        "resultRecordCount": 5
+      }
+    },
+    "boundary_response_summary": {
+      "features": 2,
+      "vertices": 1294,
+      "exceededTransferLimit": false
+    },
+    "count_request": {
+      "method": "POST",
+      "endpoint": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_BUILDINGOUTLINES_A/FeatureServer/111/query",
+      "form": {
+        "f": "json",
+        "where": "BLDG_TYPE='Garage/Shed'",
+        "outFields": "BUILDING_I",
+        "returnGeometry": "false",
+        "returnCountOnly": "true",
+        "returnDistinctValues": "true",
+        "geometryType": "esriGeometryPolygon",
+        "inSR": 2877,
+        "spatialRel": "esriSpatialRelContains"
+      },
+      "geometry_construction": "Concatenate rings from the two returned Denver boundary geometries, retaining the response spatialReference. Send this JSON as form field geometry."
+    },
+    "observed_response": {
+      "count": 126037
+    },
+    "limitations": "Boundary geometry bytes were not retained in the earlier turn. This is the exact query recipe and observed count, not a full POST-body archive. Garage/Shed is a role lead; companion/parent association and temporal validity are unverified."
+  },
+  "official_sources": {
+    "denver_parcels_map": "https://data.colorado.gov/Government/Map-of-Denver-Parcels/envj-hfws",
+    "denver_parcels_metadata": "https://data.colorado.gov/api/views/tsdg-z9uy.json",
+    "denver_parcels_geometry": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_PARCELS_A/FeatureServer/245",
+    "denver_parcels_metadata_xml": "https://www.arcgis.com/sharing/rest/content/items/7c53bd0894134e80ae1e478c0789bf49/info/metadata/metadata.xml",
+    "sf_roll_metadata": "https://data.sf.gov/api/views/wv5m-vpq2.json",
+    "sf_class_dictionary": "https://data.sf.gov/resource/pa56-ek2h.json?$limit=150",
+    "sf_footprint_metadata": "https://data.sf.gov/api/views/ynuv-fyni.json",
+    "sf_parcel_metadata": "https://data.sf.gov/api/views/acdm-wktn.json",
+    "sf_parcel_identifier_guide": "https://sfdigitalservices.gitbook.io/data-standards-guide/standard-reference-data/basemap/parcels",
+    "sf_permits_metadata": "https://data.sf.gov/api/views/i98e-djp9.json"
+  },
+  "schema_findings": {
+    "denver": "SCHEDNUM is text in authoritative ArcGIS, numeric in Socrata mirror. D_CLASS is text, including alphanumeric codes. No NUM_BLDGS or building foreign key in inspected parcel extract; no parcel foreign key in roofprints. Public metadata supplied no detailed TOT_UNITS definition.",
+    "sf": "number_of_units is numeric, described only as Number of units. No building-count field in roll. sf16_bldgid is unique; mblr is a prefixed property/ROW identifier, not directly parcel_number. mapblklot can be shared by condominium lots. existing_units and proposed_units in permits refer to the site.",
+    "sf_mblr_prefix_counts": [
+      {
+        "prefix": "SF",
+        "length": 9,
+        "n": 142536
+      },
+      {
+        "prefix": "SF",
+        "length": 10,
+        "n": 29147
+      },
+      {
+        "prefix": "SM",
+        "length": 11,
+        "n": 3207
+      },
+      {
+        "prefix": "SF",
+        "length": 11,
+        "n": 1015
+      },
+      {
+        "prefix": "CN",
+        "length": 9,
+        "n": 912
+      },
+      {
+        "prefix": "CN",
+        "length": 10,
+        "n": 195
+      },
+      {
+        "prefix": "CN",
+        "length": 8,
+        "n": 11
+      }
+    ],
+    "sf_geometry_origin": "Pictometry 2010 geometry, subsequently split/refined; later refresh/edit timestamps are not new acquisition dates.",
+    "sf_latest_roll_observed": 2025
+  },
+  "imagery_catalog_spot_checks_not_selections": [
+    {
+      "request_url": "https://planetarycomputer.microsoft.com/api/stac/v1/search?collections=naip&bbox=-104.991%2C39.738%2C-104.989%2C39.740&limit=16",
+      "response_snippet": {
+        "id": "co_m_3910417_nw_13_030_20230925_20240104",
+        "datetime": "2023-09-25T16:00:00Z",
+        "gsd": 0.3
+      }
+    },
+    {
+      "request_url": "https://planetarycomputer.microsoft.com/api/stac/v1/search?collections=naip&bbox=-122.420%2C37.774%2C-122.418%2C37.776&limit=16",
+      "response_snippet": {
+        "id": "ca_m_3712213_se_10_060_20220518",
+        "datetime": "2022-05-18T16:00:00Z",
+        "gsd": 0.6
+      }
+    }
+  ],
+  "known_query_limitations": [
+    "Initial ArcGIS statisticType=countDistinct was rejected; successful distinct counts used returnDistinctValues=true plus returnCountOnly=true.",
+    "SF direct mblr=parcel_number join returned zero because of prefixes. A wide normalized join timed out; filtered parcel-first joins reported above succeeded.",
+    "Denver boundary-filtered total/residential distinct counts timed out; no successful citywide total is claimed.",
+    "City-center imagery metadata does not certify citywide or case-level coverage. No image pixels were fetched."
+  ]
+}
+

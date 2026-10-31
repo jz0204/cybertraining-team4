@@ -1,0 +1,30 @@
+{
+  "common_sha256": "c0b8540aafd310653155942f4e40a2af9f2239ee82d962a5932c14b815cfd135",
+  "dataset_sha256": "b9c38fa099f74125bd950d2dfa14266ba9e115f916d129671f19ebe2e57354d9",
+  "mode": "Actual frozen Stage2aDataset with current trainer augmentation arguments",
+  "dataset_seed": 42,
+  "domain_augmentation": false,
+  "fourplex_cases": [
+    {
+      "sample_id": "la_adapt_2620006001",
+      "draws": 20,
+      "distinct_input_tensors": 1
+    },
+    {
+      "sample_id": "la_adapt_2620003022",
+      "draws": 20,
+      "distinct_input_tensors": 1
+    },
+    {
+      "sample_id": "la_adapt_2619025004",
+      "draws": 20,
+      "distinct_input_tensors": 1
+    },
+    {
+      "sample_id": "la_adapt_2615007007",
+      "draws": 20,
+      "distinct_input_tensors": 1
+    }
+  ],
+  "note": "No trainer or training input modified."
+}

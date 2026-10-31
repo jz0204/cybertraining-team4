@@ -1,0 +1,1315 @@
+{
+  "results": {
+    "full3332": {
+      "CNN_old": {
+        "n": 3332,
+        "accuracy": 0.9582833133253301,
+        "macro_f1": 0.48327922264838336,
+        "balanced_accuracy": 0.6151811151811152,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9582833133253301,
+        "prediction_counts": {
+          "residential_small": 3181,
+          "commercial": 124,
+          "residential_multi": 27
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9933983024206224,
+            "recall": 0.9645909645909646,
+            "f1": 0.9787827164317795
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.07407407407407407,
+            "recall": 0.14285714285714285,
+            "f1": 0.0975609756097561
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.25,
+            "recall": 0.7380952380952381,
+            "f1": 0.37349397590361444
+          }
+        },
+        "confusion": [
+          [
+            3160,
+            25,
+            91,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_ensemble": {
+        "n": 3332,
+        "accuracy": 0.9771908763505402,
+        "macro_f1": 0.5716122429803531,
+        "balanced_accuracy": 0.6217948717948718,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9771908763505402,
+        "prediction_counts": {
+          "residential_small": 3248,
+          "commercial": 52,
+          "residential_multi": 32
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9929187192118226,
+            "recall": 0.9844322344322345,
+            "f1": 0.9886572654812998
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.09375,
+            "recall": 0.21428571428571427,
+            "f1": 0.13043478260869565
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5384615384615384,
+            "recall": 0.6666666666666666,
+            "f1": 0.5957446808510638
+          }
+        },
+        "confusion": [
+          [
+            3225,
+            28,
+            23,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_lowrise_ensemble": {
+        "n": 3332,
+        "accuracy": 0.9786914765906363,
+        "macro_f1": 0.5803933392384916,
+        "balanced_accuracy": 0.6223036223036224,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9786914765906363,
+        "prediction_counts": {
+          "residential_small": 3253,
+          "commercial": 49,
+          "residential_multi": 30
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9929296034429758,
+            "recall": 0.985958485958486,
+            "f1": 0.9894317659672232
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.1,
+            "recall": 0.21428571428571427,
+            "f1": 0.13636363636363635
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "f1": 0.6153846153846154
+          }
+        },
+        "confusion": [
+          [
+            3230,
+            26,
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_s42": {
+        "n": 3332,
+        "accuracy": 0.9729891956782714,
+        "macro_f1": 0.5705480306683591,
+        "balanced_accuracy": 0.6519129019129019,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9729891956782714,
+        "prediction_counts": {
+          "residential_small": 3230,
+          "commercial": 56,
+          "residential_multi": 46
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9934984520123838,
+            "recall": 0.9795482295482295,
+            "f1": 0.9864740239778665
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08695652173913043,
+            "recall": 0.2857142857142857,
+            "f1": 0.13333333333333333
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5178571428571429,
+            "recall": 0.6904761904761905,
+            "f1": 0.5918367346938775
+          }
+        },
+        "confusion": [
+          [
+            3209,
+            41,
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_s43": {
+        "n": 3332,
+        "accuracy": 0.9747899159663865,
+        "macro_f1": 0.5474146218110602,
+        "balanced_accuracy": 0.6131461131461132,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9747899159663865,
+        "prediction_counts": {
+          "residential_small": 3241,
+          "commercial": 65,
+          "residential_multi": 26
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9929034248688676,
+            "recall": 0.9822954822954822,
+            "f1": 0.9875709682369188
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.11538461538461539,
+            "recall": 0.21428571428571427,
+            "f1": 0.15
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4153846153846154,
+            "recall": 0.6428571428571429,
+            "f1": 0.5046728971962616
+          }
+        },
+        "confusion": [
+          [
+            3218,
+            21,
+            37,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            2,
+            27,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_ensemble": {
+        "n": 3332,
+        "accuracy": 0.9741896758703481,
+        "macro_f1": 0.5679002329945727,
+        "balanced_accuracy": 0.6444851444851444,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9741896758703481,
+        "prediction_counts": {
+          "residential_small": 3236,
+          "commercial": 57,
+          "residential_multi": 39
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3276,
+            "precision": 0.9932014833127317,
+            "recall": 0.981074481074481,
+            "f1": 0.9871007371007371
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.10256410256410256,
+            "recall": 0.2857142857142857,
+            "f1": 0.1509433962264151
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.49122807017543857,
+            "recall": 0.6666666666666666,
+            "f1": 0.5656565656565656
+          }
+        },
+        "confusion": [
+          [
+            3214,
+            34,
+            28,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    },
+    "common3157": {
+      "CNN_old": {
+        "n": 3157,
+        "accuracy": 0.9635730123535001,
+        "macro_f1": 0.5048061466609792,
+        "balanced_accuracy": 0.6170948439571464,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9635730123535001,
+        "prediction_counts": {
+          "residential_small": 3030,
+          "commercial": 103,
+          "residential_multi": 24
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9930693069306931,
+            "recall": 0.9703321509190583,
+            "f1": 0.981569075191649
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.08333333333333333,
+            "recall": 0.14285714285714285,
+            "f1": 0.10526315789473684
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.30097087378640774,
+            "recall": 0.7380952380952381,
+            "f1": 0.42758620689655175
+          }
+        },
+        "confusion": [
+          [
+            3009,
+            22,
+            70,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_ensemble": {
+        "n": 3157,
+        "accuracy": 0.9803611023123219,
+        "macro_f1": 0.5948540623463224,
+        "balanced_accuracy": 0.6230069153319717,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9803611023123219,
+        "prediction_counts": {
+          "residential_small": 3087,
+          "commercial": 46,
+          "residential_multi": 24
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925494007126661,
+            "recall": 0.9880683650435343,
+            "f1": 0.9903038138332256
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.125,
+            "recall": 0.21428571428571427,
+            "f1": 0.15789473684210525
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6086956521739131,
+            "recall": 0.6666666666666666,
+            "f1": 0.6363636363636364
+          }
+        },
+        "confusion": [
+          [
+            3064,
+            20,
+            17,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_lowrise_ensemble": {
+        "n": 3157,
+        "accuracy": 0.981311371555274,
+        "macro_f1": 0.601372679866217,
+        "balanced_accuracy": 0.6233293919524168,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.981311371555274,
+        "prediction_counts": {
+          "residential_small": 3090,
+          "commercial": 44,
+          "residential_multi": 23
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925566343042072,
+            "recall": 0.9890357949048694,
+            "f1": 0.9907930867388144
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.13043478260869565,
+            "recall": 0.21428571428571427,
+            "f1": 0.16216216216216217
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.6363636363636364,
+            "recall": 0.6666666666666666,
+            "f1": 0.6511627906976745
+          }
+        },
+        "confusion": [
+          [
+            3067,
+            19,
+            15,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_s42": {
+        "n": 3157,
+        "accuracy": 0.9775102945834653,
+        "macro_f1": 0.5976184049868261,
+        "balanced_accuracy": 0.6535705328030385,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9775102945834653,
+        "prediction_counts": {
+          "residential_small": 3074,
+          "commercial": 49,
+          "residential_multi": 34
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9931685100845804,
+            "recall": 0.9845211222186392,
+            "f1": 0.9888259109311741
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.11764705882352941,
+            "recall": 0.2857142857142857,
+            "f1": 0.16666666666666666
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.5918367346938775,
+            "recall": 0.6904761904761905,
+            "f1": 0.6373626373626373
+          }
+        },
+        "confusion": [
+          [
+            3053,
+            29,
+            19,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            29,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_s43": {
+        "n": 3157,
+        "accuracy": 0.9768767817548305,
+        "macro_f1": 0.5649171696987486,
+        "balanced_accuracy": 0.6139954853273139,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9768767817548305,
+        "prediction_counts": {
+          "residential_small": 3077,
+          "commercial": 59,
+          "residential_multi": 21
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9925251868703282,
+            "recall": 0.9848435988390841,
+            "f1": 0.9886694723211396
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.14285714285714285,
+            "recall": 0.21428571428571427,
+            "f1": 0.17142857142857143
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.4576271186440678,
+            "recall": 0.6428571428571429,
+            "f1": 0.5346534653465347
+          }
+        },
+        "confusion": [
+          [
+            3054,
+            16,
+            31,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            2,
+            27,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      },
+      "cnn_fourplex_ensemble": {
+        "n": 3157,
+        "accuracy": 0.9784605638264174,
+        "macro_f1": 0.5961640769998727,
+        "balanced_accuracy": 0.6460639936937905,
+        "five_use_coverage": 1.0,
+        "selective_accuracy": 0.9784605638264174,
+        "prediction_counts": {
+          "residential_small": 3079,
+          "commercial": 50,
+          "residential_multi": 28
+        },
+        "per_class": {
+          "residential_small": {
+            "n": 3101,
+            "precision": 0.9928548229944787,
+            "recall": 0.9858110287004193,
+            "f1": 0.9893203883495145
+          },
+          "residential_multi": {
+            "n": 14,
+            "precision": 0.14285714285714285,
+            "recall": 0.2857142857142857,
+            "f1": 0.19047619047619047
+          },
+          "commercial": {
+            "n": 42,
+            "precision": 0.56,
+            "recall": 0.6666666666666666,
+            "f1": 0.6086956521739131
+          }
+        },
+        "confusion": [
+          [
+            3057,
+            23,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            1,
+            28,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rows": [
+          "residential_small",
+          "residential_multi",
+          "commercial"
+        ],
+        "columns": [
+          "residential_small",
+          "residential_multi",
+          "commercial",
+          "institutional",
+          "other",
+          "unknown",
+          "invalid"
+        ]
+      }
+    }
+  },
+  "paired_cell_bootstrap": {
+    "full3332:cnn_fourplex_ensemble-CNN_old": {
+      "macro_f1": {
+        "delta_macro_f1": 0.08462101034618935,
+        "ci95": [
+          0.02804263873124698,
+          0.12592130751818334
+        ],
+        "cells": 92,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.14285714285714285,
+          0.05338242061665899
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.21428571428571436
+          ],
+          [
+            -0.018752011209821624,
+            0.161259556873147
+          ]
+        ],
+        "cells": 92,
+        "draws": 1000,
+        "valid_draws": 998,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    },
+    "full3332:cnn_fourplex_ensemble-cnn_ensemble": {
+      "macro_f1": {
+        "delta_macro_f1": -0.0037120099857803623,
+        "ci95": [
+          -0.024612478572787817,
+          0.03217748005337326
+        ],
+        "cells": 92,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.07142857142857142,
+          0.02050861361771944
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.16666666666666666
+          ],
+          [
+            -0.03372026821862347,
+            0.12
+          ]
+        ],
+        "cells": 92,
+        "draws": 1000,
+        "valid_draws": 998,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    },
+    "full3332:cnn_fourplex_ensemble-cnn_lowrise_ensemble": {
+      "macro_f1": {
+        "delta_macro_f1": -0.012493106243918861,
+        "ci95": [
+          -0.04075638799606019,
+          0.026153378299383676
+        ],
+        "cells": 92,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.07142857142857142,
+          0.014579759862778735
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.16666666666666666
+          ],
+          [
+            -0.05247742991394333,
+            0.12
+          ]
+        ],
+        "cells": 92,
+        "draws": 1000,
+        "valid_draws": 998,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    },
+    "common3157:cnn_fourplex_ensemble-CNN_old": {
+      "macro_f1": {
+        "delta_macro_f1": 0.0913579303388935,
+        "ci95": [
+          0.03324475149854363,
+          0.13391393824028872
+        ],
+        "cells": 91,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.14285714285714285,
+          0.08521303258145363
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.2142857142857143
+          ],
+          [
+            -7.155635062611335e-05,
+            0.19977932636469223
+          ]
+        ],
+        "cells": 91,
+        "draws": 1000,
+        "valid_draws": 999,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    },
+    "common3157:cnn_fourplex_ensemble-cnn_ensemble": {
+      "macro_f1": {
+        "delta_macro_f1": 0.0013100146535502954,
+        "ci95": [
+          -0.023785332856485403,
+          0.04354379542747189
+        ],
+        "cells": 91,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.07142857142857142,
+          0.03258145363408521
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.16666666666666666
+          ],
+          [
+            -0.03076923076923077,
+            0.15404858299595123
+          ]
+        ],
+        "cells": 91,
+        "draws": 1000,
+        "valid_draws": 999,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    },
+    "common3157:cnn_fourplex_ensemble-cnn_lowrise_ensemble": {
+      "macro_f1": {
+        "delta_macro_f1": -0.005208602866344281,
+        "ci95": [
+          -0.037320654550305025,
+          0.03806559035467839
+        ],
+        "cells": 91,
+        "draws": 1000
+      },
+      "multifamily": {
+        "metrics": [
+          "recall",
+          "f1"
+        ],
+        "delta": [
+          0.07142857142857142,
+          0.028314028314028294
+        ],
+        "ci95": [
+          [
+            0.0,
+            0.16666666666666666
+          ],
+          [
+            -0.053767193044522356,
+            0.15384615384615385
+          ]
+        ],
+        "cells": 91,
+        "draws": 1000,
+        "valid_draws": 999,
+        "excluded_draws_reason": "No multifamily reference in resampled cells"
+      }
+    }
+  },
+  "fits": {
+    "cnn_fourplex_s42": {
+      "best_epoch": 6,
+      "validation": {
+        "type_accuracy": 0.9315068493150684,
+        "type_macro_f1": 0.9231258043296239,
+        "type_per_class_f1": {
+          "residential_small": 0.9559471365638766,
+          "residential_multi": 0.895397489539749,
+          "commercial": 0.9180327868852459
+        },
+        "confusion_matrix": [
+          [
+            217,
+            2,
+            1
+          ],
+          [
+            13,
+            107,
+            7
+          ],
+          [
+            4,
+            3,
+            84
+          ]
+        ],
+        "type_nll": 0.6477082874916411,
+        "type_ece": 0.06482404647352487,
+        "sampling_weighted_macro_f1": 0.8651511265282136,
+        "sampling_weighted_confusion": [
+          [
+            4340.0,
+            40.0,
+            20.0
+          ],
+          [
+            13.0,
+            107.0,
+            7.0
+          ],
+          [
+            4.0,
+            3.0,
+            84.0
+          ]
+        ]
+      },
+      "seconds": 180.19678775197826,
+      "peak_reserved_gib": 2.517578125,
+      "draw_hashes": [
+        "643f232e9fa59228d456d19dd71a1f294d34c14505f52874d7c72f57f4c07b56",
+        "9e5a61f5bf5d8490c6120ca2e160cca929cd47a99f566a16823b6e69d0726a9b",
+        "1a23961a59ed12c5dec2e1deacfecd0cb2ab51152c18dab8f1bc9575d7110e26",
+        "aa3a31f3024b18566d2efacbbaee98fbb6389c8b5e9df0b80eaa461d2d612b02",
+        "f983c4901e00b49b334e15077c35daa01f2ff83874d88297fc2c729f08a78b30",
+        "974ee6006bf1e140747b5cfd7faf1707d975e682ef928117fc5a45657b29d907"
+      ]
+    },
+    "cnn_fourplex_s43": {
+      "best_epoch": 4,
+      "validation": {
+        "type_accuracy": 0.9018264840182648,
+        "type_macro_f1": 0.8847284962205414,
+        "type_per_class_f1": {
+          "residential_small": 0.9457700650759219,
+          "residential_multi": 0.8421052631578947,
+          "commercial": 0.8663101604278075
+        },
+        "confusion_matrix": [
+          [
+            218,
+            0,
+            2
+          ],
+          [
+            18,
+            96,
+            13
+          ],
+          [
+            5,
+            5,
+            81
+          ]
+        ],
+        "type_nll": 0.8007039398936351,
+        "type_ece": 0.08751599756005685,
+        "sampling_weighted_macro_f1": 0.8516441051393141,
+        "sampling_weighted_confusion": [
+          [
+            4360.0,
+            0.0,
+            40.0
+          ],
+          [
+            18.0,
+            96.0,
+            13.0
+          ],
+          [
+            5.0,
+            5.0,
+            81.0
+          ]
+        ]
+      },
+      "seconds": 177.8668061911594,
+      "peak_reserved_gib": 2.517578125,
+      "draw_hashes": [
+        "c7fa5447266224fc65917d3ebbfcb9058b6a69ecc0f78e0a17fd875c014e7c19",
+        "89a5ccc75e2942543dd94231208032dfc1856a3ae5d32bfc419e5cbf95f66d9f",
+        "49c1e17a0d709a1d9f4f190649edc6bef0d520ba5f590170b697f5a01cd59324",
+        "fbd6205aeb458a0f71e9ce1026531356c7cc65fa20c61e5bf601d3d9809bd9af",
+        "343b2504ceada9d64bf1e58500caa37bfba871a3ff7466ff66fdb2cca06f5f1a",
+        "ff5326a6767a8c7aa8148985bfed1889f57a6ebc620838190a04679c2df2c123"
+      ]
+    }
+  },
+  "prediction_sha256": {
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/collected/runs/cnn_s42/validation_predictions.json": "72da44e5c77b1a3e57e199bbf9192934abf3afa1df586627ef54e08b0a051907",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/collected/runs/cnn_s42/test_predictions.json": "ca0fa89031307e12f92cd082bff8fd76e21f2833020191940820145aaad030f3",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/collected/runs/cnn_s43/validation_predictions.json": "1a46f0e8008cfe5f9629f84a2398c323572e78846749153c43a28c42af36a744",
+    "/Volumes/Crucial X9/Instance-Impact-IGUIDE-SpatialAIChallenge2026/II_package/outputs/stage2a/la_fourplex_20261029/execution/collected/runs/cnn_s43/test_predictions.json": "22f0402c785c39a4f43c2d7147dd60b885a53e23cb46ad2432dc89557ecbdf53"
+  },
+  "validation_multifamily_strata": {
+    "4-4_units": {
+      "n": 10,
+      "correct": 3
+    },
+    "5-8_units": {
+      "n": 17,
+      "correct": 12
+    },
+    "9-10000_units": {
+      "n": 100,
+      "correct": 90
+    }
+  },
+  "test_multifamily_strata": {
+    "4-4_units": {
+      "n": 9,
+      "correct": {
+        "CNN_old": 0,
+        "cnn_ensemble": 0,
+        "cnn_lowrise_ensemble": 0,
+        "cnn_fourplex_s42": 1,
+        "cnn_fourplex_s43": 0,
+        "cnn_fourplex_ensemble": 1
+      }
+    },
+    "5-8_units": {
+      "n": 4,
+      "correct": {
+        "CNN_old": 2,
+        "cnn_ensemble": 2,
+        "cnn_lowrise_ensemble": 2,
+        "cnn_fourplex_s42": 2,
+        "cnn_fourplex_s43": 2,
+        "cnn_fourplex_ensemble": 2
+      }
+    },
+    "9-10000_units": {
+      "n": 1,
+      "correct": {
+        "CNN_old": 0,
+        "cnn_ensemble": 1,
+        "cnn_lowrise_ensemble": 1,
+        "cnn_fourplex_s42": 1,
+        "cnn_fourplex_s43": 1,
+        "cnn_fourplex_ensemble": 1
+      }
+    }
+  },
+  "dataset_sha256": "94f95e68cd56968e3a2a5de9d5f6ed99c1c256631eb0096b54a33d98e894d0b8",
+  "limits": [
+    "Historical official labels are not independent human gold.",
+    "Old LA test is development regression evidence; reserved LA cells remain unevaluated.",
+    "Legacy fixed256 crops can clip large roofs, matching the prior CNN input contract.",
+    "All 28 additions are one fourplex tract; count is not diversity.",
+    "AI-assisted visual screening of actual prefire near/context imagery plus official assessor and footprint records; not independent human ground truth."
+  ]
+}

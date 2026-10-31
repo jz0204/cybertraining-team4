@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "model_and_draw_checks": true,
+  "source_and_geometry_checks": {
+    "passed": true,
+    "n": 18480,
+    "summary": {
+      "la:train": {
+        "n": 799,
+        "zoomed": 755,
+        "edge_fallback": 18
+      },
+      "la:val": {
+        "n": 438,
+        "zoomed": 395,
+        "edge_fallback": 16
+      },
+      "source:train": {
+        "n": 13911,
+        "zoomed": 11903,
+        "edge_fallback": 1954
+      },
+      "la_test:test": {
+        "n": 3332,
+        "zoomed": 3204,
+        "edge_fallback": 121
+      }
+    },
+    "unchanged_source_hashes": 36960,
+    "fixed_runtime_tensor_parity": true,
+    "augmented_geometry_parity": true,
+    "all_visible_target_pixels_retained": true,
+    "changed_tensor_checks": 112,
+    "free_gib": 11.123714447021484,
+    "torch": "2.13.0+cu130"
+  },
+  "service_health": {
+    "checked_utc": "2026-10-31T01:30:50.733386+00:00",
+    "watcher": {
+      "scaled_back": true,
+      "ready": true,
+      "deadline_suspended": false
+    },
+    "qwen3-14b": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "health_http": 200,
+      "ready_endpoints": [
+        "10.42.3.192"
+      ]
+    },
+    "ollama": {
+      "desired": 1,
+      "ready": 1,
+      "available": 1,
+      "model_list": "NAME          ID              SIZE      MODIFIED    \ngemma4:12b    4eb23ef187e2    7.6 GB    5 weeks ago    \nqwen3:8b      500a1f067a9f    5.2 GB    7 weeks ago    \n",
+      "ready_endpoints": [
+        "10.42.3.193"
+      ]
+    },
+    "node_conditions": {
+      "MemoryPressure": "False",
+      "DiskPressure": "False",
+      "PIDPressure": "False",
+      "Ready": "True"
+    }
+  },
+  "job_complete": true,
+  "collection": {
+    "archive_sha256": "6b8873f4527df06f03dadb4703decb4145dcac475acdab1834bfc49cec217aaa",
+    "archive_bytes": 211757355,
+    "master_archive_verified": true
+  },
+  "unit_panel": {
+    "n": 51,
+    "strata": {
+      "small_multifamily": 24,
+      "area_matched_single_family": 24,
+      "unresolved_roof_attribution": 3
+    },
+    "classifier_training_overlap": 24,
+    "verified_building_unit_references": 0,
+    "independent_test_references": 0,
+    "selection_uses_model_outputs": false,
+    "reserved_la_used": false,
+    "source_sha256": {
+      "STABLE_CANDIDATES.json": "5baafc9443859743993d8a5da2635023263072fb89fdec4bf3e7a945a4b05722",
+      "REVIEW_SOURCE.json": "5c67800fedc502d52892f8a21b60c52882a6a0bd6b8aae7a3b0c0653cb95dec7"
+    },
+    "missing_strata": [
+      "Independently documented inhabited accessory buildings",
+      "Independently documented nonresidential accessory buildings"
+    ]
+  },
+  "source_sha256": {
+    "target_closeup.py": "5a4f681660f1a606f0eb15c5c2e16fe5051205577f20d660a2d53a2c1f12095e",
+    "check_la_closeup.py": "da116fa6ecbfd6107e5c982b4f9f61c5b20d1417ecdec988c38b901c5a3536f9",
+    "prepare_la_closeup.py": "2e3e1a55cc8e46ed71f49bc6832e667b6a29ff3c75181a5cd46095423cd125a2",
+    "prepare_la_unit_panel.py": "2af960bdd50e036eac432069afa6f461d8d3eadea0b42fb2b149331b1ae1d7de",
+    "analyze_la_closeup.py": "f534218d1e2e4068e34937c80ac9d5f729c2e21adc5aab804e4c24320e6a94d4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b25002.dat",
+  "retrieved_utc": "2026-10-15T06:28:15.638114+00:00",
+  "filter": "GEO_ID starts 1500000US48201 (Harris County block groups)",
+  "retained_rows": 2830,
+  "downloaded_decoded_bytes": 23519920,
+  "downloaded_decoded_sha256": "6f7c611c0c05a359f9e0c68f3bf0b79b6193a694d7d4b5ae62b99b93192a18dd",
+  "retained_file_sha256": "534c69b9bbea9952aaccf40d753eb67fd3dd60a3660163ffb45b6959fe35acb3",
+  "etag": null,
+  "last_modified": "Mon, 30 Oct 2023 16:36:58 GMT"
+}
